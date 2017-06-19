@@ -1,0 +1,81 @@
+/*------------------------------------------------------------------
+[Table of contents]
+- Page Heading
+- Blog
+- Post Page
+- Comments
+-------------------------------------------------------------------*/
+
+/*01. Page Heading*/
+
+/*02  Blog */
+
+/*04  Comments */
+
+.comments-list {
+	margin-bottom: 58px;
+	margin-left: 10px;
+}
+.comment {
+	margin-bottom: 20px;
+}
+.comment-inner {
+	margin-left: 92px;
+	padding: 32px 32px 13px 40px;
+	border: 1px solid #eee;
+}
+.avatar-placeholder {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 12px;
+	padding: 5px;
+	border: 1px solid #eee;
+}
+.comment-header {
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+.comment-datetime {
+	float: right;
+	margin-right: 10px;
+	padding-top: 2px;
+	font-family: Montserrat;
+	font-size: 11px;
+	color: #999;
+}
+.comment-reply {
+	float: right;
+}
+
+.comments-list .children {
+	margin-left: 70px;
+}
+.comment-author {
+	margin-right: 20px;
+	font: normal 14px Montserrat;
+	color: #222;
+	text-transform: uppercase;
+}
+.comment-btn {
+	padding-left: 12px;
+	font-family: Montserrat;
+	font-size: 11px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: 2px solid #aaa;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+
+.comment-reply-form {
+	margin-bottom: 107px;
+}
+.comment-reply-form form {
+	margin-left: 10px;
+}
+.comment-reply-form .btn {
+	padding: 10px 40px;
+	font-size: 13px;
+}

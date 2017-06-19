@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>Groam / Blog</title>
+    <meta content="" name="description"/>
+    <meta content="" name="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <link rel="stylesheet" href="assets/css/master.css"/>
+    <!-- SWITCHER-->
+    <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" media="all"/>
+    <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" media="all"/>
+    <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" media="all"/>
+    <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" media="all"/>
+    <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" media="all"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  </head>
+  <body>
+    <!-- loader-->
+    <div id="page-preloader"><span class="spinner"></span></div>
+    <!-- end .loader-->
+    
+    <div data-header="sticky" data-header-top="200" class="l-theme animated-css">
+      <!-- Start Switcher-->
+      <div class="switcher-wrapper">
+        <div class="demo_changer">
+          <div class="demo-icon color-primary"><i class="fa fa-cog fa-spin fa-2x"></i></div>
+          <div class="form_holder">
+            <div class="predefined_styles">
+              <div class="skin-theme-switcher">
+                <h4>Color</h4><a href="javascript:void(0);" data-switchcolor="color1" style="background-color:#2d56d7;" class="styleswitch"></a><a href="javascript:void(0);" data-switchcolor="color2" style="background-color:#FFAC3A;" class="styleswitch"></a><a href="javascript:void(0);" data-switchcolor="color3" style="background-color:#28af0f;" class="styleswitch"></a><a href="javascript:void(0);" data-switchcolor="color4" style="background-color:#e425e9;" class="styleswitch"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end switcher-->
+      
+      <!-- ==========================-->
+      <!-- SEARCH MODAL-->
+      <!-- ==========================-->
+      <div class="header-search open-search">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+              <div class="navbar-search">
+                <form class="search-global">
+                  <input type="text" placeholder="Type to search" autocomplete="off" name="s" value="" class="search-global__input"/>
+                  <button class="search-global__btn"><i class="icon stroke icon-Search"></i></button>
+                  <div class="search-global__note">Begin typing your search above and press return to search.</div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="search-close close"><i class="fa fa-times"></i></button>
+      </div>
+      <!-- ==========================-->
+      <!-- MOBILE MENU-->
+      <!-- ==========================-->
+      <div data-off-canvas="mobile-slidebar left overlay"><a href="home.html" class="navbar-brand scroll"><img src="assets/media/general/logo.png" alt="logo" class="normal-logo"/><img src="assets/media/general/logo-dark.png" alt="logo" class="scroll-logo hidden-xs"/></a>
+        <ul class="nav navbar-nav">
+          <li>
+            <h4><a href="">Mobile sidebar</a></h4>
+          </li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#">News<b class="caret"></b></a>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="post-1.html">Blog main ver 01</a></li>
+              <li><a href="blog-main-2.html">Blog main ver 02</a></li>
+              <li><a href="blog-post.html">Blog post</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown">Pages<b class="caret"></b></a>
+            <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
+              <li><a href="portfolio-1.html" tabindex="-1">Portfolio ver 01</a></li>
+              <li><a href="portfolio-2.html" tabindex="-1">Portfolio ver 02</a></li>
+              <li><a href="portfolio-details.html" tabindex="-1">Portfolio details</a></li>
+              <li class="divider"></li>
+              <li><a href="headers.html" tabindex="-1">Headers</a></li>
+              <li><a href="typography.html" tabindex="-1">Typography</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li class="dropdown"><a href="#">Contact<b class="caret"></b>
+              <!-- Classic Dropdown--></a>
+            <ul role="menu" class="dropdown-menu">
+              <li><a href="contact-1.html" tabindex="-1">Contact ver 01</a></li>
+              <li><a href="contact-2.html" tabindex="-1">Contact ver 02</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ==========================-->
+      <!-- SLIDE MENU-->
+      <!-- ==========================-->
+      <div data-off-canvas="slidebar-1 left overlay">
+        <ul class="nav navbar-nav">
+          <li><a href="#features-section" class="scrollTo">features</a></li>
+          <li><a href="#services-section" class="scrollTo">Services</a></li>
+          <li><a href="#works-section" class="scrollTo">Works</a></li>
+          <li><a href="#about-section" class="scrollTo">About</a></li>
+          <li><a href="#team-section" class="scrollTo">Team</a></li>
+          <li><a href="#">News</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="blog.html">Blog 1</a></li>
+                  <li><a href="blog-2.html">Blog 2</a></li>
+                  <li><a href="blog-single.html">Blog single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Portfolio</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-single.html">Portfolio single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Contact</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="contact.html">Contact 1</a></li>
+                  <li><a href="contact-2.html">Contact 2</a></li>
+                  <li><a href="contact-3.html">Contact 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div data-off-canvas="slidebar-2 right reveal">
+        <ul class="nav navbar-nav">
+          <li><a href="#features-section" class="scrollTo">features</a></li>
+          <li><a href="#services-section" class="scrollTo">Services</a></li>
+          <li><a href="#works-section" class="scrollTo">Works</a></li>
+          <li><a href="#about-section" class="scrollTo">About</a></li>
+          <li><a href="#team-section" class="scrollTo">Team</a></li>
+          <li><a href="#">News</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="blog.html">Blog 1</a></li>
+                  <li><a href="blog-2.html">Blog 2</a></li>
+                  <li><a href="blog-single.html">Blog single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Portfolio</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-single.html">Portfolio single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Contact</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="contact.html">Contact 1</a></li>
+                  <li><a href="contact-2.html">Contact 2</a></li>
+                  <li><a href="contact-3.html">Contact 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div data-off-canvas="slidebar-3 top push">
+        <ul class="nav navbar-nav">
+          <li><a href="#features-section" class="scrollTo">features</a></li>
+          <li><a href="#services-section" class="scrollTo">Services</a></li>
+          <li><a href="#works-section" class="scrollTo">Works</a></li>
+          <li><a href="#about-section" class="scrollTo">About</a></li>
+          <li><a href="#team-section" class="scrollTo">Team</a></li>
+          <li><a href="#">News</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="blog.html">Blog 1</a></li>
+                  <li><a href="blog-2.html">Blog 2</a></li>
+                  <li><a href="blog-single.html">Blog single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Portfolio</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-single.html">Portfolio single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Contact</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="contact.html">Contact 1</a></li>
+                  <li><a href="contact-2.html">Contact 2</a></li>
+                  <li><a href="contact-3.html">Contact 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div data-off-canvas="slidebar-4 bottom push">
+        <ul class="nav navbar-nav">
+          <li><a href="#features-section" class="scrollTo">features</a></li>
+          <li><a href="#services-section" class="scrollTo">Services</a></li>
+          <li><a href="#works-section" class="scrollTo">Works</a></li>
+          <li><a href="#about-section" class="scrollTo">About</a></li>
+          <li><a href="#team-section" class="scrollTo">Team</a></li>
+          <li><a href="#">News</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="blog.html">Blog 1</a></li>
+                  <li><a href="blog-2.html">Blog 2</a></li>
+                  <li><a href="blog-single.html">Blog single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Portfolio</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio-single.html">Portfolio single</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Contact</a>
+            <div class="wrap-inside-nav">
+              <div class="inside-col">
+                <ul class="inside-nav">
+                  <li><a href="contact.html">Contact 1</a></li>
+                  <li><a href="contact-2.html">Contact 2</a></li>
+                  <li><a href="contact-3.html">Contact 3</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div data-canvas="container">
+        <header class="header header-topbar-hidden header-boxed-width navbar-fixed-top header-background-trans header-color-white header-logo-white header-navibox-1-left header-navibox-2-right header-navibox-3-right header-navibox-4-right">
+          <div class="container container-boxed-width">
+            <div class="top-bar">
+              <div class="container">
+                <div class="header-topbarbox-1">
+                  <ul>
+                    <li>WE HELPING YOU: INFO@RETTICA.COM</li>
+                  </ul>
+                </div>
+                <div class="header-topbarbox-2">
+                  <ul class="social-links">
+                    <li><a href="/" target="_blank"><i class="social_icons fa fa-facebook-square"></i></a></li>
+                    <li><a href="/" target="_blank"><i class="social_icons fa fa-youtube-square"></i></a></li>
+                    <li><a href="/" target="_blank"><i class="social_icons fa fa-vimeo-square"></i></a></li>
+                    <li><a href="/" target="_blank"><i class="social_icons fa fa-twitter-square"></i></a></li>
+                    <li class="li-last"><a href="/" target="_blank"><i class="social_icons fa fa-tumblr-square"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <nav id="nav" class="navbar">
+              <div class="container">
+                <div class="header-navibox-1">
+                  <!-- Mobile Trigger Start-->
+                  <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+                  <!-- Mobile Trigger End--><a href="home.html" class="navbar-brand scroll"><img src="assets/media/general/logo.png" alt="logo" class="normal-logo"/><img src="assets/media/general/logo-dark.png" alt="logo" class="scroll-logo hidden-xs"/></a>
+                </div>
+                <div class="header-navibox-4">
+                  <div class="header-cart"><a href="#"><i aria-hidden="true" class="stroke icon-ShoppingCart"></i></a><span class="header-cart-count bg-primary">3</span></div>
+                </div>
+                <div class="header-navibox-3">
+                  <ul class="nav navbar-nav hidden-xs clearfix vcenter">
+                    <li>
+                      <button class="js-toggle-left-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i></button>
+                    </li>
+                    <li><a href="#" class="btn_header_search"><i class="stroke icon-Search"></i></a></li>
+                  </ul>
+                </div>
+                <div class="header-navibox-2">
+                  <ul class="yamm main-menu nav navbar-nav">
+                    <li><a href="home.html">Home</a>
+                      <!-- Simple-->
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages<b class="caret"></b>
+                        <!-- Classic Dropdown--></a>
+                      <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
+                        <li><a href="portfolio-1.html" tabindex="-1">Portfolio ver 01</a></li>
+                        <li><a href="portfolio-2.html" tabindex="-1">Portfolio ver 02</a></li>
+                        <li><a href="portfolio-details.html" tabindex="-1">Portfolio details</a></li>
+                        <li class="divider"></li>
+                        <li><a href="headers.html" tabindex="-1">Headers</a></li>
+                        <li><a href="typography.html" tabindex="-1">Typography</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="about.html">About</a>
+                      <!-- Simple-->
+                    </li>
+                    <li><a href="services.html">Services</a>
+                      <!-- Simple-->
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">News<b class="caret"></b>
+                        <!-- Classic Dropdown--></a>
+                      <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
+                        <li><a href="blog-main-1.html" tabindex="-1">Blog main ver 01</a></li>
+                        <li><a href="blog-main-2.html" tabindex="-1">Blog main ver 02</a></li>
+                        <li><a href="blog-post.html" tabindex="-1">Blog post</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Contact<b class="caret"></b>
+                        <!-- Classic Dropdown--></a>
+                      <ul role="menu" aria-labelledby="dropdownMenu" class="dropdown-menu">
+                        <li><a href="contact-1.html" tabindex="-1">Contact ver 01</a></li>
+                        <li><a href="contact-2.html" tabindex="-1">Contact ver 02</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!-- end .header-->
+        
+        
+      </div>
+      <div data-stellar-background-ratio="0.4" data-stellar-vertical-offset="0" class="section-title-page section-bg section-bg_dark parallax">
+        <div class="section-bg__inner">
+          <div class="b-title-page">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="b-title-page__info">goram news</div>
+                  <div class="b-title-page__decor"></div>
+                  <ol class="breadcrumb">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="active">News Blog</li>
+                  </ol>
+                  <!-- end .breadcrumb-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end .b-title-page-->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-push-4">
+            <div class="section-default">
+              <div class="posts-group">
+                <article class="b-post b-post-2 clearfix">
+                  <div class="entry-media"><a href="assets/media/content/posts/750x370/1.jpg" class="js-zoom-images"><img src="assets/media/content/posts/750x370/1.jpg" alt="Foto" class="img-responsive"/></a></div>
+                  <div class="entry-main">
+                    <div class="entry-header">
+                      <h2 class="entry-title ui-title-inner"><a href="blog-post.html">eiusmod tempor incididunt labore et</a></h2>
+                      <div class="entry-meta"><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link entry-meta__link_color_light">By admin</a></span><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link">web design</a></span></div>
+                      <div class="entry-date bg-primary"><span class="entry-date__day">12</span><span class="entry-date__month">june</span></div>
+                    </div>
+                    <div class="entry-content">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                  </div>
+                </article>
+                <!-- end .b-post-->
+                
+                <article class="b-post b-post-2 clearfix">
+                  <div class="entry-media"><a href="assets/media/content/posts/750x370/2.jpg" class="js-zoom-images"><img src="assets/media/content/posts/750x370/2.jpg" alt="Foto" class="img-responsive"/></a></div>
+                  <div class="entry-main">
+                    <div class="entry-header">
+                      <h2 class="entry-title ui-title-inner"><a href="blog-post.html">Lorem ipsum dolor sit amet elit sed</a></h2>
+                      <div class="entry-meta"><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link entry-meta__link_color_light">By admin</a></span><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link">business management</a></span></div>
+                      <div class="entry-date bg-primary"><span class="entry-date__day">12</span><span class="entry-date__month">june</span></div>
+                    </div>
+                    <div class="entry-content">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                  </div>
+                </article>
+                <!-- end .b-post-->
+                
+                <article class="b-post b-post-2 clearfix">
+                  <div class="entry-media"><a href="assets/media/content/posts/750x370/3.jpg" class="js-zoom-images"><img src="assets/media/content/posts/750x370/3.jpg" alt="Foto" class="img-responsive"/></a></div>
+                  <div class="entry-main">
+                    <div class="entry-header">
+                      <h2 class="entry-title ui-title-inner"><a href="blog-post.html">incididunt labore et dolore magna aliqua</a></h2>
+                      <div class="entry-meta"><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link entry-meta__link_color_light">By admin</a></span><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link">seo consulting</a></span></div>
+                      <div class="entry-date bg-primary"><span class="entry-date__day">12</span><span class="entry-date__month">june</span></div>
+                    </div>
+                    <div class="entry-content">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                  </div>
+                </article>
+                <!-- end .b-post-->
+                <a href="themeforest.net" class="b-banners-2"><img src="assets/media/components/b-banners/banner-1.jpg" alt="banner" class="img-responsive"/></a>
+                <!-- end .b-banners-->
+                <article class="b-post b-post-2 clearfix">
+                  <div class="entry-media"><a href="assets/media/content/posts/750x370/4.jpg" class="js-zoom-images"><img src="assets/media/content/posts/750x370/4.jpg" alt="Foto" class="img-responsive"/></a></div>
+                  <div class="entry-main">
+                    <div class="entry-header">
+                      <h2 class="entry-title ui-title-inner"><a href="blog-post.html">consequat Duis aute irure dolor voluptate</a></h2>
+                      <div class="entry-meta"><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link entry-meta__link_color_light">By admin</a></span><span class="entry-meta__item"><a href="blog-main-1.html" class="entry-meta__link">graphic design</a></span></div>
+                      <div class="entry-date bg-primary"><span class="entry-date__day">12</span><span class="entry-date__month">june</span></div>
+                    </div>
+                    <div class="entry-content">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+                  </div>
+                </article>
+                <!-- end .b-post-->
+                
+              </div>
+              <div class="text-center">
+                <ul class="pagination pagination_mod-a">
+                  <li><a href="#"><i class="icon fa fa-angle-left"></i></a></li>
+                  <li><a href="#">1</a></li>
+                  <li class="active"><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#"><i class="icon fa fa-angle-right"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-pull-8">
+            <aside class="l-sidebar l-sidebar_left">
+              <div class="widget widget-searce">
+                <form id="search-global-form" class="form-sidebar">
+                  <input type="text" placeholder="Search" class="form-sidebar__input form-control"/>
+                  <button class="form-sidebar__btn"><i class="icon stroke icon-Search color-primary"></i></button>
+                </form>
+              </div>
+              <!-- end .widget-->
+              
+              <section class="widget section-sidebar">
+                <h3 class="widget-title ui-title-inner">categories</h3>
+                <div class="widget-content">
+                  <ul class="widget-list list list-mark-5">
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">Business Analysis</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">Web Development</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">Modern Layouts</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">3D Animation</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">Free PSD Graphics</a></li>
+                  </ul>
+                </div>
+              </section>
+              <!-- end .widget-->
+              
+              <section class="widget section-sidebar">
+                <h3 class="widget-title ui-title-inner">recent posts</h3>
+                <div class="widget-content">
+                  <div class="post-widget clearfix">
+                    <div class="post-widget__media"><a href="blog-post.html"><img src="assets/media/content/posts/240x150/1.jpg" alt="foto" class="img-responsive"/></a><a href="blog-post.html" class="post-widget__title ui-title-inner">Lorem ipsum dolor sit</a>
+                      <div class="post-widget__date"><i class="icon stroke icon-Agenda"></i>
+                        <time datetime="2012-10-27 15:20">September 06, 2015</time>
+                      </div>
+                    </div>
+                    <!-- end .widget-post-->
+                    
+                  </div>
+                  <div class="post-widget clearfix">
+                    <div class="post-widget__media"><a href="blog-post.html"><img src="assets/media/content/posts/240x150/2.jpg" alt="foto" class="img-responsive"/></a><a href="blog-post.html" class="post-widget__title ui-title-inner">amet conseca dipisicing</a>
+                      <div class="post-widget__date"><i class="icon stroke icon-Agenda"></i>
+                        <time datetime="2012-10-27 15:20">September 06, 2015</time>
+                      </div>
+                    </div>
+                    <!-- end .widget-post-->
+                    
+                  </div>
+                  <div class="post-widget clearfix">
+                    <div class="post-widget__media"><a href="blog-post.html"><img src="assets/media/content/posts/240x150/3.jpg" alt="foto" class="img-responsive"/></a><a href="blog-post.html" class="post-widget__title ui-title-inner">tempor incididunt labore</a>
+                      <div class="post-widget__date"><i class="icon stroke icon-Agenda"></i>
+                        <time datetime="2012-10-27 15:20">September 06, 2015</time>
+                      </div>
+                    </div>
+                    <!-- end .widget-post-->
+                    
+                  </div>
+                </div>
+              </section>
+              <!-- end .widget-->
+              
+              <section class="widget widget-gallery section-sidebar">
+                <h3 class="widget-title ui-title-inner">Instagram</h3>
+                <div class="widget-content">
+                  <div class="js-zoom-gallery">
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/1.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/1.jpg" alt="foto" class="img-responsive"/></a></div>
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/2.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/2.jpg" alt="foto" class="img-responsive"/></a></div>
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/3.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/3.jpg" alt="foto" class="img-responsive"/></a></div>
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/4.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/4.jpg" alt="foto" class="img-responsive"/></a></div>
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/5.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/5.jpg" alt="foto" class="img-responsive"/></a></div>
+                    <div class="widget-gallery__img"><a href="assets/media/content/gallery/75x75/6.jpg" class="js-zoom-gallery__item"><img src="assets/media/content/gallery/75x75/6.jpg" alt="foto" class="img-responsive"/></a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="widget section-sidebar">
+                <h3 class="widget-title ui-title-inner">tags cloud</h3>
+                <div class="widget-content">
+                  <ul class="list-tags list-unstyled">
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">designing</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">Development</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">photography</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">website</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">ALL PROJECTS</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">SEO</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">responsive</a></li>
+                    <li class="list-tags__item"><a href="service-details.html" class="list-tags__link btn btn-default btn-effect btn-sm">ecommerce</a></li>
+                  </ul>
+                </div>
+              </section>
+              <!-- end .widget-->
+              
+              <section class="widget section-sidebar">
+                <h3 class="widget-title ui-title-inner">archives</h3>
+                <div class="widget-content">
+                  <ul class="widget-list list list-mark-5">
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">july 2016</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">june 2016</a></li>
+                    <li class="widget-list__item"><a href="post-1.html" class="widget-list__link">may 2016</a></li>
+                  </ul>
+                </div>
+              </section>
+              <!-- end .widget-->
+            </aside>
+            <!-- end .sidebar-->
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- .end container-->
+      
+      <footer class="footer">
+        <div data-stellar-background-ratio="1" data-stellar-vertical-offset="0" class="footer__main section-bg section-bg_dark section-bg_op_70 parallax">
+          <div class="section-bg__inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <section class="footer-social-net">
+                    <h3 class="footer-social-net__title ui-title-inner">We are social 24/7 - Get in touch</h3>
+                    <ul class="social-net list-inline">
+                      <li class="social-net__item"><a href="twitter.com" class="social-net__link"><i class="icon fa fa-twitter"></i></a></li>
+                      <li class="social-net__item"><a href="facebook.com" class="social-net__link"><i class="icon fa fa-facebook"></i></a></li>
+                      <li class="social-net__item"><a href="linkedin.com" class="social-net__link"><i class="icon fa fa-linkedin"></i></a></li>
+                      <li class="social-net__item"><a href="plus.google.com" class="social-net__link"><i class="icon fa fa-google-plus"></i></a></li>
+                      <li class="social-net__item"><a href="dribbble.com" class="social-net__link"><i class="icon fa fa-dribbble"></i></a></li>
+                      <li class="social-net__item"><a href="pinterest.com" class="social-net__link"><i class="icon fa fa-pinterest-p"></i></a></li>
+                    </ul>
+                    <!-- end .social-list-->
+                    
+                  </section>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-xs-12">
+                  <div class="footer-section"><a href="home.html" class="footer__logo"><img src="assets/media/general/logo.png" alt="Logo" class="img-responsive"/></a>
+                    <div class="footer__info">
+                      <p>Lorem ipsum dolor sit amet consecte adipisicing elit eiusmod temp incididunt ut labore dolor mag aliqua nim sed ipsum veniam quis.</p>
+                    </div>
+                    <div class="footer__contact"><i class="icon stroke icon-House"></i> 68 Sky Drive, California  12036</div>
+                    <div class="footer__contact"><i class="icon stroke icon-Phone2"></i> Inquiry - 0800 126 01268</div>
+                    <div class="footer__contact"><i class="icon stroke icon-Mail"></i> support@domain.com</div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                  <section class="footer-section">
+                    <h3 class="footer-section__title ui-title-inner">latest tweets</h3>
+                    <div class="footer-form__info">Subscribe to our newsletter for latest updates about our agency.</div>
+                    <form class="footer-form">
+                      <input type="email" placeholder="Email address ..." class="footer-form__input"/>
+                      <button class="footer-form__btn"><i class="icon pe-7s-mail"></i></button>
+                    </form>
+                  </section>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                  <section class="footer-section">
+                    <h3 class="footer-section__title ui-title-inner">useful links</h3>
+                    <ul class="footer-list list-unstyled">
+                      <li class="footer-list__item"><a href="about.html" class="footer-list__link">About Us</a></li>
+                      <li class="footer-list__item"><a href="portfolio-1.html" class="footer-list__link">Portfolio</a></li>
+                      <li class="footer-list__item"><a href="blog-main-1.html" class="footer-list__link">Latest News</a></li>
+                      <li class="footer-list__item"><a href="contact.html" class="footer-list__link">Contact us</a></li>
+                      <li class="footer-list__item"><a href="privacy-policy.html" class="footer-list__link">Privacy Policy</a></li>
+                      <li class="footer-list__item"><a href="home.html" class="footer-list__link">Theme Features</a></li>
+                    </ul>
+                  </section>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                  <section class="footer-section footer-gallery js-zoom-gallery">
+                    <h3 class="footer-section__title ui-title-inner">photo gallery</h3><a href="assets/media/components/footer/gallery-1.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-1.jpg" alt="foto" class="img-responsive"/></a><a href="assets/media/components/footer/gallery-2.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-2.jpg" alt="foto" class="img-responsive"/></a><a href="assets/media/components/footer/gallery-3.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-3.jpg" alt="foto" class="img-responsive"/></a><a href="assets/media/components/footer/gallery-4.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-4.jpg" alt="foto" class="img-responsive"/></a><a href="assets/media/components/footer/gallery-5.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-5.jpg" alt="foto" class="img-responsive"/></a><a href="assets/media/components/footer/gallery-6.jpg" class="footer-gallery__item js-zoom-gallery__item"><img src="assets/media/components/footer/gallery-6.jpg" alt="foto" class="img-responsive"/></a>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">©2016<a href="home.html" class="copyright__link"> the groam Agency</a> All Rights Reserved</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- .footer-->
+      
+    </div>
+    <!-- end layout-theme-->
+    
+    
+    <script src="assets/plugins/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/separate-js/custom.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/plugins/switcher/js/dmss.js"></script>
+    <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
+    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/headers/assets/header/slidebar.js"></script>
+    <script src="assets/plugins/headers/assets/header/header.js"></script>
+    <script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/jqBootstrapValidation.js"></script>
+    <script src="assets/plugins/contact_me.js"></script>
+    <script src="assets/plugins/doubletaptogo.js"></script>
+    <script src="assets/plugins/waypoints.min.js"></script>
+    <script src="assets/plugins/flowplayer/flowplayer.min.js"></script>
+    <script src="assets/plugins/stellar/src/jquery.stellar.js"></script>
+    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/plugins/isotope/imagesLoaded.js"></script>
+    <script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <script src="assets/plugins/classie.js"></script>
+    <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="favicon.ico" rel="icon" type="image/png">
+		<title>Магазин чешек, Оптовикам</title>
+		<style>
+			.preloader {
+				position: fixed;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				background: #000;
+				z-index: 1000;
+			}
+			
+			.preloader__spinner {
+				width: 105px;
+				height: 64px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				background: url('assets/images/spinner.GIF') no-repeat 50% 50%;
+				margin-top: -32px;
+				margin-left: -53px;
+			}
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700,400,300,100&amp;subset=latin,cyrillic" rel="stylesheet">
+		<link href="assets/styles/common.css?1431939587277" rel="stylesheet">
+		<!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>![endif]-->
+	</head>
+
+	<body>
+		<div class="preloader"><span class="preloader__spinner"></span></div>
+		<!-- end preloader-->
+
+		<div class="page">
+			<header class="header">
+				<div class="container">
+					<a href="main.html" class="header__logo"><img src="assets/images/logo.png" alt="Logo"></a>
+					<div class="header__contacts">
+						<a href="skype:name?add" class="link-skype"></a>
+						<a href="tel:+79175953482" class="link-phone"></a><a href="#modal_request" class="btn btn_orange btn_header fancybox">Заказать звонок!</a><span class="header__phone">+7 (917) 595-34-82</span></div>
+					<div id="nav-wrap">
+						<div class="nav">
+							<a id="mobile-menu-trigger" href="main.html" class="mobile-menu-closed"></a>
+							<nav>
+								<ul id="menu" class="sf-menu fixed sf-js-enabled sf-arrows">
+									<li class="current"><a href="about.html">О нас</a></li>
+									<li><a href="catalog.html">Каталог</a></li>
+									<li><a href="wholesalers.html">Оптовикам</a></li>
+									<li><a href="payment.html">Оплата</a></li>
+									<li><a href="partners.html">Партнерам</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header-->
+			<div class="wrap-content">
+				<div class="main">
+					<div class="content">
+						<div class="container">
+							<h1 class="title-block">оптовикам</h1>
+							<h2>Как рассчитать оптовую закупку и сэкономить</h2>
+							<p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+								amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+								in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl
+								quis neque. Suspendisse in orci enim.</p>
+							<div class="calculator">
+								<div class="calculator__item numbers-row">
+									<div class="calculator__number"><span class="calculator__title calculator__title_top">Количество пар</span>
+										<div class="calculator__wrap-input">
+											<div class="calculator__wrap-number">
+												<input id="number" class="calculator__input calculator__input_number">
+											</div>
+										</div>
+									</div>
+									<div class="calculator__price-one"><span class="calculator__title calculator__title_top">Цена за пару</span>
+										<div class="calculator__wrap-input">
+											<div id="price-one" class="calculator__input"></div><i class="icon-rouble"></i></div>
+									</div>
+									<div class="calculator__wrap">
+										<!--i.ico.ico-shoes-->
+										<div class="calculator__slider"><span class="calculator__label calculator__label_1">1</span><span class="calculator__label calculator__label_2">500</span>
+											<!--#slider-range-->
+											<!--#js-example-change-valueinput(type="range" min="1" max="500" data-rangeslider)
+output
+input(type="number" value="1")
+button Введите к-ство
+-->
+											<div id="slider-format" class="slider"></div>
+										</div>
+									</div>
+								</div>
+								<div class="calculator__item">
+									<div class="calculator__action"><span class="calculator__title">Ваша скидка</span>
+										<div class="calculator__wrap-input">
+											<div id="action" class="calculator__input"></div>
+										</div>
+									</div>
+									<div class="calculator__price-total"><span class="calculator__title_price">Общая цена</span>
+										<div class="calculator__wrap-input">
+											<div id="price-total" class="calculator__input"></div><i class="icon-rouble"></i></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end .content-->
+					<section class="order">
+						<div class="container">
+							<h2 class="title-block title-block_order">закажите чешки прямо сейчас</h2><a href="/basket.html" class="btn btn_orange btn_order">оформить!</a></div>
+					</section>
+					<!-- end .order-->
+					<section class="page-action">
+						<div class="container">
+							<form id="" method="" action="" class="form form_action">
+								<h2 class="form__title">оставьте свои email и получите информацию о скидках</h2>
+								<input type="text" placeholder="Ваше имя" class="form__input">
+								<input type="text" placeholder="Ваш email" class="form__input">
+								<input type="text" placeholder="Ваш телефон" class="form__input">
+								<input type="text" placeholder="Ваш город" class="form__input">
+								<input type="submit" value="отправить!" class="btn btn_orange btn_submit">
+							</form>
+						</div>
+					</section>
+					<!-- end .page-action-->
+				</div>
+			</div>
+			<!-- end wrap-content-->
+		</div>
+		<!-- end page-->
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<ul class="footer-nav">
+						<li class="footer-nav__item"><a href="about.html" class="footer-nav__link">О нас</a></li>
+						<li class="footer-nav__item"><a href="catalog.html" class="footer-nav__link">Каталог</a></li>
+						<li class="footer-nav__item"><a href="wholesalers.html" class="footer-nav__link">Оптовикам</a></li>
+						<li class="footer-nav__item"><a href="payment.html" class="footer-nav__link">Оплата</a></li>
+						<li class="footer-nav__item"><a href="partners.html" class="footer-nav__link">Партнерам</a></li>
+						<li class="footer-nav__item"><a href="contacts.html" class="footer-nav__link">Контакты</a></li>
+					</ul>
+					<p class="footer__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+						amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+						in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl
+						quis neque. Suspendisse in orci enim.</p>
+				</div>
+			</div>
+			<div class="footer__bottom-line">
+				<div class="container">
+					<div class="footer__wrap-contacts"><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-map"></i>Москва,<span class="footer__street"> ул. Молодогвардейская, д. 54</span></span>
+						<a
+						href="mailto:email@mail.com" class="footer__contacts footer__contacts_link"><i class="ico ico-mail"></i>email@mail.com</a>
+					</div>
+					<div class="social"><span class="social__item ico ico-gl"></span><span class="social__item ico ico-fb"></span><span class="social__item ico ico-vk"></span><span class="social__item ico ico-tw"></span></div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer-->
+
+		<!-- Modal-request-->
+		<div class="modal">
+			<div id="modal_request" class="modal_request">
+				<div class="modal__title"> оставьте заявку</div>
+				<div class="modal__text">прямо здесь и менеджер свяжеться
+					<br>с Вами в течении 25 минут</div>
+				<form class="form form_request">
+					<input type="text" placeholder="Ваше имя" class="form__input">
+					<input type="text" placeholder="Ваш телефон" class="form__input">
+					<input type="submit" value="отправить!" class="btn btn_orange btn_request">
+				</form>
+			</div>
+		</div>
+		<!-- Modal-thanks-->
+		<div class="modal">
+			<div id="modal_thanks" class="modal_thanks">
+				<div class="modal__title">спасибо!</div>
+				<div class="modal__text">Ваша заявка успешно принята!
+					<br>Вы получите письмо в ближайщее время!</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="assets/scripts/libs/noUiSlider/jquery.nouislider.all.min.js"></script>
+		<script src="assets/scripts/libs/noUiSlider/wNumb.min.js"></script>
+		<script src="assets/scripts/calculator.js"></script>
+		<script src="assets/scripts/libs/fancybox/source/jquery.fancybox.pack.js"></script>
+		<script src="assets/scripts/libs/swiper/dist/js/swiper.min.js"></script>
+		<script src="assets/scripts/common.min.js"></script>
+	</body>
+
+</html>

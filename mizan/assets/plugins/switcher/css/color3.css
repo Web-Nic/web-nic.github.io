@@ -1,0 +1,173 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 3*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.text-primary,
+.text-primary_h:hover,
+.text-primary_b:before,
+.text-primary_a:after,
+.list > li > a:hover,
+.pager li > a:hover,
+.pager li > a:hover .icon,
+.pagination > li:first-child > a:hover,
+.pagination > li:first-child > a:hover .icon,
+.pagination > li:last-child > a:hover,
+.pagination > li:last-child > a:hover .icon,
+.search-close:hover,
+.breadcrumb > li > a:hover,
+.b-blockquote-1 blockquote:before,
+.post-tags__item:hover,
+.owl-theme .owl-controls .owl-buttons div:hover {color: #9d2222;}
+
+
+.bg-primary,
+.bg-primary_h:hover,
+.bg-primary_b:before,
+.bg-primary_a:after,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.dropcap_primary:first-letter,
+.tooltip-1 .tooltip-inner,
+.btn-primary,
+.forms__label-check-1:after,
+.forms__label-radio-2:before,
+.panel-default > .panel-heading,
+.widget-title:after,
+.owl-page.active span:before,
+.owl-page span:hover:before,
+.bx-wrapper .bx-pager.bx-default-pager a.active:before,
+.bx-wrapper .bx-pager.bx-default-pager a:hover:before {background-color: #9d2222;}
+
+
+.border_prim,
+.border_prim_h:hover,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination a:hover,
+.pagination span:hover,
+.pagination a:focus,
+.pagination span:focus,
+.progress_border_primary,
+.btn-primary,
+.forms__label-radio-2:before {border-color: #9d2222;}
+
+.border-t_prim,
+.border-t_prim_h:hover,
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #9d2222;}
+
+.border-r_prim,
+.border-r_prim_h:hover,
+.tooltip-1.right .tooltip-arrow {border-right-color: #9d2222;}
+
+.border-b_prim,
+.border-b_prim_h:hover,
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table_primary > thead > tr > th,
+.collapse.in,
+#bx-pager a:hover,
+#bx-pager a.active {border-bottom-color: #9d2222;}
+
+.border-l_prim,
+.border-l_prim_h:hover,
+.tooltip-1.left .tooltip-arrow,
+.border-left_primary:before,
+.b-blockquote-1,
+.b-blockquote-post {border-left-color: #9d2222;}
+
+
+
+
+.text-second,
+.text-second_h:hover,
+.link-tooltip-2,
+.pagination_secondary > li:first-child > a:hover,
+.pagination_secondary > li:first-child > a:hover .icon,
+.pagination_secondary > li:last-child > a:hover,
+.pagination_secondary > li:last-child > a:hover .icon,
+.footer-social-net__link,
+.widget-title {color: #28af0f;}
+
+.bg-second,
+.bg-second_h:hover,
+.tooltip-2 .tooltip-inner,
+.dropcap_secondary:first-letter,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > li > a:hover,
+.pagination_secondary > li > a:focus,
+.forms__label-radio-1:before {background-color: #28af0f;}
+
+.border_second,
+.border_second_h:hover,
+.progress_border_secondary,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > .active > a,
+.pagination_secondary > .active > span,
+.pagination_secondary > li > a:hover,
+.pagination_secondary > li > a:focus,
+.forms__label-radio-1:before {border-color: #28af0f;}
+
+.border-t_second,
+.border-t_second_h:hover,
+.tooltip-2.top .tooltip-arrow,
+.tooltip-2.top-left .tooltip-arrow,
+.tooltip-2.top-right .tooltip-arrow {border-top-color: #28af0f;}
+
+.border-r_second,
+.border-r_second_h:hover,
+.tooltip-2.right .tooltip-arrow {border-right-color: #28af0f;}
+
+.border-l_second,
+.border-l_second_h:hover,
+.tooltip-2.left .tooltip-arrow {border-left-color: #28af0f;}
+
+.border-b_second,
+.border-b_second_h:hover,
+.tooltip-2.bottom .tooltip-arrow,
+.tooltip-2.bottom-left .tooltip-arrow,
+.tooltip-2.bottom-right .tooltip-arrow,
+.table_secondary > thead > tr > th {border-bottom-color: #28af0f;}
+
+
+
+/* Gradients */
+
+.b-team .social-net__link:hover,
+.sp-image-container:after,
+.b-pricing.active,
+.area-bg_grad:after,
+.b-isotope-2 .b-isotope-grid__wrap-info,
+.b-skills-banner,
+.b-video-btn:after {background-image: linear-gradient(55deg, #28af0f 0%, #9d2222 100%);}
+
+.b-progress-list__icon {background-image: -webkit-linear-gradient(55deg, #28af0f 0%, #9d2222 100%);}
+
+.area-bg_grad:after,
+.list-tags__link:hover,
+.nav-tabs li.active > a:after,
+.nav-tabs li > a:hover:after {background-image: linear-gradient(to right, #28af0f 0%, #9d2222 100%);}
+
+.btn-grad,
+.btn-grad-2 {background-image: linear-gradient(0deg, #28af0f 0%, #9d2222 100%);}
+.bg-grad {background-image: linear-gradient(to right, #e0ecff 0%, #9d2222 100%);}
+
+.b-process-nav__item.active .b-process-nav__icon {background-image: -webkit-linear-gradient(#28af0f 0%, #9d2222 100%);}
+
+
+
+.ui-title-block .icon,
+.b-advantages-2 .b-advantages__icon {background-image: -webkit-linear-gradient(55deg, #28af0f 0%, #9d2222 100%);}
+

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>Marherita, Shopping Cart</title>
+
+		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/iview.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/skin/style.css" rel="stylesheet">
+
+		<script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+
+		<!-- Loader -->
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<!-- Loader end -->
+
+
+		<div class="layout-theme animated-css" id="wrapper" data-header="sticky" data-header-top="200">
+
+			<div id="sb-site">
+
+				<div class="wrap-content">
+
+
+					<!-- HEADER -->
+					<header class="header clearfix">
+						<div class="header__wrap">
+							<span class="sb-toggle-left"><i class="icon pe-7s-menu"></i></span>
+							<a class="logo" href="home.html"><img class="img-responsive" src="assets/img/logo_mod-a.png" alt="Logo"></a>
+							<span class="header-basket sb-toggle-right"><i class="icon pe-7s-cart"></i><span class="header-basket__number">2</span></span>
+						</div>
+					</header>
+					<!-- end header -->
+
+					<div class="section-title">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="section__inner">
+										<h1 class="ui-title-page">Shopping Cart</h1>
+										<ol class="breadcrumb">
+											<li><a href="home.html">Home</a></li>
+											<li class="active">Shopping Cart</li>
+										</ol>
+									</div>
+									<!-- end section__inner -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section-title -->
+
+
+					<div class="section_mod-d">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="table-container">
+										<table class="table table-cart-order">
+											<thead>
+												<tr>
+													<th></th>
+													<th>PRODUCT</th>
+													<th>price</th>
+													<th>QTY</th>
+													<th>TOTAL</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class=""><span class="no-br"><i class="icon-close fa fa-times js-del"></i><img class="table-cart-order__img img-responsive" src="assets/media/table-cart-order/1.png" height="109" width="109" alt="Foto"></span></td>
+													<td class="">
+														<span class="table-cart-order__name">Moorish Lamb</span>
+														<span class="table-cart-order__size"><b>Size:</b> Large</span>
+													</td>
+													<td class=""><span class="table-cart-order__price">$19.00</span></td>
+													<td class=""><span class="table-cart-order__number">1</span></td>
+													<td class=""><span class="table-cart-order__price">$19.00</span></td>
+												</tr>
+												<tr>
+													<td class=""><span class="no-br"><i class="icon-close fa fa-times js-del"></i><img class="table-cart-order__img img-responsive" src="assets/media/table-cart-order/2.png" height="109" width="111" alt="Foto"></span></td>
+													<td class="">
+														<span class="table-cart-order__name">Vegetarian Supreme</span>
+														<span class="table-cart-order__size"><b>Size:</b> Jumbo</span>
+													</td>
+													<td class=""><span class="table-cart-order__price">$34.00</span></td>
+													<td class=""><span class="table-cart-order__number">1</span></td>
+													<td class=""><span class="table-cart-order__price">$34.00</span></td>
+												</tr>
+												<tr>
+													<td class=""><span class="no-br"><i class="icon-close fa fa-times js-del"></i><img class="table-cart-order__img img-responsive" src="assets/media/table-cart-order/3.png" height="111" width="111" alt="Foto"></span></td>
+													<td class="">
+														<span class="table-cart-order__name">Spiced Pumpkin</span>
+														<span class="table-cart-order__size"><b>Size:</b> Small</span>
+													</td>
+													<td class=""><span class="table-cart-order__price">$26.00</span></td>
+													<td class=""><span class="table-cart-order__number">1</span></td>
+													<td class=""><span class="table-cart-order__price">$26.00</span></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									<div class="row">
+										<div class="col-md-6">
+											<section class="section_mod-f">
+												<h2 class="ui-title-inner ui-title-inner_mod-c">Calculate Shipping</h2>
+												<form method="get" class="ui-form">
+													<select class="selectpicker" data-style="ui-select ui-select_mod-a" data-width="100%">
+														<option>United Kingdom (UK)</option>
+														<option>United Kingdom (UK)-2</option>
+														<option>United Kingdom (UK)-3</option>
+													</select>
+													<input class="form-control" type="text" placeholder="State / County">
+													<input class="form-control" type="text" placeholder="Postcode / ZIP">
+													<button class="ui-btn ui-btn-primary btn-effect">update totals</button>
+												</form>
+											</section>
+										</div>
+
+										<div class="col-md-6">
+											<section class="section_mod-f">
+												<h2 class="ui-title-inner ui-title-inner_mod-c">Promotional Code</h2>
+												<form class="ui-form">
+													<input class="form-control" type="text" placeholder="Enter your promotional code">
+													<button class="ui-btn ui-btn-primary btn-effect">apply</button>
+												</form>
+											</section>
+										</div>
+									</div>
+								</div>
+								<!-- end col -->
+
+								<div class="col-md-4">
+									<section class="section-table-order">
+										<h2 class="table-totals__title ui-title-inner">Cart Totals</h2>
+										<table class="table-totals">
+											<tbody>
+												<tr>
+													<td><b>CART SUBTOTAL</b></td>
+													<td class="text-right">$79.00</td>
+												</tr>
+												<tr>
+													<td class="border-cell"><b>SHIPPING AND HANDLING</b></td>
+													<td class="border-cell text-right">Free Shipping</td>
+												</tr>
+												<tr>
+													<td class="table-totals__total">Order Total</td>
+													<td class="table-totals__total">$79.00</td>
+												</tr>
+											</tbody>
+										</table>
+										<a class="table-totals__btn ui-btn ui-btn_mod-a btn-effect" href="javascript:void(0);">update cart</a>
+										<a class="table-totals__btn ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">proceed to checkout</a>
+									</section>
+									<!-- end section-table-order -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section_mod-b -->
+
+
+					<section class="section-subscribe">
+						<form class="form-subscribe" action="post">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<h2 class="ui-title-block ui-title-block_mod-a form-subscribe__title">Sign up for the newsletter and get exclusive deals.</h2>
+										<input class="form-control" type="text" placeholder="Enter your email address" required="">
+										<button class="ui-btn ui-btn_mod-c btn-effect btn-effect">subscribe</button>
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</form>
+						<!-- end footer-form -->
+					</section>
+					<!-- end section-subscribe -->
+
+
+					<footer class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="footer-contacts"><span class="footer-contacts__number">+34 9 368 7050</span>order@pizza.com</div>
+									<div class="footer-decor decor-2">&</div>
+									<ul class="footer-list list-inline">
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Facebook</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Twitter</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Instagram</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Pinterest</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Flickr</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="copyright border-top">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="text-center">Copyright © 2015 <a class="copyright__link" href="javascript:void(0);">Margherita.</a> All rights reserved.</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- end copyright -->
+					</footer>
+					<!-- end footer -->
+
+				</div>
+				<!-- end wrap-content -->
+
+			</div>
+			<!-- end #sb-site -->
+
+
+			<div class="sb-slidebar sb-left">
+				<form method="get" class="form-search" id="search-global-form">
+					<input class="form-search__input" type="text" placeholder="Search">
+					<button class="form-search__btn"><i class="icon fa fa-search"></i></button>
+				</form>
+				<nav class="main-nav">
+					<ul class="navig-menu list-unstyled">
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="home.html">Home</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="shop-catalog-page.html">Pizza menu</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="pizza-builder.html">pizza builder</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog.html">blog</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog-details.html">pages</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="about.html">about us</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="contact.html">contact</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- end main-nav -->
+
+				<div class="border-bottom"></div>
+				<a class="link-account" href="javascript:void(0);">login</a>
+				<a class="link-account" href="javascript:void(0);">my account </a>
+				<a class="link-account" href="javascript:void(0);">checkout</a>
+			</div>
+			<!-- end sb-left -->
+
+			<div class="sb-slidebar sb-right">
+				<section class="section-list-cart">
+					<h2 class="ui-title-inner">Cart Totals</h2>
+					<ul class="list-cart list-unstyled">
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/1.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Moorish Lamb</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Large</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $19.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/2.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Vegetarian Supreme</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Jumbo</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $34.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/3.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Spiced Pumpkin</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Small</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $26.00</div>
+							</div>
+						</li>
+					</ul>
+					<div class="total-price clearfix">Order Total
+						<span class="total-price__number">$79.00</span>
+					</div>
+					<a class="total-price__btn ui-btn ui-btn_mod-a btn-effect btn-block" href="javascript:void(0);">view shopping cart</a>
+					<a class="total-price__btn ui-btn ui-btn-primary btn-effect btn-block" href="javascript:void(0);">checkout</a>
+				</section>
+				<!-- end list-cart -->
+			</div>
+			<!-- end sb-right -->
+
+		</div>
+		<!-- end layout-theme -->
+
+
+
+		<!-- SCRIPTS MAIN -->
+
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+		<script src="assets/js/cssua.min.js"></script>
+
+
+		<!--SCRIPTS THEME-->
+
+		<!-- Sidebar -->
+		<script src="assets/plugins/slidebars/dist/slidebars.js"></script>
+		<!-- Home slider -->
+		<script src="assets/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
+		<!-- Sliders -->
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Isotope -->
+		<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+		<!-- Modal -->
+		<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		<!-- Date select -->
+		<script src="assets/plugins/datetimepicker/jquery.datetimepicker.js"></script>
+		<!-- Select customization -->
+		<script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<!-- Price slider -->
+		<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script>
+		<!-- Chart -->
+		<script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<!-- Animation -->
+		<script src="assets/js/wow.min.js"></script>
+
+		<!-- Custom -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
+
+

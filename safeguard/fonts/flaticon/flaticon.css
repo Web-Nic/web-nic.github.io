@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-boxing13:before {
+	content: "\e000";
+}
+.flaticon-car97:before {
+	content: "\e001";
+}
+.flaticon-codebar:before {
+	content: "\e002";
+}
+.flaticon-delivery28:before {
+	content: "\e003";
+}
+.flaticon-doors4:before {
+	content: "\e004";
+}
+.flaticon-emergency1:before {
+	content: "\e005";
+}
+.flaticon-fingerprint6:before {
+	content: "\e006";
+}
+.flaticon-folder240:before {
+	content: "\e007";
+}
+.flaticon-handcuffs1:before {
+	content: "\e008";
+}
+.flaticon-home211:before {
+	content: "\e009";
+}
+.flaticon-key162:before {
+	content: "\e00a";
+}
+.flaticon-keys3:before {
+	content: "\e00b";
+}
+.flaticon-lock23:before {
+	content: "\e00c";
+}
+.flaticon-lock81:before {
+	content: "\e00d";
+}
+.flaticon-locked59:before {
+	content: "\e00e";
+}
+.flaticon-locked60:before {
+	content: "\e00f";
+}
+.flaticon-padlock27:before {
+	content: "\e010";
+}
+.flaticon-password10:before {
+	content: "\e011";
+}
+.flaticon-policeman1:before {
+	content: "\e012";
+}
+.flaticon-protected9:before {
+	content: "\e013";
+}
+.flaticon-safe23:before {
+	content: "\e014";
+}
+.flaticon-safebox3:before {
+	content: "\e015";
+}
+.flaticon-security26:before {
+	content: "\e016";
+}
+.flaticon-security47:before {
+	content: "\e017";
+}
+.flaticon-security5:before {
+	content: "\e018";
+}
+.flaticon-security50:before {
+	content: "\e019";
+}
+.flaticon-security51:before {
+	content: "\e01a";
+}
+.flaticon-security55:before {
+	content: "\e01b";
+}
+.flaticon-server22:before {
+	content: "\e01c";
+}
+.flaticon-shield20:before {
+	content: "\e01d";
+}
+.flaticon-shields21:before {
+	content: "\e01e";
+}
+.flaticon-shopping156:before {
+	content: "\e01f";
+}
+.flaticon-supermarket20:before {
+	content: "\e020";
+}
+.flaticon-surveillance62:before {
+	content: "\e021";
+}
+.flaticon-surveillance85:before {
+	content: "\e022";
+}
+.flaticon-surveillance86:before {
+	content: "\e023";
+}
+.flaticon-surveillance87:before {
+	content: "\e024";
+}
+.flaticon-video-camera2:before {
+	content: "\e025";
+}
+.flaticon-video52:before {
+	content: "\e026";
+}
+.flaticon-videocamera8:before {
+	content: "\e027";
+}

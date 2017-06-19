@@ -1,0 +1,129 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ *
+ * @geedmo - Licensed under the MIT license
+ */
+
+
+.header.sticky .navbar {
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #26C9FF;
+	border-bottom: 3px solid #ffd526;
+	z-index:1111;
+}
+.header.sticky .navbar .yamm {
+	margin-top: 0;
+}
+.header.sticky .top-cart,
+.header.sticky #search-global-menu  {
+	display: none !important;
+}
+
+
+.yamm {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 0;
+	min-height: auto;
+	margin-top: 20px;
+	border: 0 none;
+	z-index: 777;
+	vertical-align: middle;
+}
+.yamm .navbar-collapse {
+	padding-left: 0;
+	padding-right: 0;
+}
+.yamm .navbar-brand {
+	color: #fff;
+	float: left;
+	font-size: 24px;
+	font-weight: 700;
+	height: 50px;
+	line-height: 21px;
+	padding: 14.5px 15px;
+	text-transform: uppercase;
+}
+.yamm .nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+.yamm .nav > li {
+	display: inline-block;
+}
+.yamm .nav > li > a {
+	position: relative;
+	display: block;
+	padding: 21px 13px 23px;
+	color: #444;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: all .1s ease-out;
+}
+.yamm .nav > li > a:hover {
+	color: #26C9FF;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+.yamm-fw {
+	position: inherit;
+}
+.yamm .navbar-toggle {
+	background: #26c9ff;
+}
+.yamm .navbar-toggle .icon-bar {
+	background: #fff;
+}
+.yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
+	position: static;
+}
+.yamm .container {
+	position: relative;
+}
+.yamm .dropdown-menu {
+	left: auto;
+}
+.yamm .yamm-fw .dropdown-menu {
+	left: 0;
+}
+.yamm .yamm-content {
+	padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+	left: 0;
+	right: 0;
+}
+
+
+
+@media (max-width:767px) {
+
+	html .yamm .dropdown-menu {
+		position: relative;
+		top: 0;
+		float: none;
+		color: #ffd526;
+		background-color: #26c9ff !important;
+	}
+	.yamm {
+		display: block;
+		margin-top: 0;
+	}
+	.yamm .nav {
+		display: block;
+	}
+	.yamm .nav > li {
+		display: block;
+	}
+	.yamm .nav > li > a:hover {
+		color: #ffd526;
+		background-color: #26c9ff !important;
+	}
+}

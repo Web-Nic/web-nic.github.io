@@ -1,0 +1,125 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.color-primary,
+.text-primary,
+.list-mark_mod-a li:before,
+.list-mark_mod-c li:before,
+.list-mark_mod-d li:before,
+.blockquote_mod-a p,
+.raiting,
+.block-news__meta,
+.payment-total__price,
+.widget-title {color: #4494ec;}
+
+
+.bg-primary,
+.btn-effect:after,
+.section-title,
+.ui-title-underline_mod-a:after,
+.tooltip-1 .tooltip-inner,
+.list-mark_mod-g li:before,
+.list-num_mod-b li:before,
+.dropcap_mod-a:first-letter,
+.blockquote_mod-c:before,
+.btn-primary,
+.pagination_mod-b > .active > a,
+.pagination_mod-b > .active > span,
+.pagination_mod-b a:hover,
+.pagination_mod-b span:hover,
+.pagination_mod-b a:focus,
+.pagination_mod-b span:focus,
+.forms__label-check_mod-a:after,
+.forms__label-radio_mod-c:after,
+.progress-bar-primary,
+.list-advantages__link:hover .icon,
+.form-cart__price-total,
+.section-bg_primary:after,
+.forms__label-check_mod-c:after,
+.yamm .navbar-toggle .icon-bar {background-color: #4494ec;}
+
+.btn_mod-b,
+.pagination_mod-b > .active > a,
+.pagination_mod-b > .active > span,
+.pagination_mod-b a:hover,
+.pagination_mod-b span:hover,
+.pagination_mod-b a:focus,
+.pagination_mod-b span:focus,
+.progress_border_primary {border-color: #4494EC;}
+
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow,
+.yamm .navbar-collapse,
+#page-preloader .spinner:before {border-top-color: #4494ec;}
+
+.tooltip-1.right .tooltip-arrow {border-right-color: #4494ec;}
+
+.tooltip-1.left .tooltip-arrow {border-left-color: #4494ec;}
+
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table-primary > thead > tr > th {border-bottom-color: #4494ec;}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 2 */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.color-second,
+.color-info,
+.text-info,
+.list-mark_mod-b li:hover:before,
+.list-mark_mod-c li:hover:before,
+.list-mark_mod-e li:before,
+.list-mark_mod-f li:before,
+.list-num_mod-a li:before,
+.blockquote_mod-b cite,
+.pagination_mod-a > .active > a,
+.pagination_mod-a > .active > span,
+.pagination_mod-a a:hover,
+.pagination_mod-a span:hover,
+.pagination_mod-a a:focus,
+.pagination_mod-a span:focus {color: #ffb049;}
+
+
+.bg-info,
+.btn-info,
+.tooltip-2 .tooltip-inner,
+.dropcap_mod-b:first-letter,
+.btn-effect.btn-primary:after,
+.forms__label-check_mod-b:after,
+.forms__label-radio_mod-a:before,
+.forms__label-radio_mod-b:after,
+.progress-bar-info,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {background-color: #ffb049;}
+
+.progress_border_info,
+.forms__radio:checked + .form-cart__label-row,
+.ui-form_mod-a .ui-form__btn {border-color: #FFB049;}
+
+.tooltip-2.top .tooltip-arrow,
+.tooltip-2.top-left .tooltip-arrow,
+.tooltip-2.top-right .tooltip-arrow,
+#page-preloader .spinner:after {border-top-color: #ffb049;}
+
+
+.tooltip-2.right .tooltip-arrow {border-right-color: #ffb049;}
+
+.tooltip-2.left .tooltip-arrow,
+.blockquote_mod-b {border-left-color: #ffb049;}
+
+.tooltip-2.bottom .tooltip-arrow,
+.tooltip-2.bottom-left .tooltip-arrow,
+.tooltip-2.bottom-right .tooltip-arrow,
+.yamm .nav > li.active > a,
+.yamm .nav > li > a:hover,
+.table-info > thead > tr > th {border-bottom-color: #ffb049;}
+

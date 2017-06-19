@@ -1,0 +1,38 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Prana
+Version:	1.0
+Assigned to:	WebNik
+Primary use:	Prana
+-------------------------------------------------------------------*/
+
+/* FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,300italic,700italic|Great+Vibes);
+@import url('../fonts/ionicons/css/ionicons.min.css');
+
+/* PLUGIN CSS */
+@import url('../plugins/bootstrap/css/bootstrap.css');
+@import url('../plugins/slidebars/slidebars.css');
+@import url('../plugins/validation/validation-2.2.min.css');
+@import url('../plugins/owl-carousel/owl.carousel.css');
+@import url('../plugins/owl-carousel/owl.transitions.css');
+@import url('../plugins/owl-carousel/owl.theme.css');
+@import url('../plugins/prettyphoto/css/prettyPhoto.css');
+@import url('../plugins/nouislider/jquery.nouislider.css');
+@import url('../plugins/loader/css/loader.css');
+@import url('../plugins/jelect/main.css');
+@import url('../plugins/flexslider/flexslider.css');
+@import url('../plugins/animate/animate.css');
+
+
+/* MAIN CSS */
+@import url('theme.css');
+@import url('sidebar.css');
+@import url('shop.css');
+@import url('blog.css');
+@import url('responsive.css');
+@import url('animate.css');
+@import url('color.css');
+/*@import url('debugging.css');*/
+

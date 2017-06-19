@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>Marherita, Checkout</title>
+
+		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/iview.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/skin/style.css" rel="stylesheet">
+
+		<script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+
+		<!-- Loader -->
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<!-- Loader end -->
+
+
+		<div class="layout-theme animated-css" id="wrapper" data-header="sticky" data-header-top="200">
+
+			<div id="sb-site">
+
+				<div class="wrap-content">
+
+
+					<!-- HEADER -->
+					<header class="header clearfix">
+						<div class="header__wrap">
+							<span class="sb-toggle-left"><i class="icon pe-7s-menu"></i></span>
+							<a class="logo" href="home.html"><img class="img-responsive" src="assets/img/logo_mod-a.png" alt="Logo"></a>
+							<span class="header-basket sb-toggle-right"><i class="icon pe-7s-cart"></i><span class="header-basket__number">2</span></span>
+						</div>
+					</header>
+					<!-- end header -->
+
+					<div class="section-title">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="section__inner">
+										<h1 class="ui-title-page">Checkout</h1>
+										<ol class="breadcrumb">
+											<li><a href="home.html">Home</a></li>
+											<li class="active">Checkout</li>
+										</ol>
+									</div>
+									<!-- end section__inner -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section-title -->
+
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="checkout-top-line">Returning customer? <a class="checkout-top-line__link" href="javascript:void(0);">Click here to login</a></div>
+							</div>
+							<!-- end col -->
+
+							<div class="col-md-4">
+								<div class="checkout-top-line">Have a coupon? <a class="checkout-top-line__link" href="javascript:void(0);">Click here to enter your code</a></div>
+							</div>
+							<!-- end col -->
+						</div>
+						<!-- end row -->
+					</div>
+					<!-- end container -->
+
+					<div class="section_mod-f">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8">
+									<form class="form-details">
+										<section class="section-area">
+											<h2 class="ui-title-inner ui-title-inner_mod-a">Billing Details</h2>
+											<label class="ui-form-label">COUNTRY *</label>
+											<select class="selectpicker" data-style="ui-select ui-select_mod-a" data-width="100%">
+												<option>United Kingdom (UK)</option>
+												<option>United Kingdom (UK)-2</option>
+												<option>United Kingdom (UK)-3</option>
+											</select>
+											<div class="row">
+												<div class="col-md-6">
+													<label class="ui-form-label">FIRST NAME *</label>
+													<input class="form-control" type="text">
+												</div>
+												<div class="col-md-6">
+													<label class="ui-form-label">LAST NAME *</label>
+													<input class="form-control" type="text">
+												</div>
+											</div>
+											<label class="ui-form-label">COMPANY NAME</label>
+											<input class="form-control" type="text">
+											<label class="ui-form-label">ADDRESS *</label>
+											<input class="form-control form-control_second" type="text" placeholder="Street address">
+											<input class="form-control" type="text" placeholder="Apartment, suite, unit etc. (optional)">
+											<label class="ui-form-label">TOWN / CITY *</label>
+											<input class="form-control" type="text" placeholder="Town / City">
+											<div class="row">
+												<div class="col-md-6">
+													<label class="ui-form-label">COUNTY</label>
+													<input class="form-control" type="text" placeholder="State / County">
+												</div>
+												<div class="col-md-6">
+													<label class="ui-form-label">POSTCODE *</label>
+													<input class="form-control" type="text" placeholder="Postcode / Zip">
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-6">
+													<label class="ui-form-label">EMAIL ADDRESS *</label>
+													<input class="form-control" type="text">
+												</div>
+												<div class="col-md-6">
+													<label class="ui-form-label">PHONE *</label>
+													<input class="form-control" type="text">
+												</div>
+											</div>
+
+											<input class="forms__check hidden" id="create-account" type="checkbox" name="create-account" value="">
+											<label class="forms__label forms__label-check forms__label-check_mod-a" for="create-account">Create an account?</label>
+										</section>
+										<!-- end section -->
+
+										<section class="section_mod-h">
+											<h2 class="ui-title-inner ui-title-inner_mod-b">Shipping Address</h2>
+											<input class="forms__check hidden" id="shipping-address" type="checkbox" name="shipping-address" value="">
+											<label class="forms__label forms__label-check forms__label-check_mod-a" for="shipping-address">Ship to a different address?</label>
+											<label class="ui-form-label">ORDER NOTES</label>
+											<textarea class="form-control" name="comment" rows="4" placeholder="Notes about your order , e.g. special notes for delivery." required></textarea>
+										</section>
+										<!-- end section -->
+									</form>
+								</div>
+								<!-- end col -->
+
+								<div class="col-md-4">
+									<div class="section-table-order section-table-order_mod-a">
+										<section class="section-area">
+											<h2 class="table-order__title ui-title-inner">Your Order</h2>
+											<table class="table-order">
+												<thead>
+													<tr>
+														<th>PRODUCT</th>
+														<th>TOTAL</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td class="no-br">Moorish Lamb<span class="color_primary"> x </span><span class="enumerator__input">1</span>
+														</td>
+														<td>
+															<span class="table-order__price">$19.00</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="no-br">Vegetarian Supreme<span class="color_primary"> x </span><span class="enumerator__input">1</span>
+														</td>
+														<td>
+															<span class="table-order__price">$34.00</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="border-cell no-br">Spiced Pumpkin<span class="color_primary"> x </span><span class="enumerator__input">1</span>
+														</td>
+														<td class="border-cell">
+															<span class="table-order__price">$26.00</span>
+														</td>
+													</tr>
+													<tr>
+														<td class="table-order__total">Order Total</td>
+														<td class="table-order__total">$79.00</td>
+													</tr>
+												</tbody>
+											</table>
+										</section>
+										<!-- end section-area -->
+
+										<section class="section_mod-g">
+											<h2 class="table-order__title ui-title-inner">Payment Methods</h2>
+											<form class="form-payment">
+												<input class="form-payment__radio forms__check hidden" id="form-payment_bank" type="radio" name="payment" value="bank">
+												<label class="form-payment__radio-label forms__label forms__label-radio" for="form-payment_bank">
+													<span class="form-payment__item-title">Direct Bank Transfer</span>
+													<span class="form-payment__description">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</span>
+												</label>
+												<input class="form-payment__radio forms__check hidden" id="form-payment_cheque" type="radio" name="payment" value="cheque">
+												<label class="form-payment__radio-label forms__label forms__label-radio" for="form-payment_cheque">
+													<span class="form-payment__item-title">Cheque Payment</span>
+												</label>
+												<input class="form-payment__radio forms__check hidden" id="form-payment_pay-pal" type="radio" name="payment" value="pay-pal">
+												<label class="form-payment__radio-label forms__label forms__label-radio" for="form-payment_pay-pal">
+													<span class="form-payment__item-title">PayPal</span>
+													<span class="form-payment__img"><img class="img-responsive" src="assets/media/payment/1.png" height="40" width="152" alt="PayPal"></span>
+													<a class="form-payment__link" href="javascript:void(0);">What Is PayPal?</a>
+												</label>
+												<input class="form-payment__check forms__check hidden" id="form-payment__check" type="checkbox" name="pizza-size" value="">
+												<label class="form-payment__check-label forms__label forms__label-check" for="form-payment__check">
+													<span class="form-payment__item-title">I have read and accept the <a class="form-payment__link-2" href="javascript:void(0);">Terms & Conditions</a></span>
+												</label>
+												<a class="form-payment__btn ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">place order</a>
+											</form>
+										</section>
+
+
+									</div>
+									<!-- end section-table-order -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section_mod-b -->
+
+
+					<section class="section-subscribe">
+						<form class="form-subscribe" action="post">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<h2 class="ui-title-block ui-title-block_mod-a form-subscribe__title">Sign up for the newsletter and get exclusive deals.</h2>
+										<input class="form-control" type="text" placeholder="Enter your email address" required="">
+										<button class="ui-btn ui-btn_mod-c btn-effect btn-effect">subscribe</button>
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</form>
+						<!-- end footer-form -->
+					</section>
+					<!-- end section-subscribe -->
+
+
+					<footer class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="footer-contacts"><span class="footer-contacts__number">+34 9 368 7050</span>order@pizza.com</div>
+									<div class="footer-decor decor-2">&</div>
+									<ul class="footer-list list-inline">
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Facebook</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Twitter</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Instagram</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Pinterest</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Flickr</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="copyright border-top">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="text-center">Copyright © 2015 <a class="copyright__link" href="javascript:void(0);">Margherita.</a> All rights reserved.</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- end copyright -->
+					</footer>
+					<!-- end footer -->
+
+				</div>
+				<!-- end wrap-content -->
+
+			</div>
+			<!-- end #sb-site -->
+
+
+			<div class="sb-slidebar sb-left">
+				<form method="get" class="form-search" id="search-global-form">
+					<input class="form-search__input" type="text" placeholder="Search">
+					<button class="form-search__btn"><i class="icon fa fa-search"></i></button>
+				</form>
+				<nav class="main-nav">
+					<ul class="navig-menu list-unstyled">
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="home.html">Home</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="shop-catalog-page.html">Pizza menu</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="pizza-builder.html">pizza builder</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog.html">blog</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog-details.html">pages</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="about.html">about us</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="contact.html">contact</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- end main-nav -->
+
+				<div class="border-bottom"></div>
+				<a class="link-account" href="javascript:void(0);">login</a>
+				<a class="link-account" href="javascript:void(0);">my account </a>
+				<a class="link-account" href="javascript:void(0);">checkout</a>
+			</div>
+			<!-- end sb-left -->
+
+			<div class="sb-slidebar sb-right">
+				<section class="section-list-cart">
+					<h2 class="ui-title-inner">Cart Totals</h2>
+					<ul class="list-cart list-unstyled">
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/1.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Moorish Lamb</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Large</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $19.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/2.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Vegetarian Supreme</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Jumbo</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $34.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/3.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Spiced Pumpkin</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Small</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $26.00</div>
+							</div>
+						</li>
+					</ul>
+					<div class="total-price clearfix">Order Total
+						<span class="total-price__number">$79.00</span>
+					</div>
+					<a class="total-price__btn ui-btn ui-btn_mod-a btn-effect btn-block" href="javascript:void(0);">view shopping cart</a>
+					<a class="total-price__btn ui-btn ui-btn-primary btn-effect btn-block" href="javascript:void(0);">checkout</a>
+				</section>
+				<!-- end list-cart -->
+			</div>
+			<!-- end sb-right -->
+
+		</div>
+		<!-- end layout-theme -->
+
+
+
+		<!-- SCRIPTS MAIN -->
+
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+		<script src="assets/js/cssua.min.js"></script>
+
+
+		<!--SCRIPTS THEME-->
+
+		<!-- Sidebar -->
+		<script src="assets/plugins/slidebars/dist/slidebars.js"></script>
+		<!-- Home slider -->
+		<script src="assets/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
+		<!-- Sliders -->
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Isotope -->
+		<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+		<!-- Modal -->
+		<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		<!-- Date select -->
+		<script src="assets/plugins/datetimepicker/jquery.datetimepicker.js"></script>
+		<!-- Select customization -->
+		<script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<!-- Price slider -->
+		<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script>
+		<!-- Chart -->
+		<script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<!-- Animation -->
+		<script src="assets/js/wow.min.js"></script>
+
+		<!-- Custom -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
+
+

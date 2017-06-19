@@ -1,0 +1,78 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+a:hover,
+.color-primary,
+.yamm li a:hover,
+.search-global__btn:hover,
+.blockquote:before,
+.isotope-button:hover,
+.isotope-button:focus,
+.staff__category,
+.ui-select__icon,
+.list-num_mod-a dt:before,
+.blockquote_mod-c:after,
+.input__field--nao:focus + .input__label--nao,
+.input--filled .input__label--nao,
+.blocks-descriptions__number,
+.features-list__item .icon,
+.input--filled .input__label-content,
+.subscribe__btn:hover,
+.sidebar-menu > li > a:hover,
+.sidebar-menu .dropdown .dropdown-menu li > a:hover,
+.social-list > li > a:hover,
+.page-description__link:hover,
+.sp-thumbnail:hover,
+.sp-previous-arrow:hover:before,
+.sp-next-arrow:hover:before,
+.scroll-top:hover,
+.owl-theme .owl-controls .owl-buttons div:hover,
+.scroll-down:hover,
+.sb-open-right:hover,
+.post .entry-meta__item:hover,
+.post_full .entry-meta__link:hover,
+.title-btn__btn:hover,
+.post_mod-b:hover .post-author__name:hover,
+.list-progress__btn:hover .decor-1,
+.post_mod-a .entry-meta__category {color: #ff521d;}
+
+
+.bg-primary,
+.btn-effect:after,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination a:hover,
+.pagination span:hover,
+.pagination a:focus,
+.pagination span:focus,
+.list-mark_mark-primary li:before,
+.post_standart .entry-meta__category-inner,
+.post_gallery .entry-meta__category-inner,
+.post_no_image .entry-meta__category-inner,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current,
+.btn-primary,
+.table > tfoot > tr > td,
+.scroll-next:hover,
+.btn-effect:hover:after,
+.video-block__link:hover,
+.post_full .post-tags__item:hover {background-color: #ff521d;}
+
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination a:hover,
+.pagination span:hover,
+.pagination a:focus,
+.pagination span:focus,
+.owl-theme .owl-controls .owl-buttons div:hover {border-color: #ff521d;}
+
+
+.yamm .dropdown-menu > li > a:hover,
+.yamm .dropdown-menu > li > a:focus,
+.blockquote_mod-a:before,
+.sidebar-menu .dropdown .dropdown-menu li > a:hover {border-left-color: #ff521d;}

@@ -1,0 +1,121 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 4*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.color-primary,
+.text-primary,
+.list-mark-1 li:before,
+.list-mark-2 li:before,
+.list-mark-3 li:before,
+.blockquote-1:before,
+.pager li > a:hover,
+.pager li > a:hover .icon,
+.accordion .btn-collapse.collapsed .icon:before,
+.btn-w-ic .icon,
+.btn-link .icon,
+.copyright__link:hover,
+.b-advantages-1:hover .b-advantages-1__icon,
+.b-contacts-2__icon,
+.b-progress-list_mod-b .b-progress-list__percent,
+.widget-list__link:hover,
+.widget-list__item:hover:before,
+.b-banners-1_mod-a .btn .icon,
+.widget-searce .form-sidebar__emphasis,
+.b-post-full .post-tags__icon,
+.b-contacts-3__title,
+.b-pricing__icon .icon,
+.navbar .navbar-nav > li > a:hover,
+[off-canvas] li:hover a,
+.footer-list .footer-list__link:hover,
+.footer-list .footer-list__item:hover:before {color: #e425e9;}
+
+
+.bg-primary,
+.btn-effect:after,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.dropcap_primary:first-letter,
+.tooltip-1 .tooltip-inner,
+.btn-primary,
+.forms__label-check-1:after,
+.forms__label-radio-1:before,
+.forms__label-radio-2:after,
+.ui-decor-1,
+.panel-heading .btn-collapse,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.b-history__date:before,
+.b-advantages-3:hover .b-advantages-3__icon,
+.b-advantages-5:hover .b-advantages-5__icon,
+.b-banners-1__decor,
+.list-tags__link:hover,
+.b-post-full .entry-footer__link,
+.b-pricing:hover,
+.b-pricing_mod-b .btn,
+.b-branches:hover .b-branches__icon {background-color: #e425e9;}
+
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination a:hover,
+.pagination span:hover,
+.pagination a:focus,
+.pagination span:focus,
+.progress_border_primary,
+.forms__label-radio-1:before,
+.progress_border-1,
+.btn-default,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.b-pricing_mod-b .btn,
+.b-branches:hover .b-branches__icon {border-color: #e425e9;}
+
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #e425e9;}
+
+.tooltip-1.right .tooltip-arrow {border-right-color: #e425e9;}
+
+.tooltip-1.left .tooltip-arrow,
+.border-left_primary:before,
+.b-blockquote-1 {border-left-color: #e425e9;}
+
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table_primary > thead > tr > th,
+.collapse.in,
+.ui-title-block__emphasis,
+.table-type-2 > thead > tr > th,
+.b-progress-list__wrap {border-bottom-color: #e425e9;}
+
+.b-banners-1__decor {box-shadow: 100px 0 0 0 #e425e9, -100px 0 0 0 #e425e9;}
+
+
+
+
+.color-secondary {color: #444;}
+
+.bg-secondary,
+.tooltip-2 .tooltip-inner,
+.forms__label-check-2:after {background-color: #444;}
+
+.tooltip-2.top .tooltip-arrow,
+.tooltip-2.top-left .tooltip-arrow,
+.tooltip-2.top-right .tooltip-arrow {border-top-color: #444;}
+
+.tooltip-2.right .tooltip-arrow {border-right-color: #444;}
+
+.tooltip-2.left .tooltip-arrow {border-left-color: #444;}
+
+.tooltip-2.bottom .tooltip-arrow,
+.tooltip-2.bottom-left .tooltip-arrow,
+.tooltip-2.bottom-right .tooltip-arrow {border-bottom-color: #444;}
+
+.dropcap_secondary:first-letter {border-color: #444;}

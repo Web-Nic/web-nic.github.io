@@ -1,0 +1,50 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 2*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.color_primary,
+.list-advantages-2__item:hover .icon,
+.post .entry-meta__item .icon,
+.slider-reviews__name,
+.post-widget__date .icon,
+.list-widget__item:hover:before {color: #fe5656;}
+
+
+.b.bg-color_primary,
+.btn-default:after,
+.btn-info:after,
+.btn-transparent:after,
+.list-advantages-2__item:hover,
+.list-staff__item:hover,
+.footer-form .btn:after,
+.header.sticky .navbar,
+.panel-default > .panel-heading,
+.btn-primary,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {background-color: #fe5656;}
+
+
+.btn-primary,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.post blockquote {border-color: #fe5656;}
+
+
+.filter li a:hover {box-shadow: 0 3px 0 0 #fe5656;}

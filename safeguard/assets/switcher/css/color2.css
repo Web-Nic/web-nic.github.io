@@ -1,0 +1,249 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Color one
+ - Color two
+ - Color three
+
+- Author:  Andrey Sokoltsov
+- Profile:  http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+
+/*---------- CHANGE COLOR ONE ----------*/
+.why-us li, .stats > div > div, .stats > div > div:hover > span:first-child, #partners .owl-buttons div, #to-top:hover, .bg-image.blog-section h3, .bg-image.blog-section div div a, .bg-image.blog-section div div a:hover, .owl-theme .owl-controls .owl-buttons div, .adress-details > div > span, .comments > div > span.author, nav.pagination a, .tags a, .recent-posts div a, ul.blog-cats li a, .attachments li a, h1, h2, h3, h4, h5, h6, ul.styled li > ul > li > a, ul.styled > li > a, .nav-tabs > li > a, .default-inp i, .our-services div > a > span > i{
+  color:#333;
+}
+.why-us li span, .topmenu nav, .topmenu:before, footer, #to-top, .two-news > div div:last-child > div{
+}
+header, .topmenu nav:first-child:before{
+  border-top-color:#333;
+}
+.info-texts div > div > div:before{
+  border-bottom-color:#333;
+}
+@media screen and (max-width: 768px){
+  .info-texts div > div > div p{
+    background:#2e0000;
+  }
+}
+
+/*---------------------------------------------*/
+
+
+
+
+/*---------- CHANGE COLOR TWO ----------*/
+.navbar-main > li > .dropdown-menu,
+footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .btn.btn-danger:hover, .main-menu, .main-menu:before, #main-menu-bg, .btn.btn-sm.btn-default:before, .big-hr.color-2, .our-services.styled div > a:hover:after, .adress-details > div > span:after, .comments > div > a.reply:hover, .comments > div > a.reply:after, nav.pagination a:hover, .tags a:hover, ul.blog-cats > li:hover, #menu-open, .main-menu section nav, .our-services div > a:hover > span, .testimonial-content span, .post-info:after, .customBgColor{
+  background-color:#a91605;
+}
+.btn.btn-sm.btn-default:hover, .comments > div > a.reply:hover, nav.pagination a:hover, .tags a:hover, ul.blog-cats li:hover, .our-services div > a:hover > span, .testimonial-content span{
+  border-color:#a91605;
+}
+.big-hr.color-2:before, .big-hr.color-2:after, .info-texts div > div > div:last-child:before{
+    border-top-color:#a91605;
+}
+.our-services div > a:hover > span:before, .our-services div > a:hover > span:after, .testimonial-content span:before, .testimonial-content span:after{
+  border-bottom-color: #a91605;
+}
+footer .copy a, .twitter-feeds div span, .recent-posts div a:hover{
+  color:#a91605;
+}
+@media screen and (max-width: 768px){
+  .info-texts div > div > div:last-child p{
+    background:#a91605;
+  }
+}
+
+/*---------------------------------------------*/
+
+
+
+
+/*---------- CHANGE COLOR THERE ----------*/
+h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter-feeds div i,
+.navbar-main .open > a,
+.navbar-main .open > a:focus,
+.navbar-main .open > a:hover,
+.navbar-main > li > a:focus,
+.navbar-main > li > a:hover,
+.navbar-main > li > .dropdown-menu > li > a:focus,
+.navbar-main > li > .dropdown-menu > li > a:hover{
+  color:#549404;
+}
+.btn.btn-sm.btn-success:hover, nav.pagination a.active, .nav-tabs > li.active{
+  border-color:#549404;
+}
+.stats > div > div:hover, .info-texts div > div > div:first-child:before, ul.styled li > ul{
+  border-bottom-color:#549404;
+}
+.big-hr.color-1:before, .big-hr.color-1:after, .info-texts div > div > div:first-child:before{
+}
+.btn.btn-success, .btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active, ul.styled > li.current-cat, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, ul.blog-cats > li:before, ul.blog-cats li > ul{
+  background-color:#549404;
+}
+@media screen and (max-width: 768px){
+  .info-texts div > div > div:first-child p{
+    background:#549404;
+  }
+}
+
+
+
+/*---------------------------------------------*/
+
+
+
+
+
+
+  ::selection {
+  background: #228dcb;
+}
+::-moz-selection {
+  background: #228dcb;
+}
+
+
+  #page-preloader .spinner {
+  border-top-color: #228dcb !important;
+    }
+
+
+  .vc_btn3.vc_btn3-size-md{
+    background: #228dcb !important;
+  }
+
+  .rev-btn{
+  background: #228dcb !important;
+  border-color: #fff  !important;
+  }
+
+  .page .home-section   .info-texts:after{
+    background:none !important;
+  }
+
+
+ .page .home-section  .info-texts:before {
+    left: 0;
+    background: #fff !important;
+}
+
+.navbar-main > li > .dropdown-menu, footer .color-part, .btn.btn-danger, .btn.btn-danger:hover, .btn.btn-danger, .btn.btn-danger:hover, .main-menu, .main-menu:before, #main-menu-bg, .stats > div > div:hover, .btn.btn-sm.btn-default:before, .big-hr.color-2, .our-services.styled div > a:hover:after, .adress-details > div > span:after, .comments > div > a.reply:hover, .comments > div > a.reply:after, nav.pagination a:hover, .tags a:hover, ul.blog-cats > li:hover, #menu-open, .main-menu section nav, .our-services div > a:hover > span, .testimonial-content span, .post-info:after, .customBgColor ,html  .big-hr , html .quote-form input[type=submit]  {
+  background: #228dcb !important;
+}
+
+
+html  body blockquote:before {
+  background: #228dcb;
+    }
+
+
+html .pix-lastnews-dark .read-all-news {
+    border-right-color: #228dcb !important;
+    color: #fff !important;
+}
+
+html .big-hr:before, .big-hr:after ,html  .big-hr:after {
+    border-top-color: #228dcb ;
+}
+
+ #page-preloader .spinner:after {
+  border-top-color: #228dcb !important;
+}
+
+
+.vc_icon_element-style-boxed-outline .vc_icon_element-icon {
+    border-right-color:#228dcb  !important;
+    }
+
+.stats > div > div:hover, .btn.btn-sm.btn-default:hover, .comments > div > a.reply:hover, nav.pagination a:hover, .tags a:hover, ul.blog-cats li:hover, .our-services div > a:hover > span, .testimonial-content span{
+
+    border-color:  #228dcb  !important;
+    }
+
+.our-services div > a:hover > span:before, .our-services div > a:hover > span:after, .testimonial-content span:before, .testimonial-content span:after {
+    border-bottom-color: #228dcb  !important;
+}
+
+.stats span:first-child, footer .copy a, .twitter-feeds div span, .recent-posts div a:hover, , #menu-close.show,
+.stats span:first-child i {
+    color: #228dcb  !important;
+}
+
+.info-texts div:last-child:before {
+    border-top-color: #228dcb  !important;
+}
+
+
+.ip-header .ip-loader svg path.ip-loader-circle {
+  stroke: #228dcb;
+}
+
+
+
+
+html .btn.btn-sm {
+    background: none !important;
+}
+html .btn.btn-sm:hover{
+border-color:#228dcb !important;
+}
+.widget_archive .widget-title + ul > li, .widget_categories .widget-title + ul > li, .widget_pages .widget-title + ul > li, ul.menu > li {
+border-left-color:#228dcb !important;
+    }
+
+.btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active, ul.styled > li.current-cat, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, ul.blog-cats > li:before, ul.blog-cats li > ul , .btn.btn-success, .btn-success:hover, .big-hr.color-1, .one-news > div > div, .btn.btn-sm.btn-success:before, .our-services div > a:hover:after, nav.pagination a.active, ul.styled > li.active, ul.styled > li.current-cat, .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover, ul.blog-cats > li:before, ul.blog-cats li > ul , .title-option , .demo_changer .demo-icon , .vc_btn3.vc_btn3-color-green, .vc_btn3.vc_btn3-color-green.vc_btn3-style-flat , .pagination>li.current a , .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .tagcloud a:hover, .single-post blockquote:before {
+  background: #228dcb !important;
+}
+
+a, .stats span:first-child i {
+  color: #228dcb;
+}
+html input[type="submit"] {
+    background-color: #228dcb ;
+    }
+
+
+.btn-primary {
+    background-color: #228dcb;
+    border-color: #228dcb;
+}
+
+h1.color-1, h2.color-1, h3.color-1, h4.color-1, h5.color-1, h6.color-1, .twitter-feeds div i, .navbar-main .open > a, .navbar-main .open > a:focus, .navbar-main .open > a:hover, .navbar-main > li > a:focus, .navbar-main > li > a:hover, .navbar-main > li > .dropdown-menu > li > a:focus, .navbar-main > li > .dropdown-menu > li > a:hover{
+color: #228dcb ;
+}
+html .info-texts div:first-child:before {
+    border-top-color: #228dcb;
+    margin-left: -65px;
+}
+
+html .btn.btn-sm.btn-success:hover, nav.pagination a.active, .nav-tabs > li.active {
+    border-color: #228dcb ;
+}
+
+
+
+html .type-post.sticky:after{
+color: #228dcb ;
+}
+
+
+.vc_custom_1453291989213 .wpb_wrapper{
+  margin-left:-15px;
+}
+
+footer .vc_col-sm-4 img {
+    margin-top: -25px;
+}
+
+.our-services h4{
+      margin-bottom: 13px;
+}
+
+.post-content p  , .post-content , .content-comment , .post-content , p , .breadcrumbsBox , .focontent , .fobox a{
+  font-family: 'Ubuntu', sans-serif;
+}
+

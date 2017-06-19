@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>Marherita, Pizza Builder</title>
+
+		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/iview.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/skin/style.css" rel="stylesheet">
+
+		<script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+
+		<!-- Loader -->
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<!-- Loader end -->
+
+
+		<div class="layout-theme animated-css" id="wrapper" data-header="sticky" data-header-top="200">
+
+			<div id="sb-site">
+
+				<div class="wrap-content">
+
+
+					<!-- HEADER -->
+					<header class="header clearfix">
+						<div class="header__wrap">
+							<span class="sb-toggle-left"><i class="icon pe-7s-menu"></i></span>
+							<a class="logo" href="home.html"><img class="img-responsive" src="assets/img/logo_mod-a.png" alt="Logo"></a>
+							<span class="header-basket sb-toggle-right"><i class="icon pe-7s-cart"></i><span class="header-basket__number">2</span></span>
+						</div>
+					</header>
+					<!-- end header -->
+
+					<div class="section-title">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="section__inner">
+										<h1 class="ui-title-page">Pizza Builder</h1>
+										<ol class="breadcrumb">
+											<li><a href="home.html">Home</a></li>
+											<li class="active">Pizza Builder</li>
+										</ol>
+									</div>
+									<!-- end section__inner -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section-title -->
+
+
+					<div class="section_mod-b">
+						<form class="pizza-builder" action="post" name="pizza-size">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="accordion accordion_mod-b panel-group" id="accordion-1">
+											<div class="panel panel-default">
+												<div class="panel-heading">
+													<a class="btn-collapse" data-toggle="collapse" href="#collapse-1"><i class="icon"></i></a>
+													<h3 class="panel-title"><span class="panel-title__number">1.</span>Choose Your Crust’s Size</h3>
+												</div>
+												<div id="collapse-1" class="panel-collapse collapse in">
+													<div class="panel-body">
+														<input class="pizza-builder__radio hidden" id="pizza-size_9" type="radio" name="pizza-size" value="9">
+														<label class="pizza-builder__radio-label" for="pizza-size_9">
+															<span class="pizza-builder__radio-number pizza-builder__radio-number_9"><span class="pizza-builder__radio-inner">9’’</span></span>
+															<span class="pizza-builder__radio-title">Small</span>
+														</label>
+
+														<input class="pizza-builder__radio hidden" id="pizza-size_12" type="radio" name="pizza-size" value="12" checked>
+														<label class="pizza-builder__radio-label" for="pizza-size_12">
+															<span class="pizza-builder__radio-number pizza-builder__radio-number_12"><span class="pizza-builder__radio-inner">12’’</span></span>
+															<span class="pizza-builder__radio-title">Medium</span>
+														</label>
+
+														<input class="pizza-builder__radio hidden" id="pizza-size_14" type="radio" name="pizza-size" value="14">
+														<label class="pizza-builder__radio-label" for="pizza-size_14">
+															<span class="pizza-builder__radio-number pizza-builder__radio-number_14"><span class="pizza-builder__radio-inner">14’’</span></span>
+															<span class="pizza-builder__radio-title">Large</span>
+														</label>
+
+														<input class="pizza-builder__radio hidden" id="pizza-size_16" type="radio" name="pizza-size" value="16">
+														<label class="pizza-builder__radio-label" for="pizza-size_16">
+															<span class="pizza-builder__radio-number pizza-builder__radio-number_16"><span class="pizza-builder__radio-inner">16’’</span></span>
+															<span class="pizza-builder__radio-title">Jumbo</span>
+														</label>
+
+														<input class="pizza-builder__radio hidden" id="pizza-size_18" type="radio" name="pizza-size" value="18">
+														<label class="pizza-builder__radio-label" for="pizza-size_18">
+															<span class="pizza-builder__radio-number pizza-builder__radio-number_18"><span class="pizza-builder__radio-inner">18’’</span></span>
+															<span class="pizza-builder__radio-title">Party Size</span>
+														</label>
+													</div>
+												</div>
+											</div>
+											<!-- end panel -->
+
+											<div class="panel">
+												<div class="panel-heading">
+													<a class="btn-collapse" data-toggle="collapse" href="#collapse-2"><i class="icon"></i></a>
+													<h3 class="panel-title"><span class="panel-title__number">2.</span>Select Your Sauce</h3>
+												</div>
+												<div id="collapse-2" class="panel-collapse collapse in">
+													<div class="panel-body">
+														<div class="pizza-builder__wrap-check">
+															<input class="pizza-builder__check hidden" id="pizza-sauce_1" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-ranch.png" height="135" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Ranch</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">A cool, perfect blend of herbs and spices.</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_2" type="checkbox" checked>
+															<label class="pizza-builder__item" for="pizza-sauce_2">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-bluecheese.png" height="136" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Blue Cheese</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Creamy blue cheese packed with flavor in every dip.</span>
+																<span class="pizza-builder__check-price">$0.90</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_3" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_3">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-marinara.png" height="136" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Marinara</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">All the flavor of Italian pizza sauce, sized for dipping.</span>
+																<span class="pizza-builder__check-price">$1.15</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_4" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_4">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-cheese.png" height="135" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Cheese</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">A cool, perfect blend of herbs and spices.</span>
+																<span class="pizza-builder__check-price">$0.50</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_5" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_5">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-garlic-butter.png" height="136" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Garlic</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Put a little zip in your dip with fresh garlic.</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_6" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_6">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-marinara.png" height="136" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Barbeque</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">A smoky barbeque sauce made with honey and molasses.</span>
+																<span class="pizza-builder__check-price">$0.65</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+
+															<input class="pizza-builder__check hidden" id="pizza-sauce_7" type="checkbox">
+															<label class="pizza-builder__item" for="pizza-sauce_7">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-saunce/sauce-icing.png" height="135" width="135" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Icing</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">A frosty-sweet treat that’s the perfect compliment to pizza.</span>
+																<span class="pizza-builder__check-price">$1.30</span>
+																<i class="icon-check fa fa-check"></i>
+															</label>
+														</div>
+														<!-- end pizza-builder__wrap-check -->
+													</div>
+													<!-- end panel-body -->
+												</div>
+												<!-- end panel-collapse -->
+											</div>
+											<!-- end panel -->
+
+											<div class="panel">
+												<div class="panel-heading">
+													<a class="btn-collapse collapsed" data-toggle="collapse" href="#collapse-3"><i class="icon"></i></a>
+													<h3 class="panel-title"><span class="panel-title__number">3.</span>Add Cheese</h3>
+												</div>
+												<div id="collapse-3" class="panel-collapse collapse">
+													<div class="panel-body">
+														<div class="pizza-builder__wrap-check">
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-cheese/1.png" height="133" width="180" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Pineapple</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Pineapple, 60g</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a js-active" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-cheese/2.png" height="133" width="180" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Pineapple</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Pineapple, 60g</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+														</div>
+														<!-- end pizza-builder__wrap-check -->
+													</div>
+													<!-- end panel-body -->
+												</div>
+												<!-- end panel-collapse -->
+											</div>
+											<!-- end panel -->
+
+											<div class="panel">
+												<div class="panel-heading">
+													<a class="btn-collapse collapse" data-toggle="collapse" href="#collapse-4"><i class="icon"></i></a>
+													<h3 class="panel-title"><span class="panel-title__number">4.</span>Choose Your Toppings</h3>
+												</div>
+												<div id="collapse-4" class="panel-collapse collapse in">
+													<div class="panel-body">
+														<div class="pizza-builder__wrap-check">
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/1.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Pineapple</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Pineapple, 60g</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/2.png" height="117" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Mushrooms</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Mushrooms, 110g</span>
+																<span class="pizza-builder__check-price">$0.45</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/3.png" height="130" width="172" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Spinach</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Spinach, 35g</span>
+																<span class="pizza-builder__check-price">$2.20</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a js-active" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/4.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Olives</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Olives, 80g</span>
+																<span class="pizza-builder__check-price">$1.00</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/5.png" height="120" width="166" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Hot Chillies</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Hot Chillies, 10g</span>
+																<span class="pizza-builder__check-price">$1.15</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/6.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Tiger Shrimps</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Black tiger shrimps, 90g</span>
+																<span class="pizza-builder__check-price">$1.05</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/7.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Onions</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Onions, 50g</span>
+																<span class="pizza-builder__check-price">$0.30</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/8.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Chicken</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Chicken, 100g</span>
+																<span class="pizza-builder__check-price">$3.60</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/9.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Broccoli</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Broccoli, 70g</span>
+																<span class="pizza-builder__check-price">$1.50</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/10.png" height="118" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Salami</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Mushrooms, 95g</span>
+																<span class="pizza-builder__check-price">$2.70</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/11.png" height="115" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Aubergines</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Aubergines, 150g</span>
+																<span class="pizza-builder__check-price">$1.45</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/12.png" height="121" width="162" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Peppers</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Peppers, 120g</span>
+																<span class="pizza-builder__check-price">$0.80</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/13.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Egg</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Egg, 30g</span>
+																<span class="pizza-builder__check-price">$0.25</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/14.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Garlic</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Garlic, 10g</span>
+																<span class="pizza-builder__check-price">$0.05</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/15.png" height="114" width="160" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Sweet corn</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Sweet corn, 60g</span>
+																<span class="pizza-builder__check-price">$0.60</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/16.png" height="114" width="160" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Bacon</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Bacon, 55g</span>
+																<span class="pizza-builder__check-price">$2.85</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/17.png" height="114" width="163" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Ham</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Ham, 65g</span>
+																<span class="pizza-builder__check-price">$2.05</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/18.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Seafood</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Seafood, 130g</span>
+																<span class="pizza-builder__check-price">$4.60</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/19.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Tuna</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Tuna, 90g</span>
+																<span class="pizza-builder__check-price">$0.60</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+															<div class="pizza-builder__item pizza-builder__item_mod-a" tabindex="1">
+																<span class="pizza-builder__check-img">
+																	<img class="img-responsive center-block" src="assets/media/list-toppings/20.png" height="114" width="159" alt="Foto">
+																</span>
+																<span class="pizza-builder__check-name">Artichokes</span>
+																<span class="pizza-builder__check-description pizza-builder__check-description_mod-a">Artichokes, 75g</span>
+																<span class="pizza-builder__check-price">$1.90</span>
+																<select class="selectpicker" data-style="ui-select" data-width="58px">
+																	<option>1</option>
+																	<option>2</option>
+																	<option>3</option>
+																	<option>4</option>
+																	<option>5</option>
+																	<option>6</option>
+																	<option>7</option>
+																</select>
+																<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+																<i class="icon-check fa fa-check"></i>
+															</div>
+
+														</div>
+														<!-- end pizza-builder__wrap-check -->
+													</div>
+													<!-- end panel-body -->
+												</div>
+												<!-- end panel-collapse -->
+											</div>
+											<!-- end panel -->
+										</div>
+										<!-- end accordion -->
+									</div>
+									<!-- end col -->
+
+									<div class="col-md-4">
+										<section class="section-table-order">
+											<h2 class="table-order__title ui-title-inner">Your Order</h2>
+											<div class="table-container">
+												<table class="table-order">
+													<thead>
+														<tr>
+															<th>PRODUCT</th>
+															<th>TOTAL</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Blue Cheese </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$0.90</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Mozzarella </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$1.50</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Pineapple </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="2">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$3.00</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Mushrooms </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$0.45</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Chicken </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$3.60</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Peppers </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$0.80</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Garlic </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$0.05</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Sweet Corn </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td>
+																<span class="table-order__price">$0.60</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td class="border-cell">
+																<div class="enumerator">
+																	<a class="enumerator__btn enumerator__btn-minus js-minus"><i class="fa fa-minus-circle"></i> </a>
+																	<a class="enumerator__btn enumenator__btn-plus js-plus"><i class="fa fa-plus-circle"></i></a>
+																	<span class="enumerator__title">Ham </span><span class="color_primary">x</span>
+																	<input class="enumerator__input" type="text" placeholder="1">
+																</div>
+															</td>
+															<td class="border-cell">
+																<span class="table-order__price">$2.05</span>
+																<i class="icon-close fa fa-times"></i>
+															</td>
+														</tr>
+														<tr>
+															<td class="border-cell table-order__base"><b>PIZZA SIZE:</b> Medium 12’’<span class="table-order__size"></span></td>
+															<td class="border-cell table-order__base">$8.00</td>
+														</tr>
+														<tr>
+															<td class="table-order__total">Order Total</td>
+															<td class="table-order__total">$20.95</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<a class="table-order__btn ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add to cart</a>
+											<a class="table-order__btn ui-btn ui-btn_mod-a btn-effect" href="javascript:void(0);">add and create another pizza</a>
+										</section>
+										<!-- end section-table-order -->
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</form>
+						<!-- end pizza-builder -->
+					</div>
+					<!-- end section_mod-b -->
+
+
+					<section class="section-subscribe">
+						<form class="form-subscribe" action="post">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<h2 class="ui-title-block ui-title-block_mod-a form-subscribe__title">Sign up for the newsletter and get exclusive deals.</h2>
+										<input class="form-control" type="text" placeholder="Enter your email address" required="">
+										<button class="ui-btn ui-btn_mod-c btn-effect btn-effect">subscribe</button>
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</form>
+						<!-- end footer-form -->
+					</section>
+					<!-- end section-subscribe -->
+
+
+					<footer class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="footer-contacts"><span class="footer-contacts__number">+34 9 368 7050</span>order@pizza.com</div>
+									<div class="footer-decor decor-2">&</div>
+									<ul class="footer-list list-inline">
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Facebook</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Twitter</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Instagram</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Pinterest</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Flickr</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="copyright border-top">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="text-center">Copyright © 2015 <a class="copyright__link" href="javascript:void(0);">Margherita.</a> All rights reserved.</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- end copyright -->
+					</footer>
+					<!-- end footer -->
+
+				</div>
+				<!-- end wrap-content -->
+
+			</div>
+			<!-- end #sb-site -->
+
+
+			<div class="sb-slidebar sb-left">
+				<form method="get" class="form-search" id="search-global-form">
+					<input class="form-search__input" type="text" placeholder="Search">
+					<button class="form-search__btn"><i class="icon fa fa-search"></i></button>
+				</form>
+				<nav class="main-nav">
+					<ul class="navig-menu list-unstyled">
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="home.html">Home</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="shop-catalog-page.html">Pizza menu</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="pizza-builder.html">pizza builder</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog.html">blog</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog-details.html">pages</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="about.html">about us</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="contact.html">contact</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- end main-nav -->
+
+				<div class="border-bottom"></div>
+				<a class="link-account" href="javascript:void(0);">login</a>
+				<a class="link-account" href="javascript:void(0);">my account </a>
+				<a class="link-account" href="javascript:void(0);">checkout</a>
+			</div>
+			<!-- end sb-left -->
+
+			<div class="sb-slidebar sb-right">
+				<section class="section-list-cart">
+					<h2 class="ui-title-inner">Cart Totals</h2>
+					<ul class="list-cart list-unstyled">
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/1.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Moorish Lamb</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Large</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $19.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/2.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Vegetarian Supreme</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Jumbo</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $34.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/3.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Spiced Pumpkin</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Small</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $26.00</div>
+							</div>
+						</li>
+					</ul>
+					<div class="total-price clearfix">Order Total
+						<span class="total-price__number">$79.00</span>
+					</div>
+					<a class="total-price__btn ui-btn ui-btn_mod-a btn-effect btn-block" href="javascript:void(0);">view shopping cart</a>
+					<a class="total-price__btn ui-btn ui-btn-primary btn-effect btn-block" href="javascript:void(0);">checkout</a>
+				</section>
+				<!-- end list-cart -->
+			</div>
+			<!-- end sb-right -->
+
+		</div>
+		<!-- end layout-theme -->
+
+
+
+		<!-- SCRIPTS MAIN -->
+
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+		<script src="assets/js/cssua.min.js"></script>
+
+
+		<!--SCRIPTS THEME-->
+
+		<!-- Sidebar -->
+		<script src="assets/plugins/slidebars/dist/slidebars.js"></script>
+		<!-- Home slider -->
+		<script src="assets/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
+		<!-- Sliders -->
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Isotope -->
+		<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+		<!-- Modal -->
+		<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		<!-- Date select -->
+		<script src="assets/plugins/datetimepicker/jquery.datetimepicker.js"></script>
+		<!-- Select customization -->
+		<script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<!-- Price slider -->
+		<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script>
+		<!-- Chart -->
+		<script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<!-- Animation -->
+		<script src="assets/js/wow.min.js"></script>
+
+		<!-- Custom -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
+
+

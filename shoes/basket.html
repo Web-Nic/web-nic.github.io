@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="favicon.ico" rel="icon" type="image/png">
+		<title>Магазин чешек, Корзина</title>
+		<style>
+			.preloader {
+				position: fixed;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				background: #000;
+				z-index: 1000;
+			}
+			
+			.preloader__spinner {
+				width: 105px;
+				height: 64px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				background: url('assets/images/spinner.GIF') no-repeat 50% 50%;
+				margin-top: -32px;
+				margin-left: -53px;
+			}
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700,400,300,100&amp;subset=latin,cyrillic" rel="stylesheet">
+		<link href="assets/styles/common.css?1431939581643" rel="stylesheet">
+		<!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>![endif]-->
+	</head>
+
+	<body>
+		<div class="preloader"><span class="preloader__spinner"></span></div>
+		<!-- end preloader-->
+
+		<div class="page">
+			<header class="header">
+				<div class="container">
+					<a href="main.html" class="header__logo"><img src="assets/images/logo.png" alt="Logo"></a>
+					<div class="header__contacts">
+						<a href="skype:name?add" class="link-skype"></a>
+						<a href="tel:+79175953482" class="link-phone"></a><a href="#modal_request" class="btn btn_orange btn_header fancybox">Заказать звонок!</a><span class="header__phone">+7 (917) 595-34-82</span></div>
+					<div id="nav-wrap">
+						<div class="nav">
+							<a id="mobile-menu-trigger" href="main.html" class="mobile-menu-closed"></a>
+							<nav>
+								<ul id="menu" class="sf-menu fixed sf-js-enabled sf-arrows">
+									<li class="current"><a href="about.html">О нас</a></li>
+									<li><a href="catalog.html">Каталог</a></li>
+									<li><a href="wholesalers.html">Оптовикам</a></li>
+									<li><a href="payment.html">Оплата</a></li>
+									<li><a href="partners.html">Партнерам</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header-->
+			<div class="wrap-content">
+				<div class="main">
+					<section class="basket">
+						<h1 class="title-block">Корзина<!--table.basket__tablethead.basket__thead
+	tr.basket__row
+		td.basket__col фото
+		td.basket__col Название
+		td.basket__col размер
+		td.basket__col кол-во
+		td.basket__col цена
+tbody.basket__tbody
+	tr.basket__row.js-goods
+		td.basket__col
+			img(src="assets/images/catalog/goods-2.jpg", alt="goods")
+		td.basket__col Модель 345
+		td.basket__col
+			.numbers-row
+				input.numbers-row__input(type="text" name="size" value="36")
+			span.basket__add-size + добавить
+		td.basket__col
+			.numbers-row
+				input.numbers-row__input(type="text" name="number" value="1")
+		td.basket__col 4 567
+			i.icon-rouble
+			span.del-goods ×
+			a.basket__link(href=jv0) условия для оптовиков
+	tr.basket__row
+		td.basket__col.basket__col_link(colspan="5")
+
+	tr.basket__row
+		td.basket__col.basket__col_submit(colspan="5")
+			input.btn.btn_orange.btn_basket-add(type="submit" value="Добавить товар  +")
+	tr.basket__row
+		td.basket__col.basket__col_price(colspan="5")
+			span.basket__price Сумма без скидки: 4 260
+				i.icon-rouble
+			span.basket__price Отсутствие предоплаты: 450
+				i.icon-rouble
+			span.basket__price Самовывоз из магазина: 0
+				i.icon-rouble
+			span.basket__price_total Итого со скидкой: 4 710
+				i.icon-rouble
+--></h1>
+						<form id="" method="" action="" class="basket__form">
+							<div class="container container_basket_table">
+								<div class="basket__table">
+									<div class="basket__thead"><span class="basket__col basket__col_foto">фото</span><span class="basket__col basket__col_name">Название</span><span class="basket__col basket__col_size">размер</span><span class="basket__col basket__col_number">кол-во</span><span class="basket__col basket__col_price">цена</span></div>
+									<div
+									class="basket__good">
+										<div class="basket__foto"><img src="assets/images/catalog/goods-2.jpg" alt="goods"></div>
+										<div class="basket__good-inner js-size"><span class="basket__col basket__col_name">Модель 345</span><span class="basket__col basket__col_size"><div class="numbers-row"><input type="text" name="size" value="36" class="numbers-row__input"></div><span class="basket__add-size">+ добавить</span></span>
+											<span
+											class="basket__col basket__col_number">
+												<div class="numbers-row">
+													<input type="text" name="number" value="1" class="numbers-row__input">
+												</div>
+												</span><span class="basket__col basket__col_price">4 567<i class="icon-rouble"></i><span class="del-goods">×</span></span>
+										</div>
+								</div><a href="javascript:void(0);" class="basket__link">условия для оптовиков</a>
+								<div class="basket__row basket__row_submit">
+									<input type="submit" value="Добавить товар  +" class="btn btn_orange btn_basket-add">
+								</div>
+								<div class="basket__row basket__row_price"><span class="basket__price">Сумма без скидки: 4 260<i class="icon-rouble"></i></span><span class="basket__price">Отсутствие предоплаты: 450<i class="icon-rouble"></i></span><span class="basket__price">Самовывоз из магазина: 0<i class="icon-rouble"></i></span>
+									<span
+									class="basket__price_total">Итого со скидкой: 4 710<i class="icon-rouble"></i></span>
+								</div>
+							</div>
+							<!-- end .basket__table-->
+				</div>
+				<div class="container">
+					<section class="shoes-size">
+						<h2 class="title-block">Размеры чешек</h2>
+						<p class="shoes-size__info">Чешки производятся<strong class="shoes-size__info_emphasis"> в метрическом размером ряде</strong></p>
+						<p class="shoes-size__title">Таблица соответствия метрического и штрихмассового размеров обуви</p>
+						<table class="shoes-size__table">
+							<tbody class="shoes-size__tbody">
+								<tr class="shoes-size__row">
+									<td class="shoes-size__col shoes-size__col_name">Размер штрихмасс</td>
+									<td class="shoes-size__col">27</td>
+									<td class="shoes-size__col">28</td>
+									<td class="shoes-size__col">29</td>
+									<td class="shoes-size__col">30</td>
+									<td class="shoes-size__col">31</td>
+									<td class="shoes-size__col">32</td>
+									<td class="shoes-size__col">33</td>
+									<td class="shoes-size__col">34</td>
+									<td class="shoes-size__col">35</td>
+									<td class="shoes-size__col">36</td>
+									<td class="shoes-size__col">37</td>
+									<td class="shoes-size__col">38</td>
+									<td class="shoes-size__col">39</td>
+									<td class="shoes-size__col">40</td>
+									<td class="shoes-size__col">41</td>
+								</tr>
+								<tr class="shoes-size__row">
+									<td class="shoes-size__col shoes-size__col_name">Размер метрический</td>
+									<td class="shoes-size__col">17</td>
+									<td class="shoes-size__col">17.5</td>
+									<td class="shoes-size__col">18.5</td>
+									<td class="shoes-size__col">19</td>
+									<td class="shoes-size__col">19.5</td>
+									<td class="shoes-size__col">20.5</td>
+									<td class="shoes-size__col">21</td>
+									<td class="shoes-size__col">21.5</td>
+									<td class="shoes-size__col">22.5</td>
+									<td class="shoes-size__col">23</td>
+									<td class="shoes-size__col">23.5</td>
+									<td class="shoes-size__col">24</td>
+									<td class="shoes-size__col">25.5</td>
+									<td class="shoes-size__col">26</td>
+									<td class="shoes-size__col">27</td>
+								</tr>
+								<tr class="shoes-size__row">
+									<td class="shoes-size__col shoes-size__col_name">Длина стельки (СМ)</td>
+									<td class="shoes-size__col">17.5</td>
+									<td class="shoes-size__col">18</td>
+									<td class="shoes-size__col">19</td>
+									<td class="shoes-size__col">19.5</td>
+									<td class="shoes-size__col">20</td>
+									<td class="shoes-size__col">21</td>
+									<td class="shoes-size__col">21.5</td>
+									<td class="shoes-size__col">22</td>
+									<td class="shoes-size__col">23</td>
+									<td class="shoes-size__col">23.5</td>
+									<td class="shoes-size__col">24</td>
+									<td class="shoes-size__col">25</td>
+									<td class="shoes-size__col">26</td>
+									<td class="shoes-size__col">27</td>
+									<td class="shoes-size__col">27.5</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+					<!-- end .shoes-size-->
+				</div>
+				<section class="worksheet">
+					<div class="container container_worksheet">
+						<div class="worksheet__item worksheet__item_1"><span class="worksheet__input-name">ФИО*</span>
+							<input type="text" class="form__input form__input_worksheet"><span class="worksheet__input-name">Адрес*</span>
+							<input type="text" class="form__input form__input_worksheet"><span class="worksheet__input-name">Город*</span>
+							<input type="text" class="form__input form__input_worksheet"><span class="worksheet__input-name">Телефон*</span>
+							<input type="text" class="form__input form__input_worksheet"><span class="worksheet__input-name">E-mail*</span>
+							<input type="text" class="form__input form__input_worksheet"><span class="worksheet__input-name">Комментарии к заказу</span>
+							<textarea type="text" class="form__textarea form__input_worksheet"></textarea><span class="worksheet__input-name">* поля обязательные для заполнения</span></div>
+						<div class="worksheet__item worksheet__item_2">
+							<p class="worksheet__title">способы доставки</p>
+							<input id="check1" type="checkbox" class="form__check">
+							<label for="check1" class="form__label">Доставка на дом курьером по Киеву<span class="form__label-info">Бесплатно</span></label>
+							<input id="check2" type="checkbox" class="form__check">
+							<label for="check2" class="form__label">Доставка в отделение Новой Почты<span class="form__label-info">Оплачивается покупателем</span></label>
+							<input id="check3" type="checkbox" class="form__check">
+							<label for="check3" class="form__label">Самовывоз<span class="form__label-info">г. Киев, ул. Пушкина, 27</span></label>
+						</div>
+						<div class="worksheet__item worksheet__item_3">
+							<p class="worksheet__title">способы оплаты</p>
+							<input id="check4" type="checkbox" class="form__check">
+							<label for="check4" class="form__label">Наличный расчет<span class="form__label-info">При получении товара</span></label>
+							<input id="check5" type="checkbox" class="form__check">
+							<label for="check5" class="form__label">Visa/MasterCard<span class="form__label-info">При получении товара</span></label>
+							<input id="check6" type="checkbox" class="form__check">
+							<label for="check6" class="form__label">Безналичный расчет<span class="form__label-info">Для юридических лиц</span></label>
+							<input id="check7" type="checkbox" class="form__check">
+							<label for="check7" class="form__label">Заказ в подарок<span class="form__label-info">При получении товара</span></label>
+						</div>
+					</div>
+					<input type="submit" value="Оформить" class="btn btn_orange btn_basket">
+					<!-- end .worksheet-->
+				</section>
+				<!-- end .container-->
+				</form>
+				<!-- end .basket__form-->
+				</section>
+				<!-- end .basket-->
+
+				<section class="basket-action">
+					<div class="container">
+						<form id="" method="" action="" class="form form_action">
+							<p class="form__title">оставьте свои email и получите информацию о скидках</p>
+							<input type="text" placeholder="Ваше имя" class="form__input">
+							<input type="text" placeholder="Ваш email" class="form__input">
+							<input type="text" placeholder="Ваш телефон" class="form__input">
+							<input type="text" placeholder="Ваш город" class="form__input">
+							<input type="submit" value="отправить!" class="btn btn_orange btn_submit">
+						</form>
+					</div>
+				</section>
+				<!-- end .page-action-->
+			</div>
+			<!-- end main-->
+		</div>
+		<!-- end wrap-content-->
+		</div>
+		<!-- end page-->
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<ul class="footer-nav">
+						<li class="footer-nav__item"><a href="about.html" class="footer-nav__link">О нас</a></li>
+						<li class="footer-nav__item"><a href="catalog.html" class="footer-nav__link">Каталог</a></li>
+						<li class="footer-nav__item"><a href="wholesalers.html" class="footer-nav__link">Оптовикам</a></li>
+						<li class="footer-nav__item"><a href="payment.html" class="footer-nav__link">Оплата</a></li>
+						<li class="footer-nav__item"><a href="partners.html" class="footer-nav__link">Партнерам</a></li>
+						<li class="footer-nav__item"><a href="contacts.html" class="footer-nav__link">Контакты</a></li>
+					</ul>
+					<p class="footer__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+						amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+						in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl
+						quis neque. Suspendisse in orci enim.</p>
+				</div>
+			</div>
+			<div class="footer__bottom-line">
+				<div class="container">
+					<div class="footer__wrap-contacts"><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-map"></i>Москва,<span class="footer__street"> ул. Молодогвардейская, д. 54</span></span>
+						<a
+						href="mailto:email@mail.com" class="footer__contacts footer__contacts_link"><i class="ico ico-mail"></i>email@mail.com</a>
+					</div>
+					<div class="social"><span class="social__item ico ico-gl"></span><span class="social__item ico ico-fb"></span><span class="social__item ico ico-vk"></span><span class="social__item ico ico-tw"></span></div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer-->
+
+		<!-- Modal-request-->
+		<div class="modal">
+			<div id="modal_request" class="modal_request">
+				<div class="modal__title"> оставьте заявку</div>
+				<div class="modal__text">прямо здесь и менеджер свяжеться
+					<br>с Вами в течении 25 минут</div>
+				<form class="form form_request">
+					<input type="text" placeholder="Ваше имя" class="form__input">
+					<input type="text" placeholder="Ваш телефон" class="form__input">
+					<input type="submit" value="отправить!" class="btn btn_orange btn_request">
+				</form>
+			</div>
+		</div>
+		<!-- Modal-thanks-->
+		<div class="modal">
+			<div id="modal_thanks" class="modal_thanks">
+				<div class="modal__title">спасибо!</div>
+				<div class="modal__text">Ваша заявка успешно принята!
+					<br>Вы получите письмо в ближайщее время!</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="assets/scripts/libs/incrementing.js"></script>
+		<script src="assets/scripts/libs/fancybox/source/jquery.fancybox.pack.js"></script>
+		<script src="assets/scripts/libs/swiper/dist/js/swiper.min.js"></script>
+		<script src="assets/scripts/common.min.js"></script>
+	</body>
+
+</html>

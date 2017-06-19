@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Weguard
+Version:  1.0
+Assigned to:  WebNik
+Primary use:  Weguard
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400i,700,700i|Montserrat:400,700);
+@import url('../fonts/font-awesome-4.5.0/css/font-awesome.min.css');
+@import url('../fonts/stroke/style.css');
+@import url('../fonts/elegant/style.css');
+
+
+
+/* PLUGIN CSS */
+
+@import url('../plugins/bootstrap/bootstrap.css');                /* bootstrap */
+@import url('../plugins/headers/assets/header/header.css');                /* header */
+@import url('../plugins/headers/assets/header/yamm.css');                /* header */
+@import url('../plugins/slider-pro/slider-pro.css');         /* main slider */
+@import url('../plugins/owl-carousel/owl.theme.css');                 /* other sliders */
+@import url('../plugins/magnific-popup/magnific-popup.css');            /* modal */
+@import url('../plugins/animate/animate.css');                        /* animations */
+@import url('../plugins/parallax/parallax.css');                        /* parallax */
+@import url('../plugins/flowplayer/skin/playful.css');          /* video-player */
+
+
+
+/* MAIN CSS */
+
+@import url('theme.css');
+@import url('color.css');
+@import url('responsive.css');

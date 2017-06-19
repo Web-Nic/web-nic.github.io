@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<title>Marherita, Pizza Menu page</title>
+
+		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/iview.css" rel="stylesheet">
+		<link href="assets/plugins/iview/css/skin/style.css" rel="stylesheet">
+
+		<script src="assets/plugins/jquery/jquery-1.11.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+
+		<!-- Loader -->
+		<div id="page-preloader"><span class="spinner"></span></div>
+		<!-- Loader end -->
+
+
+		<div class="layout-theme animated-css" id="wrapper" data-header="sticky" data-header-top="200">
+
+			<div id="sb-site">
+
+				<div class="wrap-content">
+
+
+					<!-- HEADER -->
+					<header class="header clearfix">
+						<div class="header__wrap">
+							<span class="sb-toggle-left"><i class="icon pe-7s-menu"></i></span>
+							<a class="logo" href="home.html"><img class="img-responsive" src="assets/img/logo_mod-a.png" alt="Logo"></a>
+							<span class="header-basket sb-toggle-right"><i class="icon pe-7s-cart"></i><span class="header-basket__number">2</span></span>
+						</div>
+					</header>
+					<!-- end header -->
+
+					<div class="section-title">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="section__inner">
+										<h1 class="ui-title-page">Pizza Menu</h1>
+										<ol class="breadcrumb">
+											<li><a href="home.html">Home</a></li>
+											<li><a href="javascript:void(0);">Menu</a></li>
+											<li class="active">Peri-Peri</li>
+										</ol>
+									</div>
+									<!-- end section__inner -->
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</div>
+					<!-- end section-title -->
+
+
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="cart__link-wrap"><a class="cart__link-prev" href="javascript:void(0);"><i class="icon fa fa-chevron-left"></i>back to menu</a></div>
+								<div class="slider-cart slider_mod-d owl-carousel owl-theme enable-owl-carousel"
+									data-pagination="false"
+									data-navigation="true"
+									data-single-item="true"
+									data-auto-play="7000"
+									data-transition-style="fade"
+									data-main-text-animation="true"
+									data-after-init-delay="3000"
+									data-after-move-delay="1000"
+									data-stop-on-hover="true">
+
+									<div class="slider-cart__item">
+										<section class="cart">
+											<div class="col-md-6">
+												<img class="img-responsive" src="assets/media/slider-cart/1.png" height="541" width="544" alt="Foto">
+											</div>
+											<div class="col-md-6">
+												<h2 class="cart__title ui-title-block">Peri-Peri</h2>
+												<ul class="raiting list-unstyled">
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star-o"></i></li>
+												</ul>
+												<div class="cart__description">Marinated Chicken Breast Fillets, Shallots, Roasted Capsicum, Caramelised Onions & Bocconcini on a Tomato base, topped with Peri-Peri sauce</div>
+
+												<div class="cart__group">
+													<div class="cart__title-inner">Available Sizes</div>
+													<input class="cart__radio hidden" id="pizza-size_9" type="radio" name="pizza-size" value="9">
+													<label class="cart__radio-label" for="pizza-size_9">
+														<span class="cart__radio-number cart__radio-number_9"><span class="cart__radio-inner">9’’</span></span>
+														<span class="cart__radio-title">Small</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_12" type="radio" name="pizza-size" value="12" checked>
+													<label class="cart__radio-label" for="pizza-size_12">
+														<span class="cart__radio-number cart__radio-number_12"><span class="cart__radio-inner">12’’</span></span>
+														<span class="cart__radio-title">Medium</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_14" type="radio" name="pizza-size" value="14">
+													<label class="cart__radio-label" for="pizza-size_14">
+														<span class="cart__radio-number cart__radio-number_14"><span class="cart__radio-inner">14’’</span></span>
+														<span class="cart__radio-title">Large</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_16" type="radio" name="pizza-size" value="16">
+													<label class="cart__radio-label" for="pizza-size_16">
+														<span class="cart__radio-number cart__radio-number_16"><span class="cart__radio-inner">16’’</span></span>
+														<span class="cart__radio-title">Jumbo</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_18" type="radio" name="pizza-size" value="18">
+													<label class="cart__radio-label" for="pizza-size_18">
+														<span class="cart__radio-number cart__radio-number_18"><span class="cart__radio-inner">18’’</span></span>
+														<span class="cart__radio-title">Party Size</span>
+													</label>
+													<div class="cart__price">Price: $21</div>
+												</div>
+												<!-- end cart__group -->
+
+												<div class="cart__group">
+													<div class="cart__title-inner">quantity</div>
+													<div class="cart__enumerator">
+														<a class="cart__enumerator-btn cart__enumerator-btn_minus js-minus">-</a>
+														<input class="cart__enumerator-input" type="text" placeholder="1">
+														<a class="cart__enumerator-btn cart__enumerator-btn_plus js-plus">+</a>
+													</div>
+													<a class="cart__btn ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add to cart</a>
+												</div>
+												<!-- end cart__group -->
+											</div>
+										</section>
+									</div>
+
+									<div class="slider-cart__item">
+										<section class="cart">
+											<div class="col-md-6">
+												<img class="img-responsive" src="assets/media/slider-cart/1.png" height="541" width="544" alt="Foto">
+											</div>
+											<div class="col-md-6">
+												<h2 class="cart__title ui-title-block">Peri-Peri</h2>
+												<ul class="raiting list-unstyled">
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+													<li class="raiting__item"><i class="icon fa fa-star-o"></i></li>
+												</ul>
+												<div class="cart__description">Marinated Chicken Breast Fillets, Shallots, Roasted Capsicum, Caramelised Onions & Bocconcini on a Tomato base, topped with Peri-Peri sauce</div>
+
+												<div class="cart__group">
+													<div class="cart__title-inner">Available Sizes</div>
+													<input class="cart__radio hidden" id="pizza-size_9" type="radio" name="pizza-size" value="9">
+													<label class="cart__radio-label" for="pizza-size_9">
+														<span class="cart__radio-number cart__radio-number_9"><span class="cart__radio-inner">9’’</span></span>
+														<span class="cart__radio-title">Small</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_12" type="radio" name="pizza-size" value="12" checked>
+													<label class="cart__radio-label" for="pizza-size_12">
+														<span class="cart__radio-number cart__radio-number_12"><span class="cart__radio-inner">12’’</span></span>
+														<span class="cart__radio-title">Medium</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_14" type="radio" name="pizza-size" value="14">
+													<label class="cart__radio-label" for="pizza-size_14">
+														<span class="cart__radio-number cart__radio-number_14"><span class="cart__radio-inner">14’’</span></span>
+														<span class="cart__radio-title">Large</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_16" type="radio" name="pizza-size" value="16">
+													<label class="cart__radio-label" for="pizza-size_16">
+														<span class="cart__radio-number cart__radio-number_16"><span class="cart__radio-inner">16’’</span></span>
+														<span class="cart__radio-title">Jumbo</span>
+													</label>
+
+													<input class="cart__radio hidden" id="pizza-size_18" type="radio" name="pizza-size" value="18">
+													<label class="cart__radio-label" for="pizza-size_18">
+														<span class="cart__radio-number cart__radio-number_18"><span class="cart__radio-inner">18’’</span></span>
+														<span class="cart__radio-title">Party Size</span>
+													</label>
+													<div class="cart__price">Price: $21</div>
+												</div>
+												<!-- end cart__group -->
+
+												<div class="cart__group">
+													<div class="cart__title-inner">quantity</div>
+													<div class="cart__enumerator">
+														<a class="cart__enumerator-btn cart__enumerator-btn_minus js-minus">-</a>
+														<input class="cart__enumerator-input" type="text" placeholder="1">
+														<a class="cart__enumerator-btn cart__enumerator-btn_plus js-plus">+</a>
+													</div>
+													<a class="cart__btn ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add to cart</a>
+												</div>
+												<!-- end cart__group -->
+											</div>
+										</section>
+									</div>
+								</div>
+								<!-- end slider-cart -->
+							</div>
+							<!-- end col -->
+						</div>
+						<!-- end row -->
+					</div>
+					<!-- end container -->
+
+
+
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs">
+									<li><a href="#description" data-toggle="tab">Description</a></li>
+									<li><a href="#info" data-toggle="tab">Nutritional info</a></li>
+									<li><a href="#order" data-toggle="tab">order delivery</a></li>
+									<li class="active"><a href="#reviews" data-toggle="tab">reviews (4)</a></li>
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div class="tab-pane" id="description">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse et magnam at, ullam inventore veritatis a, dolores aperiam quis nulla! Placeat cum, ratione nisi, quod qui sed est pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse et magnam at, ullam inventore veritatis a, dolores aperiam quis nulla! Placeat cum, ratione nisi, quod qui sed est pariatur.</p>
+									</div>
+									<div class="tab-pane" id="info">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse et magnam at, ullam inventore veritatis a, dolores aperiam quis nulla! Placeat cum, ratione nisi, quod qui sed est pariatur.</p>
+									</div>
+									<div class="tab-pane" id="order">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil esse et magnam at, ullam inventore veritatis a, dolores aperiam quis nulla! Placeat cum, ratione nisi, quod qui sed est pariatur.</p>
+									</div>
+									<div class="tab-pane active" id="reviews">
+										<div class="row">
+											<div class="col-md-8">
+												<div class="section-comment">
+													<ul class="comments-list clearfix">
+														<li>
+															<article class="comment">
+																<header class="comment-header">
+																	<cite class="comment-author">Bradley Taylor</cite>
+																	<time class="comment-datetime" datetime="2012-10-27 15:20">October 2, 2014</time>
+																	<ul class="raiting list-unstyled">
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star-o"></i></li>
+																	</ul>
+																</header>
+																<div class="comment-body">
+																	<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, antepolitterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+																</div>
+															</article>
+														</li>
+														<li>
+															<article class="comment">
+																<header class="comment-header">
+																	<cite class="comment-author">Scarlet Bellarosa</cite>
+																	<time class="comment-datetime" datetime="2012-10-27 15:20">November 16, 2014</time>
+																	<ul class="raiting list-unstyled">
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																	</ul>
+																</header>
+																<div class="comment-body">
+																	<p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum. Ut wisi enim ad minim veniam, quis nostrud exerci tation nisl ut aliquip ex ea commodo consequat.</p>
+																</div>
+															</article>
+														</li>
+														<li>
+															<article class="comment">
+																<header class="comment-header">
+																	<cite class="comment-author">Cooper Elison</cite>
+																	<time class="comment-datetime" datetime="2012-10-27 15:20">December 23, 2014</time>
+																	<ul class="raiting list-unstyled">
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star-o"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star-o"></i></li>
+																	</ul>
+																</header>
+																<div class="comment-body">
+																	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.  Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</p>
+																</div>
+															</article>
+														</li>
+														<li>
+															<article class="comment">
+																<header class="comment-header">
+																	<cite class="comment-author">Merryn Brown</cite>
+																	<time class="comment-datetime" datetime="2012-10-27 15:20">January 10, 2015</time>
+																	<ul class="raiting list-unstyled">
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																		<li class="raiting__item"><i class="icon fa fa-star"></i></li>
+																	</ul>
+																</header>
+																<div class="comment-body">
+																	<p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+																</div>
+															</article>
+														</li>
+													</ul>
+													<!-- end comments-list -->
+												</div>
+												<!-- end section-comment -->
+											</div>
+											<div class="col-md-4">
+												<section class="section-reply-form">
+													<h3 class="ui-title-inner">Add a review</h3>
+													<form class="comment-reply-form" id="comment-reply-form" action="#" method="get">
+														<label class="comment-reply-form__title ui-form-label">NAME *</label>
+														<input class="form-control" type="text" id="comment-author" name="author" required >
+														<label class="comment-reply-form__title ui-form-label">EMAIL *</label>
+														<input class="form-control" type="email" id="comment-email" name="email" required>
+														<label class="comment-reply-form__title ui-form-label">YOUR RATING</label>
+														<input class="raiting__radio hidden" id="raiting-1" type="radio" name="raiting" value="1">
+														<label class="raiting__radio-label" for="raiting-1">
+															<span class="raiting-form">
+																<span class="raiting-form__item"></span>
+															</span>
+														</label>
+														<input class="raiting__radio hidden" id="raiting-2" type="radio" name="raiting" value="2">
+														<label class="raiting__radio-label" for="raiting-2">
+															<span class="raiting-form">
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+															</span>
+														</label>
+														<input class="raiting__radio hidden" id="raiting-3" type="radio" name="raiting" value="3">
+														<label class="raiting__radio-label" for="raiting-3">
+															<span class="raiting-form">
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+															</span>
+														</label>
+														<input class="raiting__radio hidden" id="raiting-4" type="radio" name="raiting" value="4">
+														<label class="raiting__radio-label" for="raiting-4">
+															<span class="raiting-form">
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+															</span>
+														</label>
+														<input class="raiting__radio hidden" id="raiting-5" type="radio" name="raiting" value="5">
+														<label class="raiting__radio-label" for="raiting-5">
+															<span class="raiting-form">
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+																<span class="raiting-form__item"></span>
+															</span>
+														</label>
+
+														<label class="comment-reply-form__title ui-form-label">YOUR REVIEW</label>
+														<textarea class="form-control" id="comment-text" name="comment" rows="5" required></textarea>
+														<button class="comment-reply-form__btn ui-btn ui-btn-primary btn-effect">submit</button>
+													</form>
+													<!-- end comment-reply-form -->
+												</section>
+												<!-- end section-reply-form -->
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!-- end col -->
+						</div>
+						<!-- end row -->
+					</div>
+					<!-- end container -->
+
+
+
+					<section class="section_mod-c">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<h2 class="ui-title-block">Related Products</h2>
+									<div class="pizza-builder__wrap-check">
+										<div class="pizza-builder__item pizza-builder__item_mod-b" tabindex="1">
+											<div class="pizza-builder__check-img pizza-builder__check-img pizza-builder__check-img_mod-a">
+												<img class="img-responsive center-block" src="assets/media/list-catalog/1.png" height="258" width="258" alt="Foto">
+											</div>
+											<div class="pizza-builder__check-name">Kimchi BBQ Chicken</div>
+											<div class="pizza-builder__check-description pizza-builder__check-description_mod-a">Slow Cooked Pulled Chicken marinated in Bulgogi sauce, Shitake Mushrooms, Shallots on a Garlic base, Garnished with Kimchi, Red & Green Chilli</div>
+											<div class="pizza-builder__check-price pizza-builder__check-price_mod-a">$21.00</div>
+											<select class="selectpicker" data-style="ui-select">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+										</div>
+
+										<div class="pizza-builder__item pizza-builder__item_mod-b" tabindex="1">
+											<div class="pizza-builder__check-img pizza-builder__check-img pizza-builder__check-img_mod-a">
+												<img class="img-responsive center-block" src="assets/media/list-catalog/2.png" height="253" width="252" alt="Foto">
+											</div>
+											<div class="pizza-builder__check-name">Peri-Peri</div>
+											<div class="pizza-builder__check-description pizza-builder__check-description_mod-a">Marinated Chicken Breast Fillets, Shallots, Roasted Capsicum, Caramelised Onions & Bocconcini on a Tomato base, topped with Peri-Peri sauce</div>
+											<div class="pizza-builder__check-price pizza-builder__check-price_mod-a">$24.00</div>
+											<select class="selectpicker" data-style="ui-select">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+										</div>
+
+										<div class="pizza-builder__item pizza-builder__item_mod-b" tabindex="1">
+											<div class="pizza-builder__check-img pizza-builder__check-img pizza-builder__check-img_mod-a">
+												<img class="img-responsive center-block" src="assets/media/list-catalog/3.png" height="258" width="258" alt="Foto">
+											</div>
+											<div class="pizza-builder__check-name">Moorish Lamb</div>
+											<div class="pizza-builder__check-description pizza-builder__check-description_mod-a">Slow Cooked Pulled Lamb marinated in Moorish spices, Tomatoes, Capsicum Medley, Garbanzos , topped with a Slice of Lemon & Yoghurt sauce</div>
+											<div class="pizza-builder__check-price pizza-builder__check-price_mod-a">$19.00</div>
+											<select class="selectpicker" data-style="ui-select">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+										</div>
+
+										<div class="pizza-builder__item pizza-builder__item_mod-b" tabindex="1">
+											<div class="pizza-builder__check-img pizza-builder__check-img pizza-builder__check-img_mod-a">
+												<img class="img-responsive center-block" src="assets/media/list-catalog/4.png" height="251" width="251" alt="Foto">
+											</div>
+											<div class="pizza-builder__check-name">Meat Deluxe</div>
+											<div class="pizza-builder__check-description pizza-builder__check-description_mod-a">Chorizo Sausage, Spanish Onions, Roasted Capsicum, Jalapeños & Chilli on a Spicy Tomato Salsa base, served with Fresh Avocado Salsa.</div>
+											<div class="pizza-builder__check-price pizza-builder__check-price_mod-a">$20.00</div>
+											<select class="selectpicker" data-style="ui-select">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<a class="pizza-builder__btn-select ui-btn ui-btn-primary btn-effect" href="javascript:void(0);">add</a>
+										</div>
+
+									</div>
+								</div>
+								<!-- end col -->
+							</div>
+							<!-- end row -->
+						</div>
+						<!-- end container -->
+					</section>
+					<!-- end section_mod-c -->
+
+					<section class="section-subscribe">
+						<form class="form-subscribe" action="post">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<h2 class="ui-title-block ui-title-block_mod-a form-subscribe__title">Sign up for the newsletter and get exclusive deals.</h2>
+										<input class="form-control" type="text" placeholder="Enter your email address" required="">
+										<button class="ui-btn ui-btn_mod-c btn-effect btn-effect">subscribe</button>
+									</div>
+									<!-- end col -->
+								</div>
+								<!-- end row -->
+							</div>
+							<!-- end container -->
+						</form>
+						<!-- end footer-form -->
+					</section>
+					<!-- end section-subscribe -->
+
+
+					<footer class="footer">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="footer-contacts"><span class="footer-contacts__number">+34 9 368 7050</span>order@pizza.com</div>
+									<div class="footer-decor decor-2">&</div>
+									<ul class="footer-list list-inline">
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Facebook</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Twitter</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Instagram</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Pinterest</a></li>
+										<li class="footer-list__item"><a class="footer-list__link" href="javascript:void(0);">Flickr</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="copyright border-top">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="text-center">Copyright © 2015 <a class="copyright__link" href="javascript:void(0);">Margherita.</a> All rights reserved.</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- end copyright -->
+					</footer>
+					<!-- end footer -->
+
+				</div>
+				<!-- end wrap-content -->
+
+			</div>
+			<!-- end #sb-site -->
+
+
+			<div class="sb-slidebar sb-left">
+				<form method="get" class="form-search" id="search-global-form">
+					<input class="form-search__input" type="text" placeholder="Search">
+					<button class="form-search__btn"><i class="icon fa fa-search"></i></button>
+				</form>
+				<nav class="main-nav">
+					<ul class="navig-menu list-unstyled">
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="home.html">Home</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="shop-catalog-page.html">Pizza menu</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="pizza-builder.html">pizza builder</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog.html">blog</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="blog-details.html">pages</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="about.html">about us</a>
+						</li>
+						<li class="navig-menu__item">
+							<a class="navig-menu__link" href="contact.html">contact</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- end main-nav -->
+
+				<div class="border-bottom"></div>
+				<a class="link-account" href="javascript:void(0);">login</a>
+				<a class="link-account" href="javascript:void(0);">my account </a>
+				<a class="link-account" href="javascript:void(0);">checkout</a>
+			</div>
+			<!-- end sb-left -->
+
+			<div class="sb-slidebar sb-right">
+				<section class="section-list-cart">
+					<h2 class="ui-title-inner">Cart Totals</h2>
+					<ul class="list-cart list-unstyled">
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/1.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Moorish Lamb</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Large</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $19.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/2.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Vegetarian Supreme</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Jumbo</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $34.00</div>
+							</div>
+						</li>
+						<li class="list-cart__item">
+							<div class="list-cart__img"><i class="list-cart__icon icon fa fa-times js-del"></i><img class="img-responsive" src="assets/media/list-cart/3.png" height="87" width="87" alt="Foto"></div>
+							<div class="list-cart__inner">
+								<h3 class="list-cart__title">Spiced Pumpkin</h3>
+								<div class="list-cart__size"><span class="list-cart__size_name">Size:</span> Small</div>
+								<div class="list-cart__price"><span class="color_primary">1 x</span> $26.00</div>
+							</div>
+						</li>
+					</ul>
+					<div class="total-price clearfix">Order Total
+						<span class="total-price__number">$79.00</span>
+					</div>
+					<a class="total-price__btn ui-btn ui-btn_mod-a btn-effect btn-block" href="javascript:void(0);">view shopping cart</a>
+					<a class="total-price__btn ui-btn ui-btn-primary btn-effect btn-block" href="javascript:void(0);">checkout</a>
+				</section>
+				<!-- end list-cart -->
+			</div>
+			<!-- end sb-right -->
+
+		</div>
+		<!-- end layout-theme -->
+
+
+
+		<!-- SCRIPTS MAIN -->
+
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+		<script src="assets/js/cssua.min.js"></script>
+
+
+		<!--SCRIPTS THEME-->
+
+		<!-- Sidebar -->
+		<script src="assets/plugins/slidebars/dist/slidebars.js"></script>
+		<!-- Home slider -->
+		<script src="assets/plugins/slider-pro/dist/js/jquery.sliderPro.js"></script>
+		<!-- Sliders -->
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Isotope -->
+		<script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+		<!-- Modal -->
+		<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		<!-- Date select -->
+		<script src="assets/plugins/datetimepicker/jquery.datetimepicker.js"></script>
+		<!-- Select customization -->
+		<script src="assets/plugins/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<!-- Price slider -->
+		<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script>
+		<!-- Chart -->
+		<script src="assets/plugins/rendro-easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+		<!-- Animation -->
+		<script src="assets/js/wow.min.js"></script>
+
+		<!-- Custom -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
+</html>
+
+

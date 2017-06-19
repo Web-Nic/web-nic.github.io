@@ -1,0 +1,190 @@
+/*------------------------------------------------------------------
+[Table of contents]
+- Blog
+- Comments
+- Blog form
+- Other
+-------------------------------------------------------------------*/
+
+
+/*01  Blog */
+
+.post {
+	margin-bottom: 70px;
+}
+.post:last-child {
+	margin-bottom: 90px;
+}
+.post .entry-main {
+	padding-left: 20px;
+}
+.post .entry-title {
+	margin-top: 46px;
+	margin-bottom: 12px;
+	font: 700 22px Montserrat;
+	text-transform: uppercase;
+}
+.post .entry-title,
+.post .entry-title a {
+	color: #333;
+}
+.post .entry-subtitle {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font: 700 16px Montserrat;
+	color: #333;
+	text-transform: uppercase;
+}
+.post .entry-meta {
+	margin-bottom: 35px;
+}
+.post .entry-meta__item {
+	margin-right: 8px;
+}
+.post .entry-meta__item .icon {
+	margin-right: 7px;
+	font-size: 18px;
+	color: #636363;
+	vertical-align: text-bottom;
+}
+.post .entry-meta__link {
+	font: 400 11px Montserrat;
+	color: #777;
+	text-transform: uppercase;
+}
+
+.post .blockquote {
+	margin-bottom: 60px;
+	margin-left: 31px;
+}
+.post .entry-content .blockquote_mod-c p {
+	font-size: 16px;
+	line-height: 1.65;
+}
+.post .entry-content p {
+	font-size: 14px;
+	line-height: 2;
+}
+.post .entry-footer {
+	margin-top: 35px;
+	padding: 14px 20px;
+	border: 1px solid #eaeaea;
+}
+.post .btn {
+	padding: 14px 22px;
+	border: none;
+}
+.post p + p {
+	margin-top: 20px;
+}
+.post .entry-footer-links {
+	float: left;
+	margin-top: 12px;
+	margin-right: 40px;
+}
+.post .entry-footer-links__item {
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #777;
+}
+
+.post_mod-a .entry-footer {
+	margin-top: 45px;
+	padding-bottom: 18px;
+	padding-left: 28px;
+}
+
+
+
+
+/*02  Comments */
+
+.section-comment {
+	margin-top: 87px;
+	padding-bottom: 53px;
+	border-bottom: 1px solid #eaeaea;
+}
+.comments-list {
+	margin-top: 56px;
+}
+.comments-list .children {
+	margin-top: 65px;
+	margin-left: 80px;
+}
+.comments-list .avatar-placeholder {
+	float: left;
+	width: 65px;
+	border: 5px solid #eee;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.comments-list .comment-inner {
+	padding-left: 80px;
+}
+.comments-list .comment-header {
+	position: relative;
+	padding-right: 100px;
+}
+.comments-list .comment-author {
+	display: block;
+	margin-bottom: 3px;
+	padding-top: 7px;
+	font: 700 normal 14px Montserrat;
+	color: #333;
+	text-transform: uppercase;
+}
+.comments-list .comment-datetime {
+	font-family: Montserrat;
+	font-size: 11px;
+	color: #666;
+	text-transform: uppercase;
+}
+.comments-list .raiting {
+	display: inline-block;
+	margin-left: 25px;
+}
+.comments-list .raiting li {
+	padding-left: 0;
+}
+.comments-list .comment-body {
+	margin-top: 29px;
+}
+.comments-list .comment-btn {
+	position: absolute;
+	top: 7px;
+	right: 0;
+	padding-right: 22px;
+	padding-left: 22px;
+}
+
+
+/*03  Blog form */
+
+.comment-reply-form {
+	margin-top: 47px;
+	margin-bottom: 15px;
+}
+.comment-reply-form .btn {
+	padding: 15px 35px;
+}
+
+
+/*04 Other */
+
+.form-search {
+	position: relative;
+}
+.form-search__input {
+	height: 41px;
+	padding-right: 40px;
+}
+.form-search__btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 100%;
+	font-size: 18px;
+	border: none;
+	background-color: transparent;
+}

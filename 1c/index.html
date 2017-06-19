@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <link href="./css/jquery.bxslider.css" rel="stylesheet">
+    <link href="./css/jquery.countdown.css" rel="stylesheet">
+    <link href="./css/jquery.fancybox.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+    <title>SPOC</title>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <script src="./js/excanvas.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="wrap"></div> 
+    <header class="header">
+      <div class="container">
+        <hgroup>
+          <h1 class="logo"><img src="img/logo.png" alt="SPOC"></h1>
+          <h2 class="slogan">IT - аутсорсинг организаций по Украине</h2>
+        </hgroup>
+      <nav class="navig">
+        <div class="container">
+          <ul>
+            <li><a href="#benefits">Преимущества</a></li>
+            <li><a href="#products">Продукты</a></li>
+            <li><a href="#rates">Услуги</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#employees">Команда</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div class="contacts">
+          <p class="phone"><i class="ic-phone"></i>+38 (097)<span>97 97 637</span></p>
+          <p class="mail"><i class="ic-mail"></i><a href="mailto:spoc.com.ua@gmail.com"><span>spoc.com.ua</span>@gmail.com</a></p>
+        </div>
+      </div>
+    </header>
+    <section class="block-1">
+      <div class="container">
+        <p class="text-block"><span>Заказывайте 1С Предприятие </span>и <br>получите бонус на <span>2500 грн </span></p>
+          <form id="form1" action="sendmessage3.php" name="contact" method="post" class="form">
+          <p class="title-form">Оставьте заявку <span>для получения бонуса</span></p>
+          <input id="name" type="text" name="name" placeholder="Ваше имя">
+          <input type="hidden" name="theme" value="Получения бонуса" />
+          <input id="phone" type="text" name="phone" placeholder="Ваш телефон">
+          <input id="email" type="email" name="email" placeholder="Ваш email">
+          <button id="send" class="btn btn_green">Оставить заявку!</button>
+        </form>
+      </div>
+    </section>
+    <section class="block-2">
+      <h1 class="title-white">Вы получаете:</h1>
+      <div class="container">
+        <table>
+          <tr>
+            <td>Бесплатная настройка автоматической <br>архивации баз данных</td>
+            <td>экономия 200 грн.</td>
+          </tr>
+          <tr>
+            <td>Бесплатная настройка программы "Клиент Банк"</td>
+            <td>экономия 200 грн.</td>
+          </tr>
+          <tr>
+            <td>Бесплатно 3 месяца подписки на сервис "1С:Информационно-технологическое сопровождение"</td>
+            <td>экономия 1056 грн.</td>
+          </tr>
+          <tr>
+            <td>Бесплатная доставка программы в ваш офис</td>
+            <td>экономия 50 грн.</td>
+          </tr>
+          <tr>
+            <td>Бесплатная установка программы в вашем офисе</td>
+            <td>экономия 250 грн.</td>
+          </tr>
+          <tr>
+            <td>Бесплатное обучение, 4 часа, со скидкой 7% </td>
+            <td>экономия 744 грн.</td>
+          </tr>
+        </table>
+        <p class="total">ВАШ БОНУС = 2 500 грн  </p>
+      </div>
+    </section>
+    <section id="benefits" class="block-3 clearfix">
+      <h1 class="title-white">Наши преимущества</h1>
+      <div class="container">
+        <ul>
+          <li>более 2000<br>клиентов из 8<br>городов Украины</li>
+          <li>45 переходов<br>с 7.7 на 8.2 под ключ<br>в течение месяца</li>
+          <li>7 специалистов<br>по всем типовым<br>направлениям</li>
+          <li>12 летний опыт<br>внедрения 1С,<br>начиная с версии 6</li>
+          <li>Гарантирование<br>соблюдения сроков<br>финансами </li>
+          <li>Работы по<br>сопровождению<br>без предоплаты</li>
+        </ul>
+      </div>
+    </section>
+    <section id="products" class="block-4">
+      <div class="container">
+        <h1 class="title-black">Наши предложения</h1>
+        <div class="block-propos1"><img src="img/1c-box1.png" alt="Предложение">
+          <p>1С: Бухгалтерия 8 <br>для Украины.</p><span>2880 грн</span><span>2580 грн</span><a href="#modal_action" class="btn btn_green modalbox">Заказать!</a>
+        </div>
+        <div class="block-propos2"><img src="img/1c-box2.png" alt="Предложение">
+          <p>1С: Зарплата и Управление Персоналом 8<br>для Украины.</p><span>3600 грн</span><span>3300 грн</span><a href="#modal_action" class="btn btn_green modalbox">Заказать!</a>
+        </div>
+        <div class="block-propos3"><img src="img/1c-box3.png" alt="Предложение">
+          <p>1С: Управление <br>торговлей 8<br>для Украины.</p><span>3600 грн</span><span>3300 грн</span><a href="#modal_action" class="btn btn_green modalbox">Заказать!</a>
+        </div><span class="action">АКЦИЯ -300 грн.</span>
+        <div class="countdown">
+          <p>Акция действительна до 30.10.2014</p><span class="countdown_days">дней</span><span class="countdown_hour">часов</span><span class="countdown_min">минут</span><span class="countdown_sec">секунд</span>
+          <div id="countdown" class="counter"></div>
+        </div>
+        <form id="form2" action="sendmessage3.php" method="post" class="form">
+          <p class="title-form">Оставьте заявку<br><span>на приобретение 1С Предприятие и участие в акции</span></p>
+          <input id="name6" type="text" name="name" placeholder="Ваше имя">
+           <input type="hidden" name="theme" value="АКЦИЯ -300 грн." />
+          <input id="phone6" type="text" name="phone" placeholder="Ваш телефон">
+          <input id="email6" type="email" name="email" placeholder="Ваш email">
+          <button id="send6" class="btn btn_blue">Оставить заявку!</button>
+        </form>
+      </div>
+    </section>
+    <section class="block-5 clearfix">
+      <div class="container">
+        <p>В нашем прайсе 432 позиции разнообразного программного обеспечения 1С Предприятие </p><a href="#price-modal" class="btn btn_green modalbox">Скачать прайс!</a>
+      </div>
+    </section>
+    <section id="rates" class="block-6 rates">
+      <div class="container">
+        <h1 class="title-white title">Наши тарифные планы</h1>
+        <div class="rates_block block-plan1">
+          <p class="title">Почасовой</p>
+          <p class="pay">200 <span>грн.\ час</span></p>
+        </div>
+        <h1 class="title-white title">Месячные тарифы</h1>
+        <div class="rates_block block-plan2">
+          <p class="title">Минимальный</p>
+          <p class="text">Кол-во пользователей: <br>1</p>
+          <p class="text">Время, включенное в обслуживание, в месяц: сопровождение - 2ч</p>
+          <p class="pay">300 <span>грн.</span></p><a href="#manager-modal" class="btn btn_green modalbox">Заказать!</a>
+        </div>
+        <div class="rates_block block-plan3">
+          <p class="title">Базовый</p>
+          <p class="text">Кол-во пользователей: <br>5</p>
+          <p class="text">Время, включенное в обслуживание, в месяц: сопровождение - 10ч</p>
+          <p class="pay">1222 <span>грн.</span></p><a href="#manager-modal" class="btn btn_green modalbox">Заказать!</a>
+        </div>
+        <div class="rates_block block-plan4">
+          <p class="title">Расширенный</p>
+          <p class="text">Кол-во пользователей: <br>10</p>
+          <p class="text">Время, включенное в обслуживание, в месяц: сопровождение - 20ч</p>
+          <p class="pay">1897 <span>грн.</span></p><a href="#manager-modal" class="btn btn_green modalbox">Заказать!</a>
+        </div>
+        <p class="info">Тарифные планы включают подписку на ИТС. Тарифные планы рассчитываются исходя из типа программного обеспечения и количества пользователей.</p>
+      </div>
+    </section>
+    <section class="block-7">
+      <div class="container">
+        <p>В особенных случаях мы предлагаем ВИП-обслуживание 24/7. </p>
+        <p>Стоимость от 3000 грн/мес</p>
+        <p>Вы можете узнать стоимость Вашего<br>обслуживания в месяц</p><a href="#manager-modal" class="btn btn_blue modalbox">Узнать стоимость!</a>
+      </div>
+    </section>
+    <section class="block-8">
+      <div class="container">
+        <div class="col-left">
+          <div class="text-block-1">
+            <p>Внимание!</p>
+            <p>При заключении месячного договора обслуживания Вы получаете <br><span>50% скидку </span>на систему </p><img src="img/logo-liga.png" alt="Лiга Закон" class="logo-liga">
+          </div>
+          <div class="text-block-2">
+            <p>"1С:Предприятие 8. Бухгалтерия для Украины" - 4 пользователя, </p>
+            <p>"1С:Предприятие 8. Зарплата и Управление персоналом для Украины" - 1 пользователь, "Отраслевые и специализированные решения для 1С:Предприятия  8" - 2 пользователя.</p>
+          </div>
+        </div>
+        <form id="contact5" action="sendmessage3.php" name="contact" method="post" class="form">
+          <p class="title-form">Оставьте заявку<br><span>на заключение договора обслуживания и получение 50% скидки на систему <br>“Лига-Закон”</span></p>
+          <input id="name5" type="text" name="name" placeholder="Ваше имя">
+          <input type="hidden" name="theme" value="Заявка на Лига-закон"/>
+          <input id="phone5" type="text" name="phone" placeholder="Ваш телефон">
+          <input id="email5" type="email" name="email" placeholder="Ваш email">
+          <button id="send5" class="btn btn_blue">Оставить заявку!</button>
+        </form>
+      </div>
+    </section>
+    <section class="block-9">
+      <h1 class="title-white">Как мы работаем</h1>
+      <div class="container">
+        <ul>
+          <li>Вы <br>оставляете<br> заявку</li>
+          <li>Мы связываемся <br>с Вами, обсуждаем<br>детали   </li>
+          <li>Мы решаем <br>все Ваши <br>вопросы</li>
+          <li>По итогам работы <br>в конце месяца <br>мы выставляем <br>Вам счет</li>
+          <li>Вы его оплачиваете <br>и решаете стать <br>нашим постоянным <br>клиентом</li>
+          <li>Вы счастливы <br>от результата<br> решения вопроса</li>
+        </ul>
+      </div>
+    </section>
+    <section class="block-10">
+      <h1 class="title-black">С нами также работают</h1>
+      <div class="container">
+        <div class="slider1">
+          <div class="slide"><img src="img/company1.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company2.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company3.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company4.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company5.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company6.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company7.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company8.png" alt="Фирма"></div>
+          <div class="slide"><img src="img/company9.png" alt="Фирма"></div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="block-11">
+      <h1 class="title-black">Отзывы наших довольных клиентов</h1>
+      <div class="slider2">
+        <div class="slide"><img src="img/foto-client1.png" alt="Наши клиенты">
+          <div class="reviews">
+            <div class="reviews_header clearfix">
+              <div class="reviews_name-client">Главный бухгалтер <span>Иванова Светлана</span><span class="name-company">ООО "Мрия-фарм". Розничная сеть аптек</span></div>
+              <p class="reviews_name-soft">«1С Управление торговым предприятием»</p>
+            </div>
+            <div class="reviews_text">Мы, аптечная сеть «Мрия-Фарм» давно сотрудничаем с Ляховченко Светланой Валериевной. Благодаря быстрой и слаженной работе Светланы Валериевны и ее коллектива, все вопросы, возникающие в процессе работы 1С, решаются легко.</div>
+          </div>
+        </div>
+        <div class="slide"><img src="img/foto-client2.png" alt="Наши клиенты">
+          <div class="reviews">
+            <div class="reviews_header clearfix">
+              <div class="reviews_name-client">Главный бухгалтер <span>Харабаш Ольга</span><span class="name-company">ООО «Южный механо-литейный завод», Производство литья и механическая обработка изделий из металла</span></div>
+              <p class="reviews_name-soft">«1С Управление производственным предприятием»</p>
+            </div>
+            <div class="reviews_text">Я представитель промышленного предприятия, занимающегося мех.обработкой и литьем. Хочу Вам рассказать о Светлане Ляховченко. О человеке уникальном, творческом, готовом в любой момент оказать Вам содействие и помощь в установке программного обеспечения любой сложности, любых направлений. Программное обеспечение, установленное ее, позволяет нам в полной мере контроль за нашими хозяйственными операциями и позволяет нашему управлению принимать комплексные решения вовремя и в срок, что в настоящее  время является жизненной необходимостью.</div>
+          </div>
+        </div>
+        <div class="slide"><img src="img/foto-client3.png" alt="Наши клиенты">
+          <div class="reviews">
+            <div class="reviews_header clearfix">
+              <div class="reviews_name-client">Главный бухгалтер <span>Светлана Владимировна</span><span class="name-company">СПД Забела.  Бухгалтерские и аудиторские услуги.</span></div>
+              <p class="reviews_name-soft">«1С Бухгалтерия 8», «1С Зарплата и управление персоналом»</p>
+            </div>
+            <div class="reviews_text">Сегодня сложно представить работу бухгалтера без использования компьютераи различного рода программного обеспечения.Комплексное обслуживание, которым мы пользуемся, от «Единая точка доступа» открывает для нас очень много возможностей. Использование серверного пространства дает возможности использовать неограниченное количество информационных баз, работа программного обеспечения ускоряется, дает возможность хранения, обработки и поиска собственной информации, накопленной, в ограниченные сроки. Обслуживание распространяется и на обновление, и на доработку и на адаптацию программы 1С под наши требования. Спасибо большое «Единой точке доступа», я  хочу  порекомендовать «Единую точку доступа» и комплексное ее обслуживание.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block-12">
+      <h1 class="title-white">Наши работы</h1>
+      <div class="wrap">
+        <div class="video"><iframe width="853" height="480" src="//www.youtube.com/embed/lZf-G-6yieY?rel=0" frameborder="2" allowfullscreen></iframe></div>
+      </div>
+    </section>
+    <section class="block-13">
+      <h1 class="title-black">Благодарности</h1>
+      <div class="container"><img src="img/thanks1.jpg" alt="Благодарность"><img src="img/thanks2.jpg" alt="Благодарность"><img src="img/thanks3.jpg" alt="Благодарность"><img src="img/thanks4.jpg" alt="Благодарность"></div>
+    </section>
+    <section id="employees" class="block-14">
+      <h1 class="title-white">Наша команда профессионалов</h1>
+      <div class="container">
+        <div class="employee">
+          <div class="col-lf"><img src="img/team1.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Ляховченко Светлана</span><span class="employee_post">директор</span></div>
+          <div class="col-rg"><img src="img/certificate1.png" alt="Сертификат" class="certificate"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team2.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Миндыла Валентина</span><span class="employee_post">специалист-консультант</span></div>
+          <div class="col-rg"><img src="img/certificate2.png" alt="Сертификат" class="certificate"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team3.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Евсюков Иван</span><span class="employee_post">программист</span></div>
+          <div class="col-rg"><img src="img/certificate3.png" alt="Сертификат" class="certificate"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team4.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Темный Алексей</span><span class="employee_post">системный администратор</span></div>
+          <div class="col-rg"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team5.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Овчарова Елена</span><span class="employee_post">специалист-консультант</span></div>
+          <div class="col-rg"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team6.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Хавалджи Вячеслав</span><span class="employee_post">программист</span></div>
+          <div class="col-rg"><img src="img/certificate6.png" alt="Сертификат" class="certificate"></div>
+        </div>
+        <div class="employee">
+          <div class="col-lf"><img src="img/team7.png" alt="Наша команда" class="employee_foto"><span class="employee_name">Заварин Артем</span><span class="employee_post">программист</span></div>
+          <div class="col-rg"><img src="img/certificate7.png" alt="Сертификат" class="certificate"></div>
+        </div>
+      </div>
+    </section>
+    <section class="block-15 presents clearfix">
+      <div class="container">
+        <h1> <span>И напоследок,<br></span>Мы любим дарить подарки!</h1>
+        <p>Каждый покупатель "1С Предприятие 8" для одного пользователя и более, заключивший договор ежемесячного обслуживания на сопровождение, получает подарок, который может выбрать сам на витрине подарков!</p>
+        <div class="presents_wrap clearfix">
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present1.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Суши обед</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present2.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Бизнес Книга</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present3.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Покупка в FotoMag</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present4.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Покупка в Божьей<br>Коровке</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present5.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Урок ораторского мастерства</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present6.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Макияж</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present7.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Романтическое дневное<br>шоу для двоих | Киев</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present8.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Антистрессовый массаж спины</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present9.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Гольф 1 занятие | Киев</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present10.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Ночь в «Соляной избушке»</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present11.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Мастер-класс суши и<br>роллов | Киев</p>
+          </div>
+          <div class="presents_block">
+            <div class="presents_block_iner"><img src="img/present12.png" alt="Подарок"><a href="#present-modal" class="btn btn_blue modalbox">Выбрать!</a></div>
+            <p class="presents_block_title">Фоторепортаж | Киев</p>
+          </div>
+        </div>
+        <div class="many">
+          <p>Покупатели базовых версий «1С Предприятие», заключившие договор ежемесячного обслуживания, получают 100 грн на мобильный телефон </p><a href="#present-modal" class="btn btn_blue modalbox">100 гривен!</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container"><img src="img/logo-foot.png" alt="SPOC" class="logo-foot">
+        <p class="slogan">IT - аутсорсинг организаций по Украине</p>
+        <div class="contacts">
+          <p class="phone"><i class="ic-phone"> </i>+38 (097)<span>97 97 637</span></p>
+          <p class="mail"><i class="ic-mail"> </i><a href="mailto:spoc.com.ua@gmail.com"><span>spoc.com.ua</span>@gmail.com</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal-1    -->
+    <div class="modal">
+      <div id="modal_action">
+        <p class="modal-title">Акция “ - 300 грн ”!</p>
+        <div class="form-popap">
+          <form id="contact1" action="sendmessage3.php" name="contact" method="post" class="form">
+            <p class="title-form">Оставьте заявку<br><span>на приобретение 1С Предприятие и участие в акции</span></p>
+            <input id="name1" type="text" name="name" placeholder="Ваше имя">
+            <input type="hidden" name="theme" value="Заявка на акцию -300грн" />
+            <input id="phone1" type="text" name="phone" placeholder="Ваш телефон">
+            <input id="email1" type="email" name="email" placeholder="Ваш email">
+            <button id="send1" class="btn btn_blue">Оставить заявку!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Modal-2-->
+    <div class="modal">
+      <div id="price-modal">
+        <p class="modal-title">Заполните форму и получите <br>полный прайс продукции</p>
+        <div class="form-popap">
+          <form id="contact2" action="sendmessage3.php" name="contact" method="post" class="form">
+            <p class="title-form">Оставьте заявку<br><span>и скачайте наш прайс</span></p>
+            <input id="name2" type="text" name="name" placeholder="Ваше имя">
+             <input type="hidden" name="theme" value="Cкачал прайс" />
+            <input id="phone2" type="text" name="phone" placeholder="Ваш телефон">
+            <input id="email2" type="email" name="email" placeholder="Ваш email">
+            <button id="send2" class="btn btn_blue">Скачать прайс!</button>
+          </form>
+        </div>
+      </div>
+      <!-- Modal-3-->
+      <div class="modal">
+        <div id="manager-modal">
+          <p class="modal-title">Заполните форму и наш менеджер <br>с Вами свяжется</p>
+          <div class="form-popap">
+            <form id="contact3" action="sendmessage3.php" name="contact" method="post" class="form">
+              <p class="title-form">Оставьте заявку</p>
+              <input id="name3" type="text" name="name" placeholder="Ваше имя">
+              <input id="phone3" type="text" name="phone" placeholder="Ваш телефон">
+               <input type="hidden" name="theme" value="Заявка на тарифы" />
+              <input id="email3" type="email" name="email" placeholder="Ваш email">
+              <button id="send3" class="btn btn_blue">Оставить заявку!</button>
+            </form>
+          </div>
+        </div>
+        <!-- Modal-4-->
+        <div class="modal">
+          <div id="present-modal">
+            <p class="modal-title">Заполните форму <br>и получите свой подарок!</p>
+            <div class="form-popap">
+              <form id="contact4" action="sendmessage3.php" name="contact" method="post" class="form">
+                <p class="title-form">Оставьте заявку</p>
+                <input id="name4" type="text" name="name" placeholder="Ваше имя">
+                <input id="phone4" type="text" name="phone" placeholder="Ваш телефон">
+                 <input type="hidden" name="theme" value="Заявка на подарки" />
+                <input id="email4" type="email" name="email" placeholder="Ваш email">
+                <button id="send4" class="btn btn_blue">Оставить заявку!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="answer"><div class="close"></div><a class="fancybox-item fancybox-close"></a>Ваша заявка принята!<br> Наш менеджер свяжется с Вами в ближайшее время!</div>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    
+    <script src="js/myscripts.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script>
+      $('.fancybox-close').click(function(){
+        $('#answer').css('opacity', '0');
+        $('#wrap').css('opacity', '0');
+        $('#wrap').css('display', 'none');
+        $('#answer').css('top', '-150px');    
+      })
+    </script>
+
+    <script src="js/jquery.validate.min.js"></script>   
+    <script src="./js/jquery.fancybox.pack.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/js.js"></script>
+    <script src="./js/jquery.countdown.js"></script>
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+
+		<title>PRANA, Shop-product</title>
+
+		<link href="favicon.png" type="image/x-icon" rel="shortcut icon">
+		<link href="assets/css/master.css" rel="stylesheet">
+
+		<script src="assets/plugins/jquery/jquery-1.11.1.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="assets/js/modernizr.custom.js"></script>
+	</head>
+
+
+	<body>
+		<div id="sb-site" class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
+
+			<div id="wrapper">
+
+				<header class="header">
+					<div class="container">
+						<a class="header-logo" href="javascript:void(0);"><img src="assets/img/logo.png" height="14" width="74" alt="Logo"></a>
+						<i class="sb-toggle-left ion-navicon-round"></i>
+						<div class="header-links">
+							<form class="product-search" action="#" method="get">
+								<input class="product-search__field" id="searchQuery" type="search">
+								<button class="product-search__btn"><i class="icon ion-android-search"></i></button>
+							</form>
+							<a class="header-links__link" href="javascript:void(0);"><i class="icon ion-android-favorite-outline"></i></a>
+							<a class="header-links__link" href="javascript:void(0);"><i class="icon ion-android-share-alt"></i><span class="header-qty">0</span></a>
+							<a class="header-links__link" href="javascript:void(0);"><i class="icon ion-bag"></i><span class="header-qty">0</span></a>
+						</div>
+					</div><!-- end container -->
+				</header><!-- end header -->
+
+				<h1 class="ui-title-page">Shop</h1>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-9 col-sm-offset-3">
+							<div class="breadcrumb-wrap clearfix">
+								<ol class="breadcrumb">
+									<li><a href="javascript:void(0);">home</a></li>
+									<li><a href="javascript:void(0);">shop</a></li>
+									<li><a href="javascript:void(0);">man</a></li>
+									<li class="active">suit</li>
+								</ol><!-- end breadcrumb -->
+
+								<a class="link-back" href="javascript:void(0);">back to category</a>
+							</div><!-- end breadcrumb-wrap -->
+						</div><!-- end col -->
+					</div><!-- end row -->
+
+					<div class="row">
+						<div class="col-sm-3">
+							<aside class="sidebar">
+								<section class="widget widget-categories">
+									<h3 class="widget-title">category</h3>
+									<div class="block_content">
+										<ul class="nav nav-menu">
+											<li class="dropdown">
+												<a data-toggle="dropdown" href="javascript:void(0);">man</a>
+												<ul class="dropdown-menu">
+													<li><a href="javascript:void(0);">Suit <span class="categories-number">(8)</span></a></li>
+													<li><a href="javascript:void(0);">Jacket <span class="categories-number">(10)</span></a></li>
+													<li><a href="javascript:void(0);">Pants <span class="categories-number">(9)</span></a></li>
+													<li><a href="javascript:void(0);">Shoes <span class="categories-number">(14)</span></a></li>
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a data-toggle="dropdown" href="javascript:void(0);">woman</a>
+												<ul class="dropdown-menu">
+													<li><a href="javascript:void(0);">women's dress 1</a></li>
+													<li><a href="javascript:void(0);">women's dress 2</a></li>
+													<li><a href="javascript:void(0);">women's dress 3</a></li>
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a data-toggle="dropdown" href="javascript:void(0);">accessories</a>
+												<ul class="dropdown-menu">
+													<li><a href="javascript:void(0);">shoes 1</a></li>
+													<li><a href="javascript:void(0);">shoes 2</a></li>
+													<li><a href="javascript:void(0);">shoes 3</a></li>
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a data-toggle="dropdown" href="javascript:void(0);">electronics</a>
+												<ul class="dropdown-menu">
+													<li><a href="javascript:void(0);">shoes 1</a></li>
+													<li><a href="javascript:void(0);">shoes 2</a></li>
+													<li><a href="javascript:void(0);">shoes 3</a></li>
+												</ul>
+											</li>
+											<li class="dropdown">
+												<a data-toggle="dropdown" href="javascript:void(0);">for home</a>
+												<ul class="dropdown-menu">
+													<li><a href="javascript:void(0);">shoes 1</a></li>
+													<li><a href="javascript:void(0);">shoes 2</a></li>
+													<li><a href="javascript:void(0);">shoes 3</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div><!-- end block_content -->
+								</section><!-- end widget-categories -->
+
+
+								<section class="widget widget-viewed">
+									<h3 class="widget-title">viewed</h3>
+									<div class="block_content">
+										<ul class="list-goods list-goods_mod-b list-unstyled">
+											<li class="list-goods__item">
+												<a class="list-goods__link" href="javascript:void(0);">
+													<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/1.jpg" height="53" width="50" alt="goods"></div>
+													<div class="list-goods__inner">
+														<h3 class="list-goods__name">Contrast Boots</h3>
+														<span class="list-goods__price">£42.00</span>
+													</div>
+												</a>
+											</li>
+											<li class="list-goods__item">
+												<a class="list-goods__link" href="javascript:void(0);">
+													<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/2.jpg" height="53" width="50" alt="goods"></div>
+													<div class="list-goods__inner">
+														<h3 class="list-goods__name">Shorts</h3>
+														<span class="list-goods__price">£10.00</span>
+													</div>
+												</a>
+											</li>
+											<li class="list-goods__item">
+												<a class="list-goods__link" href="javascript:void(0);">
+													<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/3.jpg" height="53" width="50" alt="goods"></div>
+													<div class="list-goods__inner">
+														<h3 class="list-goods__name">Leather Shoes</h3>
+														<span class="list-goods__price">£50.00</span>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div><!-- end block_content -->
+								</section><!-- end widget-viewed -->
+
+								<section class="widget widget-slider-brand">
+									<h3 class="widget-title">brand</h3>
+									<div class="block_content">
+										<div class="slider-brand owl-carousel owl-theme owl-theme_mod-d enable-owl-carousel" id="slider-brand"
+											data-single-item="true"
+											data-pagination="false"
+											data-navigation="true"
+											data-auto-play="4000"
+											data-stop-on-hover="true">
+											<div class="slider-brand__item"><img class="img-responsive" src="assets/media/slider-brand/1.png" height="37" width="159" alt="Brand"></div>
+											<div class="slider-brand__item"><img class="img-responsive" src="assets/media/slider-brand/1.png" height="37" width="159" alt="Brand"></div>
+											<div class="slider-brand__item"><img class="img-responsive" src="assets/media/slider-brand/1.png" height="37" width="159" alt="Brand"></div>
+											<div class="slider-brand__item"><img class="img-responsive" src="assets/media/slider-brand/1.png" height="37" width="159" alt="Brand"></div>
+											<div class="slider-brand__item"><img class="img-responsive" src="assets/media/slider-brand/1.png" height="37" width="159" alt="Brand"></div>
+										</div>
+									</div><!-- end block_content -->
+								</section><!-- end widget-slider-brand -->
+							</aside><!-- end sidebar -->
+						</div><!-- end col -->
+
+						<div class="col-sm-9">
+							<main class="main-content">
+								<section class="section-cart-goods cart-goods">
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="cart-goods__slider">
+												<div id="slider-product" class="flexslider slider-product">
+													<ul class="slides">
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+														<li>
+															<a href="assets/media/slider_product/large/1.jpg" rel="prettyPhoto[gallery1]">
+																<img class="img-responsive" src="assets/media/slider_product/large/1.jpg" height="337" width="220" alt="Foto">
+															</a>
+														</li>
+													</ul>
+												</div>
+												<div id="carousel-product" class="flexslider carousel-product">
+													<ul class="slides">
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/1.jpg" height="90" width="90" alt="foto">
+														</li>
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/2.jpg" height="90" width="90" alt="foto">
+														</li>
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/3.jpg" height="90" width="90" alt="foto">
+														</li>
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/1.jpg" height="90" width="90" alt="foto">
+														</li>
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/2.jpg" height="90" width="90" alt="foto">
+														</li>
+														<li>
+															<img class="img-responsive" src="assets/media/slider_product/small/3.jpg" height="90" width="90" alt="foto">
+														</li>
+													</ul>
+												</div>
+											</div><!-- end cart-goods__slider -->
+										</div>
+										<div class="col-sm-8">
+											<div class="cart-goods__main">
+												<h1 class="cart-goods__name">Male fitted suit</h1>
+												<div class="wrap-rating">
+													<ul class="rating">
+														<li><i class="icon ion-ios-star"></i></li>
+														<li><i class="icon ion-ios-star"></i></li>
+														<li><i class="icon ion-ios-star"></i></li>
+														<li><i class="icon ion-ios-star-half"></i></li>
+														<li><i class="icon ion-ios-star-outline"></i></li>
+													</ul>
+													<a class="cart-goods__reviews" href="javascript:void(0);">16 Review (s)</a>
+													<span>/</span>
+													<a class="cart-goods__reviews" href="javascript:void(0);">Add a Review</a>
+												</div>
+												<div class="cart-goods__price">
+													<span class="cart-goods__price-new">£142.00</span>
+													<span class="cart-goods__price-old">£245.00</span>
+													<span class="cart-goods__label">SAVE 45%</span>
+												</div>
+												<div class="card-btns">
+													<button class="card-btns__add"><i class="icon ion-ios-plus-outline"></i>Add to cart</button>
+													<div class="enumerator">
+														<a class="minus_btn card-btns__btn">-</a>
+														<input type="text" placeholder="1">
+														<a class="plus_btn card-btns__btn">+</a>
+													</div>
+												</div>
+												<div class="cart-goods__description">
+													<p>Pair up your Samsung Galaxy smartphone with this stylish Galaxy Gear Fit smartwatch. The trendy watch not only notifies you about SMSs, incoming calls, emails, and 3rd party apps, but also doubles up as your personalized fitness manager. Gear Fit deploys an optical heart sensor to keep track of your workouts and provides personalized real time info about your fitness activity. It also offers recommendations regarding your next workout as per the.</p>
+												</div>
+												<ul class="goods-info list-unstyled">
+													<li class="goods-info__item">BRAND:
+														<span class="goods-info__data">High Sierra</span></li>
+													<li class="goods-info__item">PRODUCT CODE:
+														<span class="goods-info__data">02551059845</span></li>
+													<li class="goods-info__item">Available
+														<span class="goods-info__data">In Stock</span></li>
+												</ul>
+											</div><!-- end cart-goods__main -->
+										</div><!-- end col -->
+									</div><!-- end row -->
+
+
+									<div class="product-description">
+										<div class="row">
+											<div class="col-xs-12">
+												<ul class="nav nav-tabs">
+													<li class="active"><a href="#description" data-toggle="tab">Description</a></li>
+													<li><a href="#more" data-toggle="tab">MORE INFORMATION</a></li>
+													<li><a href="#reviews" data-toggle="tab">Reviews</a></li>
+												</ul>
+											</div><!-- end col -->
+										</div><!-- end row -->
+										<div class="row">
+											<div class="col-xs-12">
+												<div class="tab-content">
+													<div class="tab-pane active" id="description">
+														<p>Pair up your Samsung Galaxy smartphone with this stylish Galaxy Gear Fit smartwatch. The trendy watch not only notifies you about SMSs, incoming calls, emails, and 3rd party apps, but also doubles up as your personalized fitness manager. Gear Fit deploys an optical heart sensor to keep track of your workouts and provides personalized real time info about your fitness activity. It also offers recommendations regarding your next workout as per the calculated results, based on your individual needs. The smart watch is extremely easy to use. Just swipe your finger across the 1.84inch curved Super AMOLED touchscreen display of the watch lets you control alarms, reject calls with messages, reply quickly to messages, and do much more. Content displayed on the screen like wallpapers, background colors, and clock designs can be set according to your preferences. Screen rotation lets you look at the screen both horizontally and vertically. Screen rotation is made possible with the inclusion of a built in gyroscope. An accelerometer is also fitted on this device. The display is set on colorful band that is interchangeable. </p>
+													</div>
+													<div class="tab-pane" id="more">
+														<p>Pair up your Samsung Galaxy smartphone with this stylish Galaxy Gear Fit smartwatch. The trendy watch not only notifies you about SMSs, incoming calls, emails, and 3rd party apps, but also doubles up as your personalized fitness manager. Gear Fit deploys an optical heart sensor to keep track of your workouts and provides personalized real time info about your fitness activity. It also offers recommendations regarding your next workout as per the calculated results, based on your individual needs. The smart watch is extremely easy to use. Just swipe your finger across the 1.84inch curved Super AMOLED touchscreen display of the watch lets you control alarms, reject calls with messages, reply quickly to messages, and do much more. Content displayed on the screen like wallpapers, background colors, and clock designs can be set according to your preferences. Screen rotation lets you look at the screen both horizontally and vertically. Screen rotation is made possible with the inclusion of a built in gyroscope. An accelerometer is also fitted on this device. The display is set on colorful band that is interchangeable. </p>
+													</div>
+													<div class="tab-pane" id="reviews">
+														<div class="rew_blk">
+															<h5>Excellent </h5>
+															<div class="top_row">
+																<div class="date"><span class="icon ion-calendar"></span>1/3/2020</div>
+																<a class="user" href="javascript:void(0);"><span class="icon ion-person"></span>Sheldon</a>
+																<div class="product-rating"><i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="ion-ios-star-o"></i> </div>
+															</div>
+															<p>Etiam pretium, arcu id mattis aliquet, est neque sagittis quam, id mollis leo urna non dui. Phasellus lacinia facilisis ipsum, a tempor nibh. Aliquam nec interdum mi. Nunc laoreet molestie massa, at euismod ipsum fringilla id. Vivamus vehicula metus velit, sit amet congue turpis suscipit in. Etiam interdum felis sed consequat varius. Aliquam erat volutpat. </p>
+														</div>
+														<div class="rew_blk">
+															<h5>Awesome!</h5>
+															<div class="top_row clearfix">
+																<div class="date"><span class="icon ion-calendar"></span>3/12/2020</div>
+																<a class="user" href="javascript:void(0);"><span class="icon ion-person"></span>Sasha</a>
+																<div class="product-rating"><i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> <i class="icon ion-ios-star"></i> </div>
+															</div>
+															<p>Etiam pretium, arcu id mattis aliquet, est neque sagittis quam, id mollis leo urna non dui. Phasellus lacinia facilisis ipsum, a tempor nibh. Aliquam nec interdum mi. Nunc laoreet molestie massa, at euismod ipsum fringilla id. Vivamus vehicula metus velit, sit amet congue turpis suscipit in.</p>
+														</div>
+														<form class="form-reviews ui-form" accept-charset="UTF-8" action="action.php" method="get">
+															<input id="ratings-hidden" name="rating" type="hidden">
+															<textarea class="form-control" id="new-review" name="comment" placeholder="Enter your review here..." rows="5"></textarea>
+															<button class="btn">Add Review</button>
+														</form>
+													</div>
+												</div>
+											</div><!-- end col -->
+										</div><!-- end row -->
+									</div><!-- end product-description -->
+
+
+									<ul class="list-social list-social_mod-b list-unstyled">
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-facebook"></i></a>
+										</li>
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-twitter"></i></a>
+										</li>
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-googleplus"></i></a>
+										</li>
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-instagram-outline"></i></a>
+										</li>
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-rss"></i></a>
+										</li>
+										<li class="list-social__item">
+											<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-youtube"></i></a>
+										</li>
+									</ul><!-- end list-social -->
+								</section><!-- end cart-goods -->
+							</main><!-- end main-content -->
+
+
+						</div><!-- end col -->
+					</div><!-- end row -->
+				</div><!-- end container -->
+
+				<div class="section-letter">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<form class="form-letter">
+									<input class="form-letter__input" type="text" placeholder="Enter your mail and get a discount">
+									<button class="form-letter__btn"><i class="icon ion-checkmark"></i></button>
+								</form>
+							</div><!-- end col -->
+						</div><!-- end row -->
+					</div><!-- end container -->
+				</div><!-- end section-letter -->
+
+
+				<div class="section-lists-goods">
+					<div class="container my-grid__container">
+						<div class="row my-grid__row">
+							<div class="col-sm-3 my-grid__col">
+								<h2 class="ui-title-block">Top rated</h2>
+								<ul class="list-goods list-goods_mod-a list-unstyled">
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/1.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Contrast Boots</h3>
+												<span class="list-goods__price">£42.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-half"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/2.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Shorts</h3>
+												<span class="list-goods__price">£10.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/3.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Leather Shoes</h3>
+												<span class="list-goods__price">£50.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div><!-- end col -->
+
+							<div class="col-sm-3 my-grid__col">
+								<h2 class="ui-title-block">Sale</h2>
+								<ul class="list-goods list-goods_mod-a list-unstyled">
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/1.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Contrast Boots</h3>
+												<span class="list-goods__price_old">£42.00</span>
+												<span class="list-goods__price_new">£30.00</span>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/2.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Shorts</h3>
+												<span class="list-goods__price_old">£15.00</span>
+												<span class="list-goods__price_new">£10.00</span>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/3.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Leather Shoes</h3>
+												<span class="list-goods__price_old">£70.00</span>
+												<span class="list-goods__price_new">£42.00</span>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div><!-- end col -->
+
+							<div class="col-sm-3 my-grid__col">
+								<h2 class="ui-title-block">Novelty</h2>
+								<ul class="list-goods list-goods_mod-a list-unstyled">
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/1.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Contrast Boots</h3>
+												<span class="list-goods__price">£42.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-half"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/2.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Shorts</h3>
+												<span class="list-goods__price">£10.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/3.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Leather Shoes</h3>
+												<span class="list-goods__price">£50.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div><!-- end col -->
+
+							<div class="col-sm-3 my-grid__col">
+								<h2 class="ui-title-block">Related</h2>
+								<ul class="list-goods list-goods_mod-a list-unstyled">
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/1.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Contrast Boots</h3>
+												<span class="list-goods__price">£42.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-half"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/2.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Shorts</h3>
+												<span class="list-goods__price">£10.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star-outline"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+									<li class="list-goods__item">
+										<a class="list-goods__link" href="javascript:void(0);">
+											<div class="list-goods__foto"><img class="img-responsive" src="assets/media/list-goods/3.jpg" height="53" width="50" alt="goods"></div>
+											<div class="list-goods__inner">
+												<h3 class="list-goods__name">Leather Shoes</h3>
+												<span class="list-goods__price">£50.00</span>
+												<ul class="rating">
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+													<li><i class="icon ion-ios-star"></i></li>
+												</ul>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div><!-- end col -->
+						</div><!-- end row -->
+					</div><!-- end container -->
+				</div><!-- end section-lists-goods -->
+
+
+				<footer class="footer">
+					<div class="footer-top">
+						<div class="container">
+							<div class="row">
+								<section class="footer-block">
+									<h3 class="footer-title">About us</h3>
+									<p>Aenean posuere, sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero.</p>
+									<a class="btn btn-default" href="javascript:void(0);">more</a>
+								</section>
+								<section class="footer-block">
+									<h3 class="footer-title">Catalog products</h3>
+									<ul class="footer-list">
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">Jackets and sweatshirts</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">T-shirts and shirts</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">SHOES & sneakers</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">JIENS & PANTS</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">SUNGLASSES</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">windcheater</a>
+										</li>
+									</ul>
+								</section>
+								<section class="footer-block">
+									<h3 class="footer-title">Information</h3>
+									<ul class="footer-list">
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">ABOUT US</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">NEWS</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">CONTACTS</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">DELIVERY INFORMATION</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">PRIVACY POLICY</a>
+										</li>
+										<li class="footer-list__item">
+											<a class="footer-list__link" href="javascript:void(0);">TERMS & CONDITIONS</a>
+										</li>
+									</ul>
+								</section>
+								<section class="footer-block">
+									<h3 class="footer-title">Contacts</h3>
+									<div class="footer-contacts">
+										<i class="icon ion-ios-telephone-outline"></i>
+										<span class="footer-contacts__inner">+12 345 6789</span>
+									</div>
+									<div class="footer-contacts">
+										<i class="icon ion-ios-email-outline"></i>
+										<a class="footer-contacts__inner" href="mailto:sale@prana.com">sale@prana.com</a>
+									</div>
+									<div class="footer-contacts footer-contacts_mod-a">
+										<i class="icon ion-ios-location-outline"></i>
+										<address class="footer-contacts__inner">123 Inner Street, Angeles City, Los Angeles , LA USA 21011</address>
+									</div>
+								</section>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div><!-- end footer-top -->
+
+					<div class="footer-bottom clearfix">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="copyright">Copyright © 2015 <a class="copyright-link" href="javascript:void(0);">Made in Prana</a></div>
+									<div class="footer-social">
+										<span class="footer-social__title">Let’s connect:</span>
+										<ul class="list-social list-social_mod-a list-unstyled">
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-tumblr"></i></a>
+											</li>
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-twitter"></i></a>
+											</li>
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-vimeo"></i></a>
+											</li>
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-googleplus"></i></a>
+											</li>
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-instagram"></i></a>
+											</li>
+											<li class="list-social__item">
+												<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-pinterest"></i></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div><!-- end footer-bottom -->
+				</footer>
+
+			</div><!-- end #wrapper -->
+		</div><!-- end layout-theme -->
+
+
+		<div class="sb-slidebar sb-left nav-panel">
+			<nav class="main-menu">
+				<h3 class="widget-title">menu</h3>
+				<ul class="nav nav-menu">
+					<li><a href="home-1.html">about</a></li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" href="javascript:void(0);">blog</a>
+						<ul class="dropdown-menu">
+							<li><a href="blog.html">Blog 1</a></li>
+							<li><a href="blog-2.html">Blog 2</a></li>
+							<li><a href="blog-post.html">Blog post</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a data-toggle="dropdown" href="javascript:void(0);">shop</a>
+						<ul class="dropdown-menu">
+							<li><a href="shop-catalog.html">Catalog</a></li>
+							<li><a href="shop-product.html">Product</a></li>
+						</ul>
+					</li>
+					<li><a href="home-3.html">contacts</a></li>
+				</ul>
+			</nav><!-- end main-menu -->
+
+
+			<form method="get" class="form-search clearfix" id="search-global-form">
+				<input class="form-search__input" placeholder="Search products" type="text">
+				<button class="form-search__submit" type="submit"><i class="icon ion-ios-search"></i></button>
+			</form>
+
+
+			<div class="widget widget-filter">
+				<button class="filter-btn filter-btn_large filter-down js-filter"></button>
+				<div class="wrap-filter wrap-filter_hidden">
+					<div class="filter-label clearfix">
+						<input class="filter-input slider-price_min" disabled>
+						<input class="filter-input slider-price_max" disabled>
+					</div>
+					<div class="slider-price"></div>
+					<div class="filter-inner clearfix">
+						<div class="filter-price">
+							PRICE:
+							<input class="filter-input slider-price_min">
+							—
+							<input class="filter-input slider-price_max">
+						</div>
+						<button class="filter-btn filter-btn_small">FILTER</button>
+					</div>
+
+					<ul class="nav nav-menu nav-menu_filter">
+						<li class="dropdown">
+							<a data-toggle="dropdown" href="javascript:void(0);">material</a>
+							<ul class="dropdown-menu">
+								<li><a href="javascript:void(0);">material 1</a></li>
+								<li><a href="javascript:void(0);">material 2</a></li>
+								<li><a href="javascript:void(0);">material 3</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a data-toggle="dropdown" href="javascript:void(0);">color</a>
+							<ul class="dropdown-menu">
+								<li><a href="javascript:void(0);">color 1</a></li>
+								<li><a href="javascript:void(0);">color 2</a></li>
+								<li><a href="javascript:void(0);">color 3</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a data-toggle="dropdown" href="javascript:void(0);">size</a>
+							<ul class="dropdown-menu">
+								<li><a href="javascript:void(0);">size 1</a></li>
+								<li><a href="javascript:void(0);">size 2</a></li>
+								<li><a href="javascript:void(0);">size 3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- end wrap-filter -->
+			</div><!-- end widget-filter -->
+
+
+			<div class="nav-panel__footer">
+				<div class="nav-panel__contacts">To order: +12 345 6789</div>
+				<div class="nav-panel__contacts">Client support: +12 987 6543 </div>
+				<div class="nav-panel__contacts"><a href="mailto:sale@prana.com"></a>Email: sale@prana.com</div>
+				<ul class="list-social list-social_mod-a list-unstyled">
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-tumblr"></i></a>
+					</li>
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-twitter"></i></a>
+					</li>
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-vimeo"></i></a>
+					</li>
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-googleplus"></i></a>
+					</li>
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-instagram"></i></a>
+					</li>
+					<li class="list-social__item">
+						<a class="list-social__link" href="javascript:void(0);"><i class="icon ion-social-pinterest"></i></a>
+					</li>
+				</ul>
+			</div><!-- end nav-panel__contacts -->
+		</div><!-- end #sb-slidebar -->
+
+
+		<!-- SCRIPTS -->
+		<script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+		<script src="assets/plugins/prettyphoto/js/jquery.prettyPhoto.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="assets/plugins/jelect/jquery.jelect.js"></script>
+		<script src="assets/plugins/slidebars/slidebars.js"></script>
+		<script src="assets/plugins/nouislider/jquery.nouislider.all.min.js"></script>
+		<script src="assets/plugins/flexslider/jquery.flexslider.js"></script>
+
+		<!--THEME-->
+		<script src="assets/js/cssua.min.js"></script>
+		<script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+
+
+	</body>
+</html>

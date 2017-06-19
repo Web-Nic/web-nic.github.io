@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="favicon.ico" rel="icon" type="image/png">
+		<title>Магазин чешек, Главная</title>
+		<style>
+			.preloader {
+				position: fixed;
+				left: 0;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				background: #000;
+				z-index: 1000;
+			}
+			
+			.preloader__spinner {
+				width: 105px;
+				height: 64px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				background: url('assets/images/spinner.GIF') no-repeat 50% 50%;
+				margin-top: -32px;
+				margin-left: -53px;
+			}
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:700,400,300,100&amp;subset=latin,cyrillic" rel="stylesheet">
+		<link href="assets/styles/common.css?1431939584826" rel="stylesheet">
+		<!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>![endif]-->
+	</head>
+
+	<body>
+		<div class="preloader"><span class="preloader__spinner"></span></div>
+		<!-- end preloader-->
+
+		<div class="page">
+			<header class="header">
+				<div class="container">
+					<a href="main.html" class="header__logo"><img src="assets/images/logo.png" alt="Logo"></a>
+					<div class="header__contacts">
+						<a href="skype:name?add" class="link-skype"></a>
+						<a href="tel:+79175953482" class="link-phone"></a><a href="#modal_request" class="btn btn_orange btn_header fancybox">Заказать звонок!</a><span class="header__phone">+7 (917) 595-34-82</span></div>
+					<div id="nav-wrap">
+						<div class="nav">
+							<a id="mobile-menu-trigger" href="main.html" class="mobile-menu-closed"></a>
+							<nav>
+								<ul id="menu" class="sf-menu fixed sf-js-enabled sf-arrows">
+									<li class="current"><a href="about.html">О нас</a></li>
+									<li><a href="catalog.html">Каталог</a></li>
+									<li><a href="wholesalers.html">Оптовикам</a></li>
+									<li><a href="payment.html">Оплата</a></li>
+									<li><a href="partners.html">Партнерам</a></li>
+									<li><a href="contacts.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- end header-->
+			<div class="wrap-content">
+				<div class="main">
+					<section class="main-section main-section_top">
+						<div class="container">
+							<h1 class="main-section__title">Лучший магазин<strong class="main-section__emphasis">спортивных чешек</strong> в москве</h1></div>
+					</section>
+					<!-- end .main-section_top-->
+
+					<section class="main-section main-section_action">
+						<div class="container main-section__bg">
+							<div class="col-a">
+								<h2 class="main-section__title">Акция</h2>
+								<div class="timer"><span class="timer-title">до конца акции осталось:</span>
+									<div id="countdown1"></div>
+									<div class="timer-name"><span>часов</span><span>мин</span><span>сек</span></div>
+								</div>
+							</div>
+							<div class="col-b col-b_action">
+								<!--.action-infospan.arithmetic
+	span.arithmetic__first 2
+	|+
+	span.arithmetic__second 1
+strong.action-info__helper при покупке<br>
+| 2 пар чешек
+strong.action-info__emphasis третья
+	span.action-info__emphasis_color  в подарок!--><a href="javascript:void(0);" class="btn btn_blue btn_action">КУпить!</a></div>
+						</div>
+					</section>
+					<!-- end .main-section_action-->
+
+					<section class="main-section main-section_goods">
+						<div class="container">
+							<div class="goods"><img src="assets/images/catalog/goods-1.jpg" alt="Gym shoes" class="goods__foto"><span class="goods__name">чешки женские</span><span class="goods__model">модель 454</span><span class="goods__price-old">2 390<i class="icon-rouble"></i></span>
+								<span
+								class="goods__price">1 900<i class="icon-rouble"></i></span><a href="card.html" class="btn btn_orange btn_goods">КУпить!</a></div>
+							<div class="goods"><img src="assets/images/catalog/goods-1.jpg" alt="Gym shoes" class="goods__foto"><span class="goods__name">чешки женские</span><span class="goods__model">модель 454</span><span class="goods__price-old">2 390<i class="icon-rouble"></i></span>
+								<span
+								class="goods__price">1 900<i class="icon-rouble"></i></span><a href="card.html" class="btn btn_orange btn_goods">КУпить!</a></div>
+							<div class="goods"><img src="assets/images/catalog/goods-1.jpg" alt="Gym shoes" class="goods__foto"><span class="goods__name">чешки женские</span><span class="goods__model">модель 454</span><span class="goods__price-old">2 390<i class="icon-rouble"></i></span>
+								<span
+								class="goods__price">1 900<i class="icon-rouble"></i></span><a href="card.html" class="btn btn_orange btn_goods">КУпить!</a></div>
+							<div class="goods"><img src="assets/images/catalog/goods-1.jpg" alt="Gym shoes" class="goods__foto"><span class="goods__name">чешки женские</span><span class="goods__model">модель 454</span><span class="goods__price-old">2 390<i class="icon-rouble"></i></span>
+								<span
+								class="goods__price">1 900<i class="icon-rouble"></i></span><a href="card.html" class="btn btn_orange btn_goods">КУпить!</a></div>
+						</div>
+					</section>
+					<!-- end .main-section_goods-->
+
+					<section class="main-section main-section_advantages">
+						<div class="container">
+							<ul class="list-advantages">
+								<li class="list-advantages__item list-advantages__item_1">Отличное
+									<br>качество</li>
+								<li class="list-advantages__item list-advantages__item_2">Разумная
+									<br>цена</li>
+								<li class="list-advantages__item list-advantages__item_3">Фирменный
+									<br>товар</li>
+								<li class="list-advantages__item list-advantages__item_4">Бесплатная
+									<br>доставка</li>
+							</ul>
+						</div>
+					</section>
+					<!-- end .main-section_advantages-->
+
+					<section class="main-section main-section_form">
+						<div class="container">
+							<form class="form form_action">
+								<h2 class="form__title">оставьте свои email и получите информацию о скидках</h2>
+								<input type="text" placeholder="Ваше имя" class="form__input">
+								<input type="text" placeholder="Ваш email" class="form__input">
+								<input type="text" placeholder="Ваш телефон" class="form__input">
+								<input type="text" placeholder="Ваш город" class="form__input">
+								<input type="submit" value="отправить!" class="btn btn_orange btn_submit">
+							</form>
+						</div>
+					</section>
+					<!-- end .main-section_form-->
+
+					<section class="main-article">
+						<div class="container">
+							<h2 class="main-article__title">Как правильно выбрать чешки</h2>
+							<p class="main-article__info">Измерьте длину стопы в сантиметрах как показана на картинке</p>
+							<p class="main-article__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+								amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+								in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl
+								quis neque. Suspendisse in orci enim.</p>
+							<div class="measuring"><img src="assets/images/scheme-1.png" alt="scheme-1" class="measuring__item"><img src="assets/images/scheme-2.png" alt="scheme-2" class="measuring__item"><img src="assets/images/scheme-3.png" alt="scheme-3" class="measuring__item"></div>
+						</div>
+					</section>
+					<!-- end .main-article-->
+
+					<section class="main-section main-section_reviews">
+						<div class="container">
+							<h2 class="title-block title-block_reviews">отзывы</h2>
+							<div class="reviews-wrap swiper-container">
+								<div class="reviews swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="reviews__item"><img src="assets/images/reviews/foto-client-1.jpg" alt="Клиент" class="reviews__foto"><span class="reviews__avtor">Сергей Демидов</span>
+											<p class="reviews__text">Всем привет!!! приобрел тут чешки, порадовали качеством и ценой, подошва приклеена намертво, кожа отличная. С удовольствием в них тренируюсь, работаю, выступаю. https://vk.com/id2237246</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item"><img src="assets/images/reviews/foto-client-1.jpg" alt="Клиент" class="reviews__foto"><span class="reviews__avtor">Сергей Демидов</span>
+											<p class="reviews__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+												a sit amet mauris. Morbi accumsan ipsum velit. Nam nec te</p>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="reviews__item"><img src="assets/images/reviews/foto-client-1.jpg" alt="Клиент" class="reviews__foto"><span class="reviews__avtor">Сергей Демидов</span>
+											<p class="reviews__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+												a sit amet mauris. Morbi accumsan ipsum velit. Nam nec te</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-next"></div>
+							<div class="swiper-button-prev"></div>
+						</div>
+					</section>
+					<section class="main-section main-section_order">
+						<div class="container">
+							<p class="text">Для изменения состава заказа введите нужное количество экземпляров и нажмите на кнопку “Оформить”.</p><a href="/basket.html" class="btn btn_orange btn_order">Заказать!</a></div>
+					</section>
+				</div>
+			</div>
+			<!-- end wrap-content-->
+		</div>
+		<!-- end page-->
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<ul class="footer-nav">
+						<li class="footer-nav__item"><a href="about.html" class="footer-nav__link">О нас</a></li>
+						<li class="footer-nav__item"><a href="catalog.html" class="footer-nav__link">Каталог</a></li>
+						<li class="footer-nav__item"><a href="wholesalers.html" class="footer-nav__link">Оптовикам</a></li>
+						<li class="footer-nav__item"><a href="payment.html" class="footer-nav__link">Оплата</a></li>
+						<li class="footer-nav__item"><a href="partners.html" class="footer-nav__link">Партнерам</a></li>
+						<li class="footer-nav__item"><a href="contacts.html" class="footer-nav__link">Контакты</a></li>
+					</ul>
+					<p class="footer__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit
+						amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris
+						in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl
+						quis neque. Suspendisse in orci enim.</p>
+				</div>
+			</div>
+			<div class="footer__bottom-line">
+				<div class="container">
+					<div class="footer__wrap-contacts"><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-phone"></i>8 800 800 800</span><span class="footer__contacts"><i class="ico ico-map"></i>Москва,<span class="footer__street"> ул. Молодогвардейская, д. 54</span></span>
+						<a
+						href="mailto:email@mail.com" class="footer__contacts footer__contacts_link"><i class="ico ico-mail"></i>email@mail.com</a>
+					</div>
+					<div class="social"><span class="social__item ico ico-gl"></span><span class="social__item ico ico-fb"></span><span class="social__item ico ico-vk"></span><span class="social__item ico ico-tw"></span></div>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer-->
+
+		<!-- Modal-request-->
+		<div class="modal">
+			<div id="modal_request" class="modal_request">
+				<div class="modal__title"> оставьте заявку</div>
+				<div class="modal__text">прямо здесь и менеджер свяжеться
+					<br>с Вами в течении 25 минут</div>
+				<form class="form form_request">
+					<input type="text" placeholder="Ваше имя" class="form__input">
+					<input type="text" placeholder="Ваш телефон" class="form__input">
+					<input type="submit" value="отправить!" class="btn btn_orange btn_request">
+				</form>
+			</div>
+		</div>
+		<!-- Modal-thanks-->
+		<div class="modal">
+			<div id="modal_thanks" class="modal_thanks">
+				<div class="modal__title">спасибо!</div>
+				<div class="modal__text">Ваша заявка успешно принята!
+					<br>Вы получите письмо в ближайщее время!</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="assets/scripts/libs/timer.js"></script>
+		<script src="assets/scripts/libs/fancybox/source/jquery.fancybox.pack.js"></script>
+		<script src="assets/scripts/libs/swiper/dist/js/swiper.min.js"></script>
+		<script src="assets/scripts/common.min.js"></script>
+	</body>
+
+</html>
