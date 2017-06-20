@@ -1,0 +1,30 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: Fast new
+Version:  1.0
+Assigned to:  WebNik
+Primary use: Fast new
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+@import '../fonts/glyphter-font/css/Glyphter.css';
+
+
+/* PLUGIN CSS */
+
+@import '../libs/bootstrap/bootstrap.css';                /* bootstrap */
+@import '../plugins/bootstrap-select/css/bootstrap-select.css';   /* select customization */
+@import '../plugins/rangeSlider/css/ion.rangeSlider.css';                /* range slider */
+@import '../plugins/rangeSlider/css/ion.rangeSlider.skinHTML5.css';                /* range slider */
+@import '../plugins/owl-carousel/owl.theme.css';                 /* other sliders */
+@import '../plugins/magnific-popup/magnific-popup.css';            /* modal */
+
+
+
+/* MAIN CSS */
+
+@import 'theme.css';
+@import 'color.css';
+@import 'responsive.css';

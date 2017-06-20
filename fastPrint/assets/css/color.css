@@ -1,0 +1,141 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.text-primary,
+.b-services:hover .b-services__name,
+.btn-default,
+.btn-primary:hover,
+.header-links__item:hover,
+.forms__label-check:hover,
+.forms__label-radio:hover,
+.b-faq-link__title,
+.b-faq-link__inner-link:hover,
+.b-advantages:hover .b-advantages__name,
+.btn-link:hover,
+.btn-link:focus,
+.b-bcards-section__link:hover,
+.b-bcards-section__label,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.b-step-order__num,
+.b-services-2:hover .b-services-2__name,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li.active > a,
+.b-404__list-link:hover,
+.b-cart__download,
+.b-filter__title,
+.b-price__list-item_price,
+.b-order-step-1__item:hover .b-order-step-1__name,
+.b-order-settings__scale,
+.b-upload__panel-item,
+.b-order-settings .irs-single,
+.b-order-settings__btn.active,
+.b-order-finish__info,
+.b-user-cart__link:hover,
+.b-login__link:hover,
+.badge__icon,
+.b-order-contact__info:hover,
+.header-links__item_order,
+.header-contacts__address:hover,
+.header-contacts__map:hover,
+.panel-title:hover,
+.b-main-catalog:hover .b-main-catalog__name,
+.b-cart:hover .b-cart__name,
+.b-post .entry-title a:hover,
+.b-post .entry-meta__link:hover {color: #BC2436;}
+
+
+.bg-primary,
+.btn-primary,
+.btn-default:hover,
+.b-advantages__name:after,
+.ui-list-mark li:before,
+.irs-bar-edge,
+.irs-bar,
+.tooltip-1 .tooltip-inner,
+.b-order-price__table tbody tr .btn:hover {background-color: #BC2436;}
+
+.btn-default,
+.btn-primary:hover,
+.forms__label-check:hover:before,
+.forms__radio:checked + .forms__label-radio-1:before,
+.forms__label-radio:hover:before {
+  border-color: #BC2436;
+}
+
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.b-user-cart_header,
+.b-login,
+.slidebar-left__inner,
+.slidebar-right__inner,
+.accordion .panel:hover .icon {
+  border-top-color: #BC2436;
+}
+
+
+.b-faq-link__inner-link:hover,
+.owl-theme .owl-controls .owl-buttons div:hover i,
+.btn-link:hover,
+.btn-link:focus,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li.active > a,
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.b-order-price__table thead > tr > th {
+  border-bottom-color: #BC2436;
+}
+.owl-theme .owl-controls .owl-buttons div:hover i,
+.ui-list-mark-2 li:before,
+.pagination > li:nth-last-child(2) > a:hover:before,
+.pagination > li:nth-last-child(2) > span:hover:before,
+.tooltip-1.left .tooltip-arrow {
+  border-left-color: #BC2436;
+}
+
+.pagination > li:nth-child(2) > a:hover:after,
+.pagination > li:nth-child(2) > span:hover:after,
+.tooltip-1.right .tooltip-arrow {
+  border-right-color: #BC2436;
+}
+
+
+.forms__radio:checked + .forms__label-radio-1:not(.disabled):before {
+  box-shadow: 0 0 0 3px #BC2436;
+}
+.main-nav > li.active > a {
+  box-shadow: inset 0 2px 0 0 #BC2436;
+}
+
+@media (max-width: 991px) {
+  .forms__radio:checked + .forms__label-radio-1:not(.disabled):before {
+    background-color: #BC2436;
+  }
+  .form-group_sm-radio-btn .forms__radio:checked + .forms__label-radio:not(.disabled),
+  .b-bcards-section__link {
+    color: #BC2436;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .header-contacts__address,
+  .ui-title-block,
+  .b-bcards-section__title,
+  .b-order-step-1__name {
+    color: #BC2436;
+  }
+  .b-order-step-1__name {
+    border-color: #BC2436;
+  }
+}

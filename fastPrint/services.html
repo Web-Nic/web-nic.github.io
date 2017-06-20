@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Фастпринт / Home</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta name="HandheldFriendly" content="true" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&amp;amp;subset=cyrillic" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/master.css" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
+        <!--[if lt IE 9 ]>
+<script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
+<![endif]-->
+    </head>
+
+    <body>
+        <div class="l-theme" canvas="container">
+            <!-- Start Header-->
+            <header class="header">
+                <div class="container">
+                    <div class="top-bar row">
+                        <div class="col-md-6 col-sm-3">
+                            <div class="trigger-mobile-menu js-open-left-slidebar"><i class="icon icon-burger"></i>
+                            </div>
+                            <a class="header-logo" href="home.html">
+                                <img class="img-responsive" src="assets/media/general/logo.png" alt="Фастпринт" /><span class="header-logo__slogan">типография оперативной печати</span>
+                            </a>
+                            <div class="trigger-mobile-contacts js-open-right-slidebar"><i class="icon icon-phone"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-5 hidden-xs">
+                            <div class="header-links"><a class="header-links__item popup-with-form" href="#order_quick"><span class="header-links__inner"><i class="icon icon-print"></i><span class="header-links__name">Заказать</span></span></a><a class="header-links__item popup-with-form"
+                                href="#order_costing"><span class="header-links__inner"><i class="icon icon-calc"></i><span class="header-links__name">Посчитать</span></span></a><span class="header-links__item" data-toggle="collapse" data-target="#form-login"><span class="header-links__inner"><i class="icon icon-lock"></i><span class="header-links__name">Войти</span></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 hidden-xs">
+                            <div class="header-language dropdown">
+                                <div class="header-language__btn dropdown-toggle" data-toggle="dropdown"><i class="icon icon-earth"></i>ru</div>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">ru</a>
+                                    </li>
+                                    <li><a href="#">ua</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-contacts">
+                                <div class="header-contacts__list dropdown">
+                                    <div class="header-contacts__btn dropdown-toggle" data-toggle="dropdown">
+                                        <img class="icon" src="assets/media/general/ic-contact/ic-phone.svg" width="22" alt="ic" /><span class="header-contacts__btn-inner">(044) 503 88 26</span><span class="caret"></span>
+                                    </div>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a tabindex="-1" href="tel:0669914606">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-vodafone.svg" width="20" alt="ic" />(066) 991 46 06</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="tel:0980458186">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-kievstar.svg" width="20" alt="ic" />(098) 045 81 86</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="tel:0935154019">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-lifecell.svg" width="20" alt="ic" />(093) 515 40 19</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="mailto:fast@fastprint.ua">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-letter.svg" width="20" alt="ic" />fast@fastprint.ua</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="tel:380931234567">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-viber.svg" width="20" alt="ic" />+380931234567</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="#">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-plane.svg" width="20" alt="ic" />@fastprintua</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="#">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-message.svg" width="20" alt="ic" />/fastprintua</a>
+                                        </li>
+                                        <li>
+                                            <a tabindex="-1" href="#">
+                                                <img class="icon" src="assets/media/general/ic-contact/ic-chat.svg" width="20" alt="ic" />Онлайн чат</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="header-contacts__address" data-toggle="collapse" data-target="#address-more">
+                                    <img class="icon" src="assets/media/general/icons/ic-point.svg" width="12" alt="ic" />Киев, Василия Яна 3/5 (центр)
+                                    <div class="header-contacts__more collapse" id="address-more"><a class="header-contacts__map" href="contacts.html#map">Посмотреть на карте</a><span class="header-contacts__day">Пн - Пт:</span> 9:30 - 18:30
+                                        <br><span class="header-contacts__day">Сб:</span> 10:00 - 15:00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .top-bar-->
+                </div>
+                <nav class="navbar hidden-xs" id="nav">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a class="header-logo_scroll" href="home.html">
+                                    <img src="assets/media/general/logo-sm.png" alt="Фастпринт" />
+                                </a>
+                                <ul class="main-nav nav navbar-nav">
+                                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Продукция<b class="caret"></b></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#" tabindex="-1">Товары 1</a>
+                                            </li>
+                                            <li><a href="#" tabindex="-1">Товары 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="active"><a href="#">Услуги</a>
+                                    </li>
+                                    <li><a href="#">Типография</a>
+                                    </li>
+                                    <li><a href="#">Поддержка</a>
+                                    </li>
+                                    <li><a href="#">Блог</a>
+                                    </li>
+                                    <li><a href="#">Контакты</a>
+                                    </li>
+                                </ul>
+                                <!-- .main-nav-->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- .navbar-->
+            </header>
+            <!-- End Header-->
+            <main class="l-main-content">
+                <article class="b-article b-article_services section-border">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="ui-title-block">Плоттерная порезка в Киеве</h1>
+                                <h2 class="ui-title-inner">Порезка самоклеющихся материалов – бумага, плёнка, и обычных мелованных и немелованных бумаг</h2>
+                                <p><strong>Представляем вашему вниманию послепечатную услугу нашей типографии Фастпринт - плоттерная порезка, для которой установлены два профессиональных планшетных бигующих и режущих плоттера, а также один рулонный режущий плоттер. Возможна порезка как самоклеющихся материалов – бумага, плёнка, так и обычных мелованных и немелованных бумаг и картонов!</strong>
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <figure>
+                                            <img class="img-responsive" src="assets/media/content/img-3.jpg" alt="img" />
+                                            <figcaption>Сразу начну со спойлера — сегодня, на конец 2016 года, темная материя</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <h2 class="ui-title-inner">А почему он вообще движется, а не успокоится на месте в пространстве?</h2>
+                                <p>Так потому, что не просто пространство, а пространство–же–время! Время никогда не останавливается, время всегда идет вперед, отчего в пространстве–времени невозможно стоять на месте.</p>
+                                <blockquote>Приходится двигаться с ним в ногу, как минимум со скоростью одна минута в минуту, а если повезет и тебя кто–то толкнул (а как иначе в невесомости?), то можно и по пространству начать перемещаться.</blockquote>
+                                <p>Забрав чуточку движения у скорости времени. Как и почему движение в пространстве всегда происходит как бы у скорости времени взаймы.</p>
+                                <ul class="ui-list-mark">
+                                    <li>Или например торсионная теория гравитации.</li>
+                                    <li>Возможно вы слышали уже где–то слово "торсионный",</li>
+                                    <li>Скорее всего в связке "торсионные поля".</li>
+                                </ul>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <figure>
+                                            <iframe width="100%" height="324" src="https://www.youtube.com/embed/3JKGlQ_qEYc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                                            <figcaption>Сразу начну со спойлера — сегодня, на конец 2016 года, темная материя</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- .b-article-->
+                <section class="section-services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="ui-title-inner-2">Другие услуги</h2>
+                                <div class="owl-carousel owl-theme owl-theme_cart enable-owl-carousel" data-min480="1" data-min768="2" data-min992="3" data-min1200="4" data-pagination="false" data-navigation="true" data-auto-play="4000" data-stop-on-hover="true">
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Дизайн полиграфии</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-1.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Офсетная печать</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-2.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Широкоформатная печать</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-3.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Установка люверсов</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-4.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Дизайн полиграфии</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-1.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Офсетная печать</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-2.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Широкоформатная печать</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-3.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                    <div class="b-cart"><a class="b-cart__link" href="#"><span class="b-cart__name">Установка люверсов</span><span class="b-cart__img"><img class="img-responsive" src="assets/media/content/services/img-4.jpg" alt="foto"/></span><span class="b-cart__info">Дизайн визитки, флаера, календаря, дизайн открытки</span></a>
+                                    </div>
+                                    <!-- .b-cart-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer-links bg-grey">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <section class="footer-section">
+                                    <h3 class="footer-section__title" data-toggle="dropdown">Продукция<b class="caret visible-xs"></b></h3>
+                                    <ul class="footer-list dropdown-menu list-unstyled js-all-products">
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Визитки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Плакаты</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Листовки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Открытки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Флаера</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Пластиковые карточки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Визитки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Плакаты</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Листовки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Открытки</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Флаера</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Пластиковые карточки</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <section class="footer-section">
+                                    <h3 class="footer-section__title" data-toggle="dropdown">Услуги<b class="caret visible-xs"></b></h3>
+                                    <ul class="footer-list dropdown-menu list-unstyled">
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Цифровая печать</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Широкоформатная печать</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Дизайн</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Послепечатная обработка</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Дилерам</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Проверка оригинал-макетов</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Онлайн-редактор</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Персонализация</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Печать по требованию</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Доставка</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <section class="footer-section">
+                                    <h3 class="footer-section__title" data-toggle="dropdown">Типография<b class="caret visible-xs"></b></h3>
+                                    <ul class="footer-list dropdown-menu list-unstyled">
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">О Фастпринт</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Новости</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">История</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Команда</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Блог</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Отзывы клиентов</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Контакты</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <section class="footer-section">
+                                    <h3 class="footer-section__title" data-toggle="dropdown">Поддержка<b class="caret visible-xs"></b></h3>
+                                    <ul class="footer-list dropdown-menu list-unstyled">
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Помощь и FAQ</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Связаться с нами</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Возврат заказов</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Карта сайта</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Мои заказы</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Как сделать заказ</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Контроль качества</a>
+                                        </li>
+                                        <li class="footer-list__item"><a class="footer-list__link" href="#">Условия выдачи продукции</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-links-->
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4"><a class="footer-logo" href="home.html"><span class="footer-logo__inner"><img class="img-responsive" src="assets/media/general/logo.png" alt="Фастпринт"/><span class="footer-logo__slogan">типография оперативной печати</span></span></a>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="footer-main__info">Типография Фастпринт:<span class="footer-main__info-inner text-primary">всегда вовремя!</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="footer-social-net">
+                                    <ul class="social-net list-inline">
+                                        <li class="social-net__item">
+                                            <a class="social-net__link" href="#">
+                                                <img class="social-net__img" src="assets/media/general/social_icons/social-01.png" alt="img" />
+                                                <img class="social-net__img_hov" src="assets/media/general/social_icons/social-01_h.png" alt="img" />
+                                            </a>
+                                        </li>
+                                        <li class="social-net__item">
+                                            <a class="social-net__link" href="#">
+                                                <img class="social-net__img" src="assets/media/general/social_icons/social-02.png" alt="img" />
+                                                <img class="social-net__img_hov" src="assets/media/general/social_icons/social-02_h.png" alt="img" />
+                                            </a>
+                                        </li>
+                                        <li class="social-net__item">
+                                            <a class="social-net__link" href="#">
+                                                <img class="social-net__img" src="assets/media/general/social_icons/social-03.png" alt="img" />
+                                                <img class="social-net__img_hov" src="assets/media/general/social_icons/social-03_h.png" alt="img" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-main-->
+                <div class="footer-contacts">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p>Типография оперативной печати ООО "Фастпринт"</p>
+                                <p>Украина, 01033, г. Киев, улица Василия Яна, 3/5</p>
+                                <p><strong>Телефон:</strong><a href="tel:+380445038826"> +38 044 5038826,</a><a href="tel:+380669914606"> +38 066 9914606,</a><a href="tel:+380980458186"> +38 098 0458186,</a><a href="tel:+380935154019"> +38 093 5154019,</a>
+                                    <a
+                                    href="tel:+380445038827">+38 044 5038827</a>
+                                </p>
+                                <p><strong>E-mail:</strong><a href="mailto:fast@fastprint.ua"> fast@fastprint.ua</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .footer-contacts-->
+                <div class="copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">2004-2017 © ООО "Фастпринт". Сайт защищён законом об авторском праве. При использовании материалов сайта (включая фотографии), активная гиперссылка на сайт<a class="copyright__link" href="https://www.fastprint.ua"> https://www.fastprint.ua</a> обязательна.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .copyright-->
+            </footer>
+            <!-- .footer-->
+        </div>
+        <!-- end Layout-theme-->
+        <!-- Start Mobile Menu-->
+        <div off-canvas="slidebar-1 left overlay">
+            <div class="slidebar-left__inner">
+                <div class="header-links"><span class="header-links__item header-links__item_open" data-toggle="collapse" data-target="#form-login-mobile"><i class="icon icon-lock"></i><span class="header-links__name">Войти</span>
+                    <div class="b-login b-login_mobile collapse" id="form-login-mobile">
+                        <div class="container">
+                            <div class="row">
+                                <div class="b-login__inner">
+                                    <form class="b-login__form form">
+                                        <div class="form-group">
+                                            <input class="form-control" id="name" type="text" name="name" placeholder="Логин*" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" id="password" type="password" name="password" placeholder="Пароль*" />
+                                        </div>
+                                        <button class="btn btn-primary btn-block" type="submit">Войти</button>
+                                        <div class="clearfix"><a class="b-login__link pull-left" href="#">Забыли пароль?</a><a class="b-login__link pull-right" href="#">Регистрация</a>
+                                        </div>
+                                    </form>
+                                    <div class="b-login__soc-net">
+                                        <div class="b-login__soc-net-title">Войти с помощью соцсетей:</div>
+                                        <a class="b-login__soc-net-item" href="#"></a>
+                                        <a class="b-login__soc-net-item" href="#"></a>
+                                        <a class="b-login__soc-net-item" href="#"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .b-login-->
+                    </span><a class="header-links__item popup-with-form header-links__item_order" href="#order_quick"><i class="icon icon-print"></i><span class="header-links__name">Заказать</span></a>
+                    <a class="header-links__item header-links__item_calc" href="#order_costing"><i class="icon icon-calc"></i><span class="header-links__name">Посчитать</span>
+                    </a>
+                </div>
+                <ul class="main-nav nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Продукция<b class="caret"></b></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" tabindex="-1">Товары 1</a>
+                            </li>
+                            <li><a href="#" tabindex="-1">Товары 2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#">Услуги</a>
+                    </li>
+                    <li><a href="#">Типография</a>
+                    </li>
+                    <li><a href="#">Поддержка</a>
+                    </li>
+                    <li><a href="#">Блог</a>
+                    </li>
+                    <li><a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <div class="language-mobile">
+                    <input class="language-mobile__radio hidden" id="language-mobile-1" type="radio" name="language-mobile-1" value="" checked="checked" />
+                    <label class="language-mobile__label language-mobile__label_first" for="language-mobile-1"></label>
+                    <input class="language-mobile__radio hidden" id="language-mobile-2" type="radio" name="language-mobile-1" value="" />
+                    <label class="language-mobile__label language-mobile__label_last" for="language-mobile-2"></label>
+                </div>
+            </div>
+            <div class="trigger-close js-close-left-slidebar"><i class="icon icon-close"></i>
+            </div>
+        </div>
+        <!-- End Mobile Menu-->
+        <!-- Start Mobile Menu Contact-->
+        <div off-canvas="slidebar-2 right overlay">
+            <div class="slidebar-right__inner">
+                <ul class="header-contacts__list list-unstyled">
+                    <li>
+                        <a tabindex="-1" href="tel:0445038826">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-phone.svg" width="22" alt="ic" />(044) 503 88 26</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="tel:0669914606">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-vodafone.svg" width="20" alt="ic" />(066) 991 46 06</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="tel:0980458186">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-kievstar.svg" width="20" alt="ic" />(098) 045 81 86</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="tel:0935154019">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-lifecell.svg" width="20" alt="ic" />(093) 515 40 19</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="mailto:fast@fastprint.ua">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-letter.svg" width="20" alt="ic" />fast@fastprint.ua</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="tel:380931234567">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-viber.svg" width="20" alt="ic" />+380931234567</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="#">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-plane.svg" width="20" alt="ic" />@fastprintua</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="#">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-message.svg" width="20" alt="ic" />/fastprintua</a>
+                    </li>
+                    <li>
+                        <a tabindex="-1" href="#">
+                            <img class="icon" src="assets/media/general/ic-contact/ic-chat.svg" width="20" alt="ic" />Онлайн чат</a>
+                    </li>
+                </ul>
+                <div class="header-contacts__address">
+                    <img class="icon" src="assets/media/general/icons/ic-point.svg" width="14" alt="ic" /><span class="header-contacts__street">Василия Яна 3/5</span>
+                    <div class="header-contacts__more"><a class="header-contacts__map" href="contacts.html#map">Посмотреть на карте</a><span class="header-contacts__day">Пн - Пт:</span> 9:30 - 18:30
+                        <br><span class="header-contacts__day">Сб:</span> 10:00 - 15:00</div>
+                </div>
+            </div>
+            <div class="trigger-close js-close-right-slidebar"><i class="icon icon-close"></i>
+            </div>
+        </div>
+        <!-- End Mobile Menu Contact-->
+        <!-- Modal #order_quick-->
+        <form class="b-modal form mfp-hide" id="order_quick">
+            <div class="b-modal__title">Быстрый заказ</div>
+            <div class="b-order-quick">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Введите Ваше имя*" required="required" />
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <input class="form-control" id="contact" type="text" name="contact" placeholder="Введите контакты для связи: почта или телефон, viber*" required="required" />
+                        </div>
+                    </div>
+                </div>
+                <textarea class="b-upload__area form-control" placeholder="Перетяните сюда файлы или загрузите на файлообменник и скопируйте сюда ссылку" rows="5"></textarea>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                        <button class="btn btn-primary btn-block disabled">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- End modal #order_quick-->
+        <!-- Modal #order_costing-->
+        <form class="b-modal form mfp-hide" id="order_costing">
+            <div class="b-modal__title">Заявка на расчет стоимости</div>
+            <div class="b-order-quick">
+                <div class="b-order-quick__title">Визитки шелкотрафаретные</div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" name="name" placeholder="Введите Ваше имя*" required="required" />
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <input class="form-control" id="contact" type="text" name="contact" placeholder="Введите контакты для связи: почта или телефон, viber*" required="required" />
+                        </div>
+                    </div>
+                </div>
+                <textarea class="b-upload__area form-control" placeholder="Перетяните сюда файлы или загрузите на файлообменник и скопируйте сюда ссылку" rows="5"></textarea>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+                        <button class="btn btn-primary btn-block disabled">Посчитайте и свяжитесь</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- End modal #order_costing-->
+        <div class="b-wrap-user-cart">
+            <div class="container">
+                <div class="row">
+                    <div class="b-user-cart b-user-cart_header collapse" id="user-cart">
+                        <div class="b-user-cart__main"><a class="b-user-cart__exit" href="#">Выйти<i class="icon icon-exit"></i></a>
+                            <div class="b-user-cart__name">Имя Клиента</div>
+                            <div class="b-user-cart__company">#company name</div>
+                            <div class="b-user-cart__info">Вы наш клиент с 2014-11-26
+                                <br>ценовая модель:<span class="text-primary"> Стандарт -1.5%</span>
+                            </div>
+                        </div>
+                        <ul class="b-user-cart__list list-unstyled">
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Баланс<span class="pull-right text-primary">757 грн</span></a>
+                            </li>
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Счета<span class="badge">+1</span></a>
+                            </li>
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Оплаты</a>
+                            </li>
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Мои заказы</a>
+                            </li>
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Сохраненные макеты</a>
+                            </li>
+                            <li class="b-user-cart__item"><a class="b-user-cart__link" href="#">Мои данные</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end .b-user-cart-->
+        <div class="b-login collapse" id="form-login">
+            <div class="container">
+                <div class="row">
+                    <div class="b-login__inner">
+                        <form class="b-login__form form">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Логин*" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="password" type="password" name="password" placeholder="Пароль*" required="required" />
+                            </div>
+                            <button class="btn btn-primary btn-block">Войти</button>
+                            <div class="clearfix"><a class="b-login__link pull-left" href="#">Забыли пароль?</a><a class="b-login__link pull-right" href="#">Регистрация</a>
+                            </div>
+                        </form>
+                        <div class="b-login__soc-net">
+                            <div class="b-login__soc-net-title">Войти с помощью соцсетей:</div>
+                            <a class="b-login__soc-net-item" href="#"></a>
+                            <a class="b-login__soc-net-item" href="#"></a>
+                            <a class="b-login__soc-net-item" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .b-login-->
+
+
+        <!-- ++++++++++++-->
+        <!-- MAIN SCRIPTS-->
+        <!-- ++++++++++++-->
+        <script src="assets/libs/jquery-1.12.4.min.js"></script>
+        <!-- Bootstrap-->
+        <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+        <!-- User customization-->
+        <script src="assets/js/custom.js"></script>
+        <!-- ++++++++++++-->
+        <!-- OTHER SCRIPTS-->
+        <!-- ++++++++++++-->
+        <!-- Select customization-->
+        <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+        <!-- Mobile menu-->
+        <script src="assets/plugins/slidebars/slidebars.min.js"></script>
+        <!-- Slider-->
+        <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+        <!-- Pop-up window-->
+        <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- Parallax-->
+        <script src="assets/plugins/jarallax/jarallax.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.0/SmoothScroll.min.js"></script>
+        <!-- Readmore button-->
+        <script src="assets/plugins/readmore/readmore.min.js"></script>
+        <!-- RangeSlider-->
+        <script src="assets/plugins/rangeSlider/js/ion.rangeSlider.min.js"></script>
+        <!-- Mask input-->
+        <script src="assets/plugins/maskedinput.min.js"></script>
+    </body>
+
+</html>
