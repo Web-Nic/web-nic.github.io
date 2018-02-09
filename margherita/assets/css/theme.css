@@ -517,6 +517,7 @@ h3.h3-inner {
 	color: #151515;
 	border-radius: 50%;
 	background-color: #fff;
+	line-height: 18px;
 }
 .header__wrap {
 	height: 90px;
