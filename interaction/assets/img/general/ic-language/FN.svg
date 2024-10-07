@@ -1,0 +1,20 @@
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="FI - Finland">
+<g id="flag">
+<mask id="mask0_1640_80941" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+<rect id="mask" width="16" height="12" fill="white"/>
+</mask>
+<g mask="url(#mask0_1640_80941)">
+<g id="contents">
+<path id="background" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="#F7FCFF"/>
+<mask id="mask1_1640_80941" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+<path id="background_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1640_80941)">
+<path id="cross" fill-rule="evenodd" clip-rule="evenodd" d="M5 0H7V5H16V7H7V12H5V7H0V5H5V0Z" fill="#2E42A5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

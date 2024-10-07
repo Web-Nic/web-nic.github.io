@@ -1,0 +1,16 @@
+<svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="RO - Romania">
+<g id="flag">
+<mask id="mask0_1640_81238" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
+<rect id="mask" width="16" height="12" fill="white"/>
+</mask>
+<g mask="url(#mask0_1640_81238)">
+<g id="contents">
+<path id="middle" fill-rule="evenodd" clip-rule="evenodd" d="M5 0H11V12H5V0Z" fill="#FBCD17"/>
+<path id="right" fill-rule="evenodd" clip-rule="evenodd" d="M11 0H16V12H11V0Z" fill="#E11C1B"/>
+<path id="left" fill-rule="evenodd" clip-rule="evenodd" d="M0 0H5V12H0V0Z" fill="#2E42A5"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

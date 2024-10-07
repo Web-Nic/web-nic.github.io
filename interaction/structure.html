@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Оцінка default</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <link href="assets/css/main.css?v1720184560644" rel="stylesheet" type="text/css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="l-page">
+      <div class="b-sidebar ui-scroll">
+        <div class="b-sidebar__group">
+          <div class="b-sidebar__logo"><img src="assets/img/general/logo_sm.svg" alt="Quality Control"/><span class="b-sidebar__logo-name">InteractionFQM</span></div>
+          <button class="b-sidebar__btn-hidden" type="button" data-sidebar-btn="data-sidebar-btn"><svg class="ic" width="20px" height="20px"><use xlink:href="assets/img/svg-symbols.svg#chevron-double-right"></use></svg></button>
+          <button class="b-sidebar__trigger" type="button" data-toggle="modal" data-target="#modalMenu"><svg class="ic" width="24px" height="24px"><use xlink:href="assets/img/svg-symbols.svg#burger"></use></svg></button>
+        </div>
+
+        <button class="b-sidebar__btn-show" type="button" data-sidebar-btn="data-sidebar-btn"><svg class="ic" width="20px" height="20px"><use xlink:href="assets/img/svg-symbols.svg#chevron-double-right"></use></svg></button>
+
+      </div>
+
+
+      <div class="b-main">
+        <div class="ui-scroll w-100" data-wrap-scroll="data-wrap-scroll">
+          <div class="ui-header" data-sticky-header="header">
+            <div class="ui-header__top">
+              <div class="ui-header__title"><span class="pr-2">Організаційна структура</span></div>
+              <div class="ui-header__btns">
+                <button class="btn btn-primary btn-w-left-ic text-nowrap ml-md-3" type="button"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#add"></use></svg>Новий спосіб взаємодії</button>
+                <button class="ui-header__btn type-notific" type="button">
+                  <svg class="ic" width="22px" height="22px"><use xlink:href="assets/img/svg-symbols.svg#notification-2"></use></svg>
+                  <span class="badge badge-danger">10</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="ui-header__inner">
+              <div class="ui-header__text">На сторінці організаційна структура відтворюється батьківська локація та всі дочірні локації та дані статистики та способи взаємодії створених по них</div>
+              <button class="btn btn-outline-secondary btn-w-left-ic btn-sm mr-2" type="button"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#document-text"></use></svg>Іструкція</button>
+              <button class="btn btn-outline-secondary btn-w-left-ic btn-sm" type="button"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#play-circle"></use></svg>Відеоінструкція
+              </button>
+            </div>
+          </div>
+
+          <div class="ui-body ui-body_mt-minus ui-scroll" data-sticky-header="body">
+            <div class="b-reviews-filter">
+              <div class="b-reviews-filter__title">Фільтр</div>
+              <div class="b-reviews-filter__text">По нищевиведеним фільтрам Ви зможете відфільтрувати необхідні для Вас дані опитування</div>
+              <div class="b-reviews-filter__group">
+                <div class="b-reviews-filter__item">
+                  <div class="ui-date-picker-wrap_mod-a"><span class="ui-date-picker__ic"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#calendar-blank"></use></svg></span>
+                  <input class="ui-date-picker js-datePickerRange form-control form-control-sm" type="text" placeholder="Останні 30 днів" data-time-format="d:MMM:yyyy"/>
+                  </div>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Локації">
+                  <option>Локація 1</option>
+                  <option>Локація 2</option>
+                  </select>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Відповідальний">
+                  <option>Відповідальний 1</option>
+                  </select>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Респондент">
+                  <option>Респондент 1</option>
+                  </select>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Статус опитування">
+                  <option>Статус 1</option>
+                  </select>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Джерело та канал взаємодії">
+                  <option>Джерело 1</option>
+                  </select>
+                </div>
+                <div class="b-reviews-filter__item">
+                  <select class="js-select" data-style="ui-select ui-select_sm ui-select_w-border" data-width="100%" title="Назва опитування">
+                  <option>Назва 1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="b-reviews-nav">
+              <a class="b-reviews-nav__item active" href="survey-dash-individual.html">
+                <div class="b-reviews-nav__title">Структура</div>
+                <div class="b-reviews-nav__text">Опис</div></a><a class="b-reviews-nav__item" href="#">
+                <div class="b-reviews-nav__title">Локації</div>
+                <div class="b-reviews-nav__text">Опис</div>
+              </a>
+            </div>
+
+            <div class="b-reviews__content border-bottom border-gray py-4">
+              <div class="b-reviews__search ui-search mb-0">
+                <input class="ui-search__input form-control mb-0" type="search" placeholder="Пошук"/>
+                <button class="ui-search__btn" type="button"><svg class="ic" width="20px" height="21px"><use xlink:href="assets/img/svg-symbols.svg#search"></use></svg></button>
+              </div>
+            </div>
+
+            <div class="b-card-2-group p-4">
+              <div class="b-card-2">
+                <div class="b-card-2__group">
+                  <div class="b-card-2__title">Кількість дочірніх локацій</div>
+                </div>
+                <div class="b-card-2__group">
+                  <div class="b-card-2__number">14</div>
+                  <svg class="ic" width="36px" height="36px"><use xlink:href="assets/img/svg-symbols.svg#picture-frame"></use></svg>
+                </div>
+              </div>
+              <div class="b-card-2">
+                <div class="b-card-2__group">
+                  <div class="b-card-2__title">Загальну кількість метрик по всіх локаціях</div>
+                </div>
+                <div class="b-card-2__group">
+                  <div class="b-card-2__number">12</div>
+                  <svg class="ic" width="36px" height="36px"><use xlink:href="assets/img/svg-symbols.svg#chart-fill"></use></svg>
+                </div>
+              </div>
+              <div class="b-card-2">
+                <div class="b-card-2__group">
+                  <div class="b-card-2__title">Загальну кількість негативних оцінок по всіх локаціях</div>
+                </div>
+                <div class="b-card-2__group">
+                  <div class="b-card-2__number">155</div>
+                  <svg class="ic ic-smile ic-smile-1" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-1"></use></svg>
+                </div>
+              </div>
+              <div class="b-card-2">
+                <div class="b-card-2__group">
+                  <div class="b-card-2__title">Загальну кількість нейтральних оцінок по всіх локаціях</div>
+                </div>
+                <div class="b-card-2__group">
+                  <div class="b-card-2__number">155</div>
+                  <svg class="ic ic-smile ic-smile-6 ic-size-4" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-2"></use></svg>
+                </div>
+              </div>
+              <div class="b-card-2">
+                <div class="b-card-2__group">
+                  <div class="b-card-2__title">Загальну кількість позитивних оцінок по всіх локаціях</div>
+                </div>
+                <div class="b-card-2__group">
+                  <div class="b-card-2__number">373</div>
+                  <svg class="ic ic-smile ic-smile-10" width="40px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-4"></use></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-4 border-top border-bottom border-gray">
+              <ul class="b-structure-switch nav" role="tablist">
+              <li class="nav-item" role="presentation"><a class="nav-link active" id="structureTree-tab" data-toggle="tab" href="#structureTree" role="tab" aria-controls="structureTree" aria-selected="true">
+                <svg class="ic" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.33335 16.6667C8.33335 17.5872 9.07952 18.3333 10 18.3333C10.9205 18.3333 11.6667 17.5872 11.6667 16.6667C11.6667 15.7462 10.9205 15 10 15C9.07952 15 8.33335 15.7462 8.33335 16.6667Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 16.6667C15 17.5872 15.7462 18.3333 16.6666 18.3333C17.5871 18.3333 18.3333 17.5872 18.3333 16.6667C18.3333 15.7462 17.5871 15 16.6666 15C15.7462 15 15 15.7462 15 16.6667Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M1.66667 16.6667C1.66667 17.5872 2.41283 18.3333 3.33333 18.3333C4.25383 18.3333 5 17.5872 5 16.6667C5 15.7462 4.25383 15 3.33333 15C2.41283 15 1.66667 15.7462 1.66667 16.6667Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M8.33335 3.33334C8.33335 4.25381 9.07952 5 10 5C10.9205 5 11.6667 4.25381 11.6667 3.33334C11.6667 2.41286 10.9205 1.66667 10 1.66667C9.07952 1.66667 8.33335 2.41286 8.33335 3.33334Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 5L10 15" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 9.16667L5.83333 9.16667C4.16667 9.16667 3.33333 10 3.33333 11.6667L3.33333 15" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.6667 15L16.6667 11.6667C16.6667 10 15.8334 9.16667 14.1667 9.16667L13.35 9.16667" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>Дерево</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#structureList" role="tab" aria-controls="structureList" aria-selected="false">
+                <svg class="ic" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.5834 11.25H3.41669C2.16669 11.25 1.66669 11.7833 1.66669 13.1083V16.475C1.66669 17.8 2.16669 18.3333 3.41669 18.3333H16.5834C17.8334 18.3333 18.3334 17.8 18.3334 16.475V13.1083C18.3334 11.7833 17.8334 11.25 16.5834 11.25Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5834 1.66667H3.41669C2.16669 1.66667 1.66669 2.20001 1.66669 3.52501V6.89167C1.66669 8.21667 2.16669 8.75001 3.41669 8.75001H16.5834C17.8334 8.75001 18.3334 8.21667 18.3334 6.89167V3.52501C18.3334 2.20001 17.8334 1.66667 16.5834 1.66667Z" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>Список</a></li>
+              </ul>
+            </div>
+
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="structureTree" role="tabpanel" aria-labelledby="structureTree-tab">
+                <div class="b-tree" id="tree" data-tree="main">
+                  <div class="b-tree__zoom">
+                    <button class="b-tree__zoom-btn" type="button" data-tree="increment"><svg class="ic" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 3V13" stroke-linecap="round"/><path d="M3 8H13" stroke-linecap="round"/></svg></button>
+                    <button class="b-tree__zoom-btn" type="button" data-tree="decrement"><svg class="ic" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8H13" stroke-linecap="round"/></svg></button>
+                  </div>
+
+                  <div class="b-tree__nav">
+                    <button class="b-tree__nav-btn st-left" type="button" data-tree="nav-left"><svg class="ic" width="25px" height="24px"><use xlink:href="assets/img/svg-symbols.svg#arrow-line"></use></svg></button>
+                    <button class="b-tree__nav-btn st-right" type="button" data-tree="nav-right"><svg class="ic" width="25px" height="24px"><use xlink:href="assets/img/svg-symbols.svg#arrow-line"></use></svg></button>
+                    <button class="b-tree__nav-btn st-top" type="button" data-tree="nav-top"><svg class="ic" width="25px" height="24px"><use xlink:href="assets/img/svg-symbols.svg#arrow-line"></use></svg></button>
+                    <button class="b-tree__nav-btn st-bottom" type="button" data-tree="nav-bottom"><svg class="ic" width="25px" height="24px"><use xlink:href="assets/img/svg-symbols.svg#arrow-line"></use></svg></button>
+                  </div>
+
+                  <div class="b-tree__wrap" id="treeWrap" data-tree="wrap">
+                    <div class="b-tree__list">
+                      <div class="b-tree__block st-widt-group">
+                      <div class="b-tree__item">
+                        <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/img.png" alt="logo"/>
+                        <div class="b-tree__title">Umbrella Corporation</div>
+                        </div>
+                        <div class="b-tree__progress progress">
+                        <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                        <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 11%" aria-valuenow="11" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">11%</span></div>
+                        <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 13%" aria-valuenow="13" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">13%</span></div>
+                        </div>
+                        <button class="b-tree__btn-collapse" type="button" data-tree="collapse" data-toggle="collapse" data-target="#freeGroup1" aria-expanded="true" aria-controls="freeGroup1">
+                          <svg class="ic st-show" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 3V13" stroke-linecap="round"/><path d="M3 8H13" stroke-linecap="round"/></svg>
+                          <svg class="ic st-hide" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8H13" stroke-linecap="round"/></svg>
+                        </button>
+                      </div>
+                      <div class="b-tree__subblock">
+                        <div class="b-tree__col">
+                        <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                          <div class="b-tree__header">
+                          <div class="b-tree__title">CSAT Name</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                          <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                          <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-2.png" alt="logo"/>
+                          <div class="b-tree__title">CSAT Name</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                          <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-tree__col">
+                        <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_surveys">Опитування та анкетування</span>
+                          <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-3.png" alt="logo"/>
+                          <div class="b-tree__title">Як ви оцінюєте роботу нашого сервісу?</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                          <div class="progress-bar ui-bg-gray" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-tree__col">
+                        <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                          <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                          <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                          <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                          <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-tree__group collapse show" id="freeGroup1">
+                        <div class="b-tree__block">
+                        <div class="b-tree__item">
+                          <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-2.png" alt="logo"/>
+                          <div class="b-tree__title">Berghause location name two rows</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                          <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        <div class="b-tree__subblock">
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header">
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-2.png" alt="logo"/>
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_surveys">Опитування та анкетування</span>
+                            <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-3.png" alt="logo"/>
+                            <div class="b-tree__title">Як ви оцінюєте роботу нашого сервісу?</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                            <div class="progress-bar ui-bg-gray" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                            <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                            <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                            <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                            <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-tree__block st-widt-group">
+                        <div class="b-tree__item">
+                          <div class="b-tree__header">
+                          <div class="b-tree__title">Berghause location name two rows</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                          <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                          <button class="b-tree__btn-collapse" type="button" data-tree="collapse" data-toggle="collapse" data-target="#freeGroup2" aria-expanded="true" aria-controls="freeGroup2">
+                            <svg class="ic st-show" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 3V13" stroke-linecap="round"/><path d="M3 8H13" stroke-linecap="round"/></svg>
+                            <svg class="ic st-hide" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8H13" stroke-linecap="round"/></svg>
+                          </button>
+                        </div>
+                        <div class="b-tree__subblock">
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header">
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header">
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        <div class="b-tree__group collapse show" id="freeGroup2">
+                          <div class="b-tree__block">
+                          <div class="b-tree__item">
+                            <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-2.png" alt="logo"/>
+                            <div class="b-tree__title">Berghause location name two rows</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          <div class="b-tree__subblock">
+                            <div class="b-tree__col">
+                            <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                              <div class="b-tree__header">
+                              <div class="b-tree__title">CSAT Name</div>
+                              </div>
+                              <div class="b-tree__progress progress">
+                              <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                              <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              </div>
+                            </div>
+                            <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                              <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-2.png" alt="logo"/>
+                              <div class="b-tree__title">CSAT Name</div>
+                              </div>
+                              <div class="b-tree__progress progress">
+                              <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                              <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="b-tree__col">
+                            <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_surveys">Опитування та анкетування</span>
+                              <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-3.png" alt="logo"/>
+                              <div class="b-tree__title">Як ви оцінюєте роботу нашого сервісу?</div>
+                              </div>
+                              <div class="b-tree__progress progress">
+                              <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                              <div class="progress-bar ui-bg-gray" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              </div>
+                            </div>
+                            </div>
+                            <div class="b-tree__col">
+                            <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                              <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                              <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                              </div>
+                              <div class="b-tree__progress progress">
+                              <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                              <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              </div>
+                            </div>
+                            <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_online-text">Онлайн тест</span>
+                              <div class="b-tree__header"><img class="b-tree__logo" src="assets/img/content/b-logos/image-4.png" alt="logo"/>
+                              <div class="b-tree__title">Тут може бути будь який текст для перевірки онлайн тестування.</div>
+                              </div>
+                              <div class="b-tree__progress progress">
+                              <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">88%</span></div>
+                              <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-tree__block">
+                        <div class="b-tree__item">
+                          <div class="b-tree__header">
+                          <div class="b-tree__title">Berghause location name two rows</div>
+                          </div>
+                          <div class="b-tree__progress progress">
+                          <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                          <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                          </div>
+                        </div>
+                        <div class="b-tree__subblock">
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header">
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="b-tree__col">
+                          <div class="b-tree__item"><span class="ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</span>
+                            <div class="b-tree__header">
+                            <div class="b-tree__title">CSAT Name</div>
+                            </div>
+                            <div class="b-tree__progress progress">
+                            <div class="progress-bar ui-bg-positive" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">76%</span></div>
+                            <div class="progress-bar ui-bg-neutral" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            <div class="progress-bar ui-bg-negative" role="progressbar" style="width: 12%" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"><span class="progress-number">12%</span></div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="structureList" role="tabpanel" aria-labelledby="structureList-tab">
+                <div class="b-structure-list">
+                  <div class="b-structure-list-group">
+                    <div class="b-structure-list__item b-structure-list__item_main">
+                      <div class="b-structure-list__main">
+                        <div class="b-structure-list__main-title">
+                          <div class="b-structure-list__logo"><img src="assets/img/content/b-templates/logo-company.png" alt="logo"/>Umbrella Corporation</div>
+                        </div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="b-structure-list__info">
+                        <div class="b-structure-list__info-title">Сумарні дані лояльності до компанії</div>
+                        <div class="b-structure-list__info-group">
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-1 ic-size-1" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-1"></use></svg>
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">9%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-6 ic-size-4" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-2"></use></svg>
+                
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">11%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-10 ic-size-10" width="40px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-4"></use></svg>
+                
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">80%</span><span class="b-structure-list__info-number">60</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="b-structure-list__blocks">
+                        <div class="b-structure-list__block">Підпорядкованих локацій
+                          <div class="b-structure-list__block-number">7<span class="b-structure-list__badge">+4 нових</span></div>
+                        </div>
+                        <div class="b-structure-list__block">Зворотній звʼязок
+                          <div class="b-structure-list__block-number">42</div>
+                        </div>
+                      </div>
+
+                      <div class="b-structure-list__btns">
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#edit-3"></use></svg>Редагувати</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#user-plus"></use></svg>Додати відповідального</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#envelope-plus"></use></svg>Додати підпорядковану локацію</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#bar-chart-square-plus"></use></svg>Додати спосіб взаємодії</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#notification-3"></use></svg>Налаштувати сповіщення</a></div>
+                      </div>
+                    </div>
+
+                    <div class="b-structure-list-group__inner">
+                      <div class="b-structure-list__poll st-card-csat">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</div>
+                        <div class="b-structure-list__main">
+                          <div class="b-structure-list__title">Дуже довга назва опитування</div>
+                          <div class="b-structure-list__type">Загальнодоступне посилання</div>
+                          <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                            <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="b-structure-list__info">
+                          <div class="b-structure-list__info-title">Сумарні дані лояльності до компанії</div>
+                          <div class="b-structure-list__info-group">
+                          <div class="b-structure-list__info-item">
+                            <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-1 ic-size-1" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-1"></use></svg>
+                
+                            </div>
+                            <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">9%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                            <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-6 ic-size-4" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-2"></use></svg>
+                            </div>
+                            <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">11%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                            <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-10 ic-size-10" width="40px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-4"></use></svg>
+                
+                            </div>
+                            <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">80%</span><span class="b-structure-list__info-number">60</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          </div>
+                        </div>
+
+                        <div class="b-structure-list__blocks">
+                          <div class="b-structure-list__block">Підпорядкованих локацій
+                          <div class="b-structure-list__block-number">7<span class="b-structure-list__badge">+4 нових</span></div>
+                          </div>
+                          <div class="b-structure-list__block">Зворотній звʼязок
+                          <div class="b-structure-list__block-number">42</div>
+                          </div>
+                        </div>
+
+                        <div class="b-structure-list__btns">
+                          <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#edit-3"></use></svg>Редагувати</a></div>
+                          <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#user-plus"></use></svg>Додати відповідального</a></div>
+                          <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#envelope-plus"></use></svg>Додати підпорядковану локацію</a></div>
+                          <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#bar-chart-square-plus"></use></svg>Додати спосіб взаємодії</a></div>
+                          <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#notification-3"></use></svg>Налаштувати сповіщення</a></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="b-structure-list-group">
+                      <div class="b-structure-list__item">
+                      <div class="b-structure-list__main">
+                        <div class="b-structure-list__main-title">
+                        <div class="b-structure-list__logo"><img src="assets/img/content/b-templates/logo-company.png" alt="logo"/>Umbrella Corporation</div>
+                        </div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                        <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__info">
+                        <div class="b-structure-list__info-title">Сумарні дані лояльності до компанії</div>
+                        <div class="b-structure-list__info-group">
+                        <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-1 ic-size-1" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-1"></use></svg>
+
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">9%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                        </div>
+                        <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-6 ic-size-4" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-2"></use></svg>
+
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">11%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                        </div>
+                        <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-10 ic-size-10" width="40px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-4"></use></svg>
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">80%</span><span class="b-structure-list__info-number">60</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__blocks">
+                        <div class="b-structure-list__block">Підпорядкованих локацій
+                        <div class="b-structure-list__block-number">7<span class="b-structure-list__badge">+4 нових</span></div>
+                        </div>
+                        <div class="b-structure-list__block">Зворотній звʼязок
+                        <div class="b-structure-list__block-number">42</div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__btns">
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#edit-3"></use></svg>Редагувати</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#user-plus"></use></svg>Додати відповідального</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#envelope-plus"></use></svg>Додати підпорядковану локацію</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#bar-chart-square-plus"></use></svg>Додати спосіб взаємодії</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#notification-3"></use></svg>Налаштувати сповіщення</a></div>
+                      </div>
+                      </div>
+                      <div class="b-structure-list-group__inner">
+                      <div class="b-structure-list__poll st-card-csat">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_csat">Метрика CSAT (Customer Satisfaction Score)</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-structure-list__info">
+                        <div class="b-structure-list__info-title">Сумарні дані лояльності до компанії</div>
+                        <div class="b-structure-list__info-group">
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-1 ic-size-1" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-1"></use></svg>
+              
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">9%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-6 ic-size-4" width="41px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-2"></use></svg>
+              
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">11%</span><span class="b-structure-list__info-number">15</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                          <div class="b-structure-list__info-item">
+                          <div class="b-structure-list__info-ic"><svg class="ic ic-smile ic-smile-10 ic-size-10" width="40px" height="41px"><use xlink:href="assets/img/svg-symbols.svg#ic-smile-4"></use></svg>
+              
+                          </div>
+                          <div class="b-structure-list__info-block"><span class="b-structure-list__info-percent">80%</span><span class="b-structure-list__info-number">60</span><span class="ui-st-positive ui-st-arr">+16.24 %</span></div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="b-structure-list__blocks">
+                        <div class="b-structure-list__block">Підпорядкованих локацій
+                          <div class="b-structure-list__block-number">7<span class="b-structure-list__badge">+4 нових</span></div>
+                        </div>
+                        <div class="b-structure-list__block">Зворотній звʼязок
+                          <div class="b-structure-list__block-number">42</div>
+                        </div>
+                        </div>
+                        <div class="b-structure-list__btns">
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#edit-3"></use></svg>Редагувати</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#user-plus"></use></svg>Додати відповідального</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#envelope-plus"></use></svg>Додати підпорядковану локацію</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#bar-chart-square-plus"></use></svg>Додати спосіб взаємодії</a></div>
+                        <div class="b-structure-list__btn"><a class="btn btn-outline-primary btn-w-left-ic" href="#"><svg class="ic" width="18px" height="18px"><use xlink:href="assets/img/svg-symbols.svg#notification-3"></use></svg>Налаштувати сповіщення</a></div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-nps">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_nps">Метрика NPS (Net Prome Score)</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-ces">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_ces">Метрика CES ( Customer Effort Score )</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-enps">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_enps">Метрика eNPS ( Net Prome Score )</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-pmf">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_pmf">Метрика PMF (Product-Market Fit)</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-surveys">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_surveys">Опитування та анкетування</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-rating">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_rating">Оцінка якості роботи співробітника</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-widget">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_widget">Віджет технічної підтримки</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-payment">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_payment">Оплата</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-feedback">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_feedback">Форма зворотнього звʼязку</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      <div class="b-structure-list__poll st-card-online">
+                        <div class="b-structure-list__label ui-badge-type ui-badge-type_online">Модуль онлайн-меню, замовлення, оплати за чеком, отримання чайових та відгуків</div>
+                        <div class="b-structure-list__main">
+                        <div class="b-structure-list__title">Назва опитування</div>
+                        <div class="b-structure-list__user"><img src="assets/img/general/face-36x36.png" alt="face"/>
+                          <div class="b-structure-list__user-inner">Відповідальний
+                          <div class="b-structure-list__user-name">Андрій Міллер</div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="ui-scroll-up" type="button" data-scroll-up><svg class="ic" width="20px" height="20px"><use xlink:href="assets/img/svg-symbols.svg#btn-up"></use></svg></button>
+    </div>
+
+
+
+
+
+    <script src="assets/js/separate-js/svg4everybody.min.js?v1720184560644"></script>
+    <script>svg4everybody();</script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" integrity="sha256-UnTxHm+zKuDPLfufgEMnKGXDl6fEIjtM+n1Q6lL73ok=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Select customization-->
+    <script src="assets/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/bootstrap-select/i18n/defaults-ua_UA.min.js"></script>
+    <!-- Autoheight textarea-->
+    <script src="assets/plugins/autosize.min.js"></script>
+    <script src="assets/js/build-icons.js"></script>
+    <!-- Photo-editor-->
+    <script src="assets/plugins/photo-editor-master/dist/main.js"></script>
+    <!-- Phone mask-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.5.10/cleave.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.5.10/addons/cleave-phone.i18n.js"></script>
+    <!-- Datepicker-->
+    <script src="assets/plugins/air-datepicker/air-datepicker.js"></script>
+    <!-- Для теста валидации--><script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <!-- Validate-->
+    <script src="assets/plugins/validate/validate.js"></script>
+    <script src="assets/plugins/validate/validate-uk.js"></script>
+    <script src="assets/plugins/validate/custom-validate.js"></script>
+    <!-- Colorpicker-->
+    <script src="assets/plugins/jscolor.min.js"></script>
+    <!-- Generate pdf-->
+    <script src="assets/plugins/html2pdf.bundle.min.js"></script>
+    <script src="assets/js/generatePDF.js"></script>
+    <!-- Generate doc-->
+    <script src="assets/plugins/html2doc/FileSaver.js"></script>
+    <script src="assets/plugins/html2doc/html2doc.js"></script>
+    <!-- QRCode generation-->
+    <script src="assets/plugins/jquery-qrcode.min.js"></script>
+    <!-- Cloud tags-->
+    <script src="assets/plugins/jqcloud.min.js"></script>
+    <!-- Slider with scale-->
+    <script src="assets/plugins/nouislider/nouislider.min.js"></script>
+    <script src="assets/plugins/nouislider/wNumb.min.js"></script>
+    <!-- Charts-->
+    <!-- User customization-->
+    <script src="assets/js/custom.js?v1720184560644"></script>
+  </body>
+</html>
